@@ -1,0 +1,195 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+
+/* HEADER */
+
+.navbar-fixed-top {
+  background: black;
+  opacity: 0.85;
+}
+
+.navbar-fixed-top .navbar-nav {
+  width: 100%;
+}
+
+.navbar-fixed-top .navbar-nav li {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navbar-fixed-top .navbar-nav a {
+  padding: 20px 0;
+}
+
+.navbar-fixed-top .navbar-nav li:hover a,
+.navbar-fixed-top .navbar-nav li.active a {
+  color: deeppink !important;
+}
+
+
+/* LOGO */
+
+.jumbotron {
+  background: url('../images/spectra-background.jpg');
+  height: 400px;
+}
+
+.jumbotron img {
+  margin-top: 100px;
+}
+
+/* Small */
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    height: 500px;
+  }
+
+  .jumbotron img {
+    margin-top: 125px;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    height: 700px;
+  }
+
+  .jumbotron img {
+    margin-top: 150px;
+  }
+}
+
+
+/* CONTENT */
+
+.content-section {
+  min-height: 700px;
+  padding-top: 60px;
+}
+
+.content-section h2 {
+  color: indigo;
+}
+
+.content-section p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 25px 0;
+}
+
+.content-section .row-content {
+  border-top: 10px solid indigo;
+  padding: 60px;
+}
+
+
+/* MAP */
+
+#map {
+  float: none;
+  height: 500px;
+  margin: 25px auto;
+}
+
+
+/* SCHEDULE */
+
+.nav-tabs {
+  border-bottom: 5px solid deeppink;
+  margin-top: 30px;
+}
+
+.nav-tabs li a {
+  background: transparent !important;
+  border: none !important;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-tabs li:hover a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus {
+  color: deeppink;
+}
+
+.tab-pane {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 40px 0;
+}
+
+
+/* REGISTER */
+
+#mce-EMAIL {
+  border: 1px solid #ADADAD;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+}
+
+#mc-embedded-subscribe {
+  padding: 8px 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+  background: indigo;
+  color: white;
+  padding: 30px 0;
+}
+
+footer ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer a {
+  color: white !important;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.btn-social-icon {
+  margin-right: 10px;
+}
+
+.social-icons {
+  float: left;
+}
+
+.social-icons a {
+  font-size: 30px;
+}
+
+/* Small */
+@media screen and (min-width: 768px) {
+  footer .btn-social-icon {
+    margin-left: 10px;
+  }
+
+  footer .social-icons {
+    float: right;
+  }
+}
+
+.copyright {
+  font-weight: 400;
+}
