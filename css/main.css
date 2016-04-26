@@ -13,8 +13,11 @@ body, html {
   opacity: 0.85;
 }
 
-.navbar-fixed-top .navbar-nav {
-  width: 100%;
+/* Small */
+@media screen and (min-width: 768px) {
+  .navbar-fixed-top .navbar-nav {
+    width: 100%;
+  }
 }
 
 .navbar-fixed-top .navbar-nav li {
