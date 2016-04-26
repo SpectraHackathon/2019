@@ -13,6 +13,10 @@ body, html {
   opacity: 0.85;
 }
 
+.navbar {
+  font-family: ostrich_font;
+}
+
 /* Small */
 @media screen and (min-width: 768px) {
   .navbar-fixed-top .navbar-nav {
@@ -21,8 +25,8 @@ body, html {
 }
 
 .navbar-fixed-top .navbar-nav li {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
 }
@@ -36,6 +40,11 @@ body, html {
   color: deeppink !important;
 }
 
+/* CUSTOM FONT */
+@font-face {
+  font-family: ostrich_font;
+  src: local(ostrich_font), url('../fonts/ostrich-regular.ttf') format('opentype');
+}
 
 /* LOGO */
 
@@ -68,17 +77,42 @@ body, html {
 }
 
 .content-section h2 {
-  color: indigo;
+  color: #b7b6bf;
+  font-family: ostrich_font;
+  letter-spacing: 3px;
+  font-size: 50px;
 }
 
 .content-section p {
+  color: #fff;
   font-size: 20px;
   font-weight: 300;
   margin: 25px 0;
 }
 
-.content-section {
-  border-top: 10px solid indigo;
+.content-section-overview {
+  /* border-top: 10px solid indigo; */
+  background-color: #151518;
+}
+
+.content-section-faq {
+  background-color: #1E1129;
+}
+
+.content-section-location {
+  background-color: #270E3B;
+}
+
+.content-section-schedule {
+  background-color: #300A4D;
+}
+
+.content-section-team {
+  background-color: #39075E;
+}
+
+.content-section-register {
+  background-color: #420370;
 }
 
 .content-section .row-content {
@@ -137,6 +171,11 @@ body, html {
   border-radius: 3px;
   padding: 10px;
   width: 200px;
+}
+
+.btn {
+  background-color: deeppink;
+  border-color: indigo;
 }
 
 /* Small */
