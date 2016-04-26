@@ -7,7 +7,7 @@ function init() {
 }
 
 function initializeMap() {
-  var siliconValley = new google.maps.LatLng(37.3885531,-122.0766911);
+  var siliconValley = new google.maps.LatLng(37.6279340,-122.42666);
   var mapContainer = document.getElementById("map");
   var mapOptions = {
     center: siliconValley,
