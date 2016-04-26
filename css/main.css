@@ -133,7 +133,14 @@ body, html {
   border: 1px solid #ADADAD;
   border-radius: 3px;
   padding: 10px;
-  width: 300px;
+  width: 200px;
+}
+
+/* Small */
+@media screen and (min-width: 768px) {
+  #mce-EMAIL {
+    width: 300px;
+  }
 }
 
 #mc-embedded-subscribe {
