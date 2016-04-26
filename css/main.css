@@ -15,6 +15,7 @@ body, html {
 
 .navbar {
   font-family: ostrich_font;
+    letter-spacing: 2px;
 }
 
 /* Small */
@@ -72,8 +73,9 @@ body, html {
 /* CONTENT */
 
 .content-section {
-  min-height: 700px;
+  min-height: 300px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .content-section h2 {
@@ -115,15 +117,21 @@ body, html {
   background-color: #420370;
 }
 
-.content-section .row-content {
-  padding: 60px;
-}
-
-
 /* HACKATHON */
 
 #hackathon h2 {
   margin-bottom: 50px;
+}
+
+.btn-lg {
+  width: 120px;
+  height: 60px;
+}
+
+.btn:hover {
+  color: deeppink;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 
