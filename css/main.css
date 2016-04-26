@@ -74,8 +74,11 @@ body, html {
   margin: 25px 0;
 }
 
-.content-section .row-content {
+.content-section {
   border-top: 10px solid indigo;
+}
+
+.content-section .row-content {
   padding: 60px;
 }
 
