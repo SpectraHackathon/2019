@@ -134,6 +134,21 @@ body, html {
   border-color: #fff;
 }
 
+/* FAQ */
+
+ul {
+  list-style: none;
+  color: #fff;
+}
+
+.faq li {
+  color: #fff;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 200;
+}
 
 /* MAP */
 
