@@ -98,23 +98,23 @@ body, html {
 }
 
 .content-section-faq {
-  background-color: #1E1129;
+  background-color: #151D27;
 }
 
 .content-section-location {
-  background-color: #270E3B;
+  background-color: #152536;
 }
 
 .content-section-schedule {
-  background-color: #300A4D;
+  background-color: #152D45;
 }
 
 .content-section-team {
-  background-color: #39075E;
+  background-color: #153554;
 }
 
 .content-section-register {
-  background-color: #420370;
+  background-color: #153D63;
 }
 
 /* HACKATHON */
@@ -141,13 +141,41 @@ ul {
   color: #fff;
 }
 
-.faq li {
+h4 {
+  font-size: 22px;
+  font-weight: 400;
   color: #fff;
 }
 
-h4 {
-  font-size: 25px;
-  font-weight: 200;
+.faq-row {
+    width: 50%;
+    float: left;
+    min-width: 300px;
+    padding: 0px 10px;
+}
+
+.faq-card {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #154572;
+  /* border-radius: 4px; */
+  padding: 20px;
+  position: relative;
+}
+
+.faq-card p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.faq-card a {
+  color: #fff;
+}
+
+.faq-card a:hover {
+  color: deeppink;
+  text-decoration: none;
 }
 
 /* MAP */
@@ -198,7 +226,7 @@ h4 {
 
 .btn {
   background-color: deeppink;
-  border-color: indigo;
+  border-color: #154572;
 }
 
 /* Small */
@@ -216,7 +244,7 @@ h4 {
 /* FOOTER */
 
 footer {
-  background: indigo;
+  background: #154572;
   color: white;
   padding: 30px 0;
 }
