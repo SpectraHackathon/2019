@@ -83,6 +83,13 @@ body, html {
   vertical-align: middle;
 }
 
+h5 {
+  color: #b7b6bf;
+  font-family: ostrich_font;
+  letter-spacing: 3px;
+  font-size: 100px;
+}
+
 h2 {
   color: #b7b6bf;
   font-family: ostrich_font;
@@ -238,6 +245,7 @@ h4 {
   border-width: 2px;
   margin: 0 20px 20px;
   padding: 20px;
+    border: 1px solid #ccc;
 }
 
 /* Small */
