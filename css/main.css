@@ -280,36 +280,6 @@ h4 {
   margin: 25px auto;
 }
 
-
-/* SCHEDULE 
-
-.nav-tabs {
-  border-bottom: 5px solid deeppink;
-  margin-top: 30px;
-}
-
-.nav-tabs li a {
-  background: transparent !important;
-  border: none !important;
-  color: black;
-  cursor: pointer;
-}
-
-.nav-tabs li:hover a,
-.nav-tabs li.active a:hover,
-.nav-tabs li.active a,
-.nav-tabs li.active a:focus {
-  color: deeppink;
-}
-
-.tab-pane {
-  font-size: 20px;
-  font-weight: 300;
-  padding: 40px 0;
-}
-
-*/
-
 /* REGISTER */
 
 #mce-EMAIL {
