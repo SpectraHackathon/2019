@@ -173,21 +173,17 @@ h4 {
   margin-bottom: 20px;
 }
 
-.faq-row {
-    width: 50%;
-    float: left;
-    min-width: 300px;
-    padding: 0px 10px;
+.faq-card {
+  background-color: #2C1764;
+  margin: 0 20px 20px;
+  padding: 20px;
 }
 
-.faq-card {
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: #2C1764;
-  /* border-radius: 4px; */
-  padding: 20px;
-  position: relative;
+/* Small */
+@media screen and (min-width: 768px) {
+  .faq-card {
+    margin: 0 0 20px;
+  }
 }
 
 .faq-card p {
