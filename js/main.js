@@ -12,7 +12,7 @@ function initializeMap() {
   var mapOptions = {
     center: siliconValley,
     scrollwheel: false,
-    zoom: 15
+    zoom: 12
   };
   var map = new google.maps.Map(mapContainer, mapOptions);
   var marker = new google.maps.Marker({
