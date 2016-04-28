@@ -313,6 +313,7 @@ h4 {
   margin: 10px;
   padding: 10px;
   text-decoration:none;
+  text-align: center;
   width: 200px;
 
 	
@@ -389,6 +390,7 @@ footer a {
 
 .copyright {
   font-weight: 400;
+
 }
 
 /*Team Page*/
