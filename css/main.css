@@ -131,6 +131,10 @@ h2 {
   color: white;
 }
 
+.content-section-team img {
+  margin: 0 auto;
+}
+
 .content-section-register {
   background-color: #321777;
 }
