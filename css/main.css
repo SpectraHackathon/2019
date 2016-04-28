@@ -273,7 +273,7 @@ h4 {
 }
 
 
-/* SCHEDULE */
+/* SCHEDULE 
 
 .nav-tabs {
   border-bottom: 5px solid deeppink;
@@ -300,6 +300,7 @@ h4 {
   padding: 40px 0;
 }
 
+*/
 
 /* REGISTER */
 
@@ -474,6 +475,7 @@ visibility:visible;
 }
 .myButton:hover {
 	background-color:transparent;
+  color: deeppink;
 }
 .myButton:active {
 	position:relative;
