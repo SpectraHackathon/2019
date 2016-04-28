@@ -273,7 +273,7 @@ h4 {
 }
 
 
-/* SCHEDULE */
+/* SCHEDULE 
 
 .nav-tabs {
   border-bottom: 5px solid deeppink;
@@ -300,14 +300,24 @@ h4 {
   padding: 40px 0;
 }
 
+*/
 
 /* REGISTER */
 
 #mce-EMAIL {
-  border: 1px solid #ADADAD;
+  background-color:transparent;
+  border: 1px solid #ffffff;
   border-radius: 3px;
+  color: white;
+  font-family: ostrich_font;
+  font-size: 25px;
+  margin: 10px;
   padding: 10px;
+  text-decoration:none;
+  text-align: center;
   width: 200px;
+
+	
 }
 
 .btn {
@@ -319,6 +329,8 @@ h4 {
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
     width: 300px;
+    color: white;
+    position: center;
   }
 }
 
@@ -379,6 +391,7 @@ footer a {
 
 .copyright {
   font-weight: 400;
+
 }
 
 /*Team Page*/
@@ -453,7 +466,6 @@ visibility:visible;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	/*font-family:Arial;*/
 	font-family: ostrich_font;
 	font-size:25px;
 	padding:16px 31px;
@@ -463,145 +475,39 @@ visibility:visible;
 }
 .myButton:hover {
 	background-color:transparent;
+  color: deeppink;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
 }
 
-/*Team Page*/
-/*.hovereffect {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-    margin-bottom: 15px;
-}
-
-.hovereffect .overlay {
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-    left: 0;
-	top: auto;
-	bottom: 0;
-	padding: 1em;
-	height: 4.75em;
-	background: white;
-	color: #3c4a50;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
-}
-
-.hovereffect .overlay a {
-	color: purple;
-	font-size: 30px;
-	text-decoration: none;
-}
-
-.hovereffect img {
-    display: block;
-    position: relative;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-}
-
-.hovereffect:hover img {
--webkit-transform: translate3d(0,-10%,0);
-	transform: translate3d(0,-10%,0);
-}
-
-.hovereffect h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
-	float: left;
-	margin: 0px;
-	display: inline-block;
-}
-
-.hovereffect a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    text-transform: uppercase;
-	color: #fff;
-	border: 1px solid #fff;
-	margin: 50px 0 0 0;
-	background-color: transparent;
-}
-.hovereffect a.info:hover {
-    box-shadow: 0 0 5px #fff;
-}
-
-
-.hovereffect p.icon-links a {
-	float: right;
-	color: #3c4a50;
-	font-size: 1.4em;
-}
-
-.hovereffect:hover p.icon-links a:hover,
-.hovereffect:hover p.icon-links a:focus {
-	color: #252d31;
-}
-
-.hovereffect h2,
-.hovereffect p.icon-links a {
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
-	-webkit-transform: translate3d(0,200%,0);
-	transform: translate3d(0,200%,0);
-}
-
-.hovereffect p.icon-links a span:before {
-	display: inline-block;
-	padding: 8px 10px;
-	speak: none;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-
-.hovereffect:hover .overlay,
-.hovereffect:hover h2,
-.hovereffect:hover p.icon-links a {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-
-.hovereffect:hover h2 {
-	-webkit-transition-delay: 0.05s;
-	transition-delay: 0.05s;
-}
-
-.hovereffect:hover p.icon-links a:nth-child(3) {
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
-}
-
-.hovereffect:hover p.icon-links a:nth-child(2) {
-	-webkit-transition-delay: 0.15s;
-	transition-delay: 0.15s;
-}
-
-.hovereffect:hover p.icon-links a:first-child {
-	-webkit-transition-delay: 0.2s;
-	transition-delay: 0.2s;
-}
-*/
 
 /*Team Photos*/
 .img-circle {
     border-radius: 50%;
      width: 150px;
 }
+
+/*Making Placeholder text center*/
+::-webkit-input-placeholder {
+   text-align: center;
+   color: white;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+   color:; white; 
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+   color: white;
+}
+
