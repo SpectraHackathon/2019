@@ -5,7 +5,6 @@ body, html {
   width: 100%;
 }
 
-
 /* HEADER */
 
 .navbar-fixed-top {
@@ -57,6 +56,18 @@ body, html {
   width: 100%;
 }
 
+.main-buttons {
+  text-align: center;
+}
+
+#btn-main {
+  background-color: #38188A;
+  border-color: #38188A;
+  opacity: .9;
+  height: 50px;
+  margin: 20px;
+}
+
 /* Small */
 @media screen and (min-width: 768px) {
   .intro {
@@ -69,6 +80,12 @@ body, html {
   vertical-align: middle;
 }
 
+h2 {
+  color: #b7b6bf;
+  font-family: ostrich_font;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
 
 /* CONTENT */
 
@@ -233,7 +250,7 @@ h4 {
 
 .btn {
   background-color: deeppink;
-  border-color: #154572;
+  border-color: deeppink;
 }
 
 /* Small */
