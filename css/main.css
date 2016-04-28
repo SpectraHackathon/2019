@@ -3,13 +3,20 @@ body, html {
   font-weight: 100;
   height: 100%;
   width: 100%;
+/*  background: url('../images/spectra-background.jpg');
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-position:center top; 
+  background-size: 50%;
+  background-color:black;*/
 }
 
 /* HEADER */
 
 .navbar-fixed-top {
-  background: black;
-  opacity: 0.85;
+/*  background: black;*/
+  opacity: 0.4;
+  /*color: white;*/
 }
 
 .navbar {
@@ -61,8 +68,8 @@ body, html {
 }
 
 #btn-main {
-  background-color: #38188A;
-  border-color: #38188A;
+/*  background-color: #38188A;
+  border-color: #38188A;*/
   opacity: .9;
   height: 50px;
   margin: 20px;
@@ -87,6 +94,19 @@ h2 {
   font-size: 40px;
 }
 
+h3 {
+  color: #b7b6bf;
+  font-family: ostrich_font;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+h4 {
+  color: #b7b6bf;
+  font-family: ostrich_font;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
 /* CONTENT */
 
 .content-section {
@@ -96,7 +116,7 @@ h2 {
 }
 
 .content-section h2 {
-  color: #b7b6bf;
+  /*color: #b7b6bf;*/
   font-family: ostrich_font;
   letter-spacing: 3px;
   font-size: 50px;
@@ -109,34 +129,91 @@ h2 {
   margin: 25px 0;
 }
 
+.overlay{
+  position:inherit;
+  background: url('../images/spectra-background.jpg');
+  -webkit-animation:100s scroll infinite linear;
+  -moz-animation:100s scroll infinite linear;
+  -o-animation:100s scroll infinite linear;
+  -ms-animation:100s scroll infinite linear;
+  animation:100s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
+}
+
+
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+
+
+
+
 .content-section-overview {
   /* border-top: 10px solid indigo; */
-  background-color: #151518;
+/*  background-color: #151518;*/
+  background: url('../images/spectra-background.jpg');
 }
 
 .content-section-faq {
-  background-color: #1A152B;
+  /*background-color: #1A152B;*/
+  background: url('../images/spectra-background.jpg');
 }
 
 .content-section-location {
-  background-color: #20163E;
+ background: url('../images/spectra-background.jpg');
+ /* background-color: #20163E;*/
 }
 
 .content-section-schedule {
-  background-color: #261651;
+  /*background-color: #261651;*/
+   background: url('../images/spectra-background.jpg');
 }
 
 .content-section-team {
-  background-color: #2C1764;
+  /*background-color: #2C1764;*/
   color: white;
+   background: url('../images/spectra-background.jpg');
 }
 
 .content-section-team img {
+ background: url('../images/spectra-background.jpg');
   margin: 0 auto;
 }
 
 .content-section-register {
-  background-color: #321777;
+/*  background-color: #321777;*/
+   background: url('../images/spectra-background.jpg');
 }
 
 /* HACKATHON */
@@ -174,7 +251,9 @@ h4 {
 }
 
 .faq-card {
-  background-color: #2C1764;
+/*  background-color: #2C1764;*/
+/*  border-style: solid;*/
+  border-width: 2px;
   margin: 0 20px 20px;
   padding: 20px;
 }
@@ -191,6 +270,7 @@ h4 {
   font-size: 16px;
   text-align: left;
   padding: 0 20px;
+/*  border-style: solid;*/
 }
 
 .faq-card a {
@@ -268,7 +348,8 @@ h4 {
 /* FOOTER */
 
 footer {
-  background: #38188A;
+/*  background: #38188A;*/
+  background: url('../images/spectra-background.jpg');
   color: white;
   padding: 30px 0;
 }
@@ -408,3 +489,139 @@ visibility:visible;
 	top:1px;
 }
 
+/*Team Page*/
+/*.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 15px;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: white;
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.hovereffect .overlay a {
+	color: purple;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hovereffect:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+	transform: translate3d(0,-10%,0);
+}
+
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+	float: left;
+	margin: 0px;
+	display: inline-block;
+}
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 50px 0 0 0;
+	background-color: transparent;
+}
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect p.icon-links a {
+	float: right;
+	color: #3c4a50;
+	font-size: 1.4em;
+}
+
+.hovereffect:hover p.icon-links a:hover,
+.hovereffect:hover p.icon-links a:focus {
+	color: #252d31;
+}
+
+.hovereffect h2,
+.hovereffect p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+.hovereffect p.icon-links a span:before {
+	display: inline-block;
+	padding: 8px 10px;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover h2,
+.hovereffect:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.hovereffect:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+*/
+
+/*Team Photos*/
+.img-circle {
+    border-radius: 50%;
+     width: 150px;
+}
