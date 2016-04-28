@@ -307,6 +307,7 @@ h4 {
   background-color:transparent;
   border: 1px solid #ffffff;
   border-radius: 3px;
+  color: white;
   font-family: ostrich_font;
   font-size: 25px;
   margin: 10px;
@@ -326,6 +327,8 @@ h4 {
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
     width: 300px;
+    color: white;
+    position: center;
   }
 }
 
@@ -485,17 +488,22 @@ visibility:visible;
 /*Making Placeholder text center*/
 ::-webkit-input-placeholder {
    text-align: center;
+   color: white;
+
 }
 
 :-moz-placeholder { /* Firefox 18- */
    text-align: center;  
+   color: white;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    text-align: center;  
+   color:; white; 
 }
 
 :-ms-input-placeholder {  
    text-align: center; 
+   color: white;
 }
 
