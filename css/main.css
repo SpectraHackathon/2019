@@ -366,18 +366,16 @@ div.img:hover {
   text-align: center;
 }*/
 
-/*div.role {
-
-  color: white;
-  font-style: bold;
-  font-family: "Arial";
-  font-size: 15px;    
-  margin-bottom: 5px;
+div.role {
+  font-family: "Roboto";
+  font-size: 15px;  
+  font-weight: 100;  
+  margin-bottom: 20px;
   text-align: center;
-}*/
+}
 
 h1 {
-  font-family: "Arial";
+  font-family: "Roboto";
   padding: 10px;
 }
 
