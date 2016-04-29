@@ -15,7 +15,8 @@ body, html, #navbar {
 /* HEADER */
 
 .navbar-fixed-top {
- background: transparent;
+ background: url('../images/spectra-background.jpg');
+ background-attachment: fixed;
  border-width: 0;
 }
 
@@ -28,6 +29,12 @@ body, html, #navbar {
 @media screen and (min-width: 768px) {
   .navbar-fixed-top .navbar-nav {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro-body {
+    padding-top: 100px;
   }
 }
 
@@ -214,12 +221,11 @@ ul {
 }
 
 .faq-card {
-/*  background-color: #2C1764;*/
-/*  border-style: solid;*/
+  background-color: rgba(0, 0, 0, .5);
   border-width: 2px;
   margin: 0 20px 20px;
   padding: 20px;
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 /* Small */
@@ -262,20 +268,20 @@ ul {
   border-radius: 3px;
   color: white;
   font-family: ostrich_font;
+  letter-spacing: 4px;
   font-size: 25px;
   margin: 10px;
   padding: 10px;
   text-decoration:none;
   text-align: center;
   width: 200px;
-
-	
 }
 
 .btn {
   background-color: deeppink;
   border-color: deeppink;
 }
+
 
 /* Small */
 @media screen and (min-width: 768px) {
@@ -322,7 +328,12 @@ footer a {
 }
 
 .social-icons {
-  float: left;
+ float: initial;
+ font-family: ostrich_font;
+ font-size: 25px;
+ /*left: 40px;*/
+ letter-spacing: 4px; 
+ 
 }
 
 .social-icons a {
@@ -337,12 +348,13 @@ footer a {
   }
 
   footer .social-icons {
-    float: right;
+    float: initial;
   }
 }
 
 .copyright {
   font-weight: 400;
+  font-family: arial;
 
 }
 
@@ -369,18 +381,16 @@ div.img:hover {
   text-align: center;
 }*/
 
-/*div.role {
-
-  color: white;
-  font-style: bold;
-  font-family: "Arial";
-  font-size: 15px;    
-  margin-bottom: 5px;
+div.role {
+  font-family: "Roboto";
+  font-size: 15px;  
+  font-weight: 100;  
+  margin-bottom: 20px;
   text-align: center;
-}*/
+}
 
 h1 {
-  font-family: "Arial";
+  font-family: "Roboto";
   padding: 10px;
 }
 
@@ -412,13 +422,13 @@ visibility:visible;
 
 /* Welcome Page Buttons */
 .myButton {
-
-	background-color:transparent;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
+	background-color: rgba(0, 0, 0, .5);
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
 	font-family: ostrich_font;
+  letter-spacing: 4px;
 	font-size:25px;
 	padding:16px 31px;
 	text-decoration:none;
