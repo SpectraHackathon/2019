@@ -12,7 +12,8 @@ body, html {
 /* HEADER */
 
 .navbar-fixed-top {
- background: transparent;
+ background: url('../images/spectra-background.jpg');
+ background-attachment: fixed;
  border-width: 0;
 }
 
@@ -211,12 +212,11 @@ ul {
 }
 
 .faq-card {
-/*  background-color: #2C1764;*/
-/*  border-style: solid;*/
+  background-color: rgba(0, 0, 0, .5);
   border-width: 2px;
   margin: 0 20px 20px;
   padding: 20px;
-    border: 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 /* Small */
@@ -259,14 +259,13 @@ ul {
   border-radius: 3px;
   color: white;
   font-family: ostrich_font;
+  letter-spacing: 4px;
   font-size: 25px;
   margin: 10px;
   padding: 10px;
   text-decoration:none;
   text-align: center;
   width: 200px;
-
-	
 }
 
 .btn {
@@ -414,13 +413,13 @@ visibility:visible;
 
 /* Welcome Page Buttons */
 .myButton {
-
-	background-color:transparent;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
+	background-color: rgba(0, 0, 0, .5);
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
 	font-family: ostrich_font;
+  letter-spacing: 4px;
 	font-size:25px;
 	padding:16px 31px;
 	text-decoration:none;
