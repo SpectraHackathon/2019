@@ -7,11 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Spectra</title>
-
+    
+    <!-- Roboto Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100" rel="stylesheet" type="text/css">
+    
+    <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Main.css -->
     <link href="css/main.css" rel="stylesheet">
+
+    <!-- Smooth Scroll by cferdinadni -->
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/smooth-scroll.js.min.js"></script>
   </head>
 
   <body data-spy="scroll" data-target="#navbar">
@@ -33,19 +42,19 @@
             <h3><a href="index.html">Home</a></h3>
           </li>
           <li class="col-xs-12 col-sm-2">
-            <h3><a href="#overview">Overview</a></h3>
+            <h3><a data-scroll href="#overview">Overview</a></h3>
           </li>
           <li class="col-xs-12 col-sm-2">
-            <h3><a href="#faq">FAQ</a></h3>
+            <h3><a data-scroll href="#faq">FAQ</a></h3>
           </li>
           <li class="col-xs-12 col-sm-2">
-            <h3><a href="#location">Location</a></h3>
+            <h3><a data-scroll href="#location">Location</a></h3>
           </li>
           <li class="col-xs-12 col-sm-2">
-            <h3><a href="#schedule">Schedule</a></h3>
+            <h3><a data-scroll href="#schedule">Schedule</a></h3>
           </li>
           <li class="col-xs-12 col-sm-2">
-            <h3><a href="#team">Team</a></h3>
+            <h3><a data-scroll href="#team">Team</a></h3>
           </li>
         </ul>
       </div>
@@ -575,5 +584,8 @@
 
     </script>
     <script src="js/main.js"></script>
+    <script>
+    smoothScroll.init();
+    </script>
   </body>
 </html>
