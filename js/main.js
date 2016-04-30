@@ -7,7 +7,9 @@ function init() {
 }
 
 function initializeMap() {
+  // var siliconValley = new google.maps.LatLng(37.6279340,-122.42666);
   var siliconValley = new google.maps.LatLng(37.6279340,-122.42666);
+  var image = './images/YouTube-social-icon_red_24px.png';
   var mapContainer = document.getElementById("map");
   var mapOptions = {
     center: siliconValley,
@@ -17,8 +19,10 @@ function initializeMap() {
   var map = new google.maps.Map(mapContainer, mapOptions);
   var marker = new google.maps.Marker({
       map: map,
-      position: siliconValley
+      position: siliconValley,
+      icon: image
     });
+  marker.setMap(map);
 }
 
 $(document).ready(init);

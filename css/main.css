@@ -441,4 +441,9 @@ visibility:visible;
    text-align: center; 
    color: white;
 }
+.data-scroll a{
+  color: white; 
+  text-decoration: none;
+
+}
 
