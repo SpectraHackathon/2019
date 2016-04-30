@@ -38,17 +38,21 @@ body, html, #navbar {
 
 .navbar-fixed-top .navbar-nav li {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .navbar-fixed-top .navbar-nav a {
-  padding: 20px 0;
+  padding: 0px 0px 10px 4px;
   color: #ffffff;
+  border-bottom: 1px solid transparent;    
+  transition: 0.5s ease;
 }
 
 .navbar-fixed-top .navbar-nav li:hover a,
 .navbar-fixed-top .navbar-nav li.active a {
-  color: #7976b7;
+  border-bottom: 1px solid #ffffff;
   text-decoration: none;
+  /*color: #7976b7;*/
 }
 
 /* CUSTOM FONT */
