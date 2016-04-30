@@ -15,8 +15,6 @@ body, html, #navbar {
 /* HEADER */
 
 .navbar-fixed-top {
- background: url('../images/spectra-background.jpg');
- background-attachment: fixed;
  border-width: 0;
 }
 
@@ -44,12 +42,12 @@ body, html, #navbar {
 
 .navbar-fixed-top .navbar-nav a {
   padding: 20px 0;
-  color: #fff;
+  color: #ffffff;
 }
 
 .navbar-fixed-top .navbar-nav li:hover a,
 .navbar-fixed-top .navbar-nav li.active a {
-  color: deeppink !important;
+  color: #7976b7;
   text-decoration: none;
 }
 
@@ -66,17 +64,6 @@ body, html, #navbar {
   display: table;
   height: 75%;
   width: 100%;
-}
-
-.main-buttons {
-  text-align: center;
-}
-
-#btn-main {
-/* border-color: #38188A;*/
-  opacity: .9;
-  height: 50px;
-  margin: 20px;
 }
 
 /* Small */
@@ -198,17 +185,6 @@ h3 {
   margin-bottom: 50px;
 }
 
-.btn-lg {
-  width: 120px;
-  height: 60px;
-}
-
-.btn:hover {
-  color: deeppink;
-  background-color: #fff;
-  border-color: #fff;
-}
-
 /* FAQ */
 
 ul {
@@ -248,7 +224,7 @@ ul {
 }
 
 .faq-card a:hover {
-  color: deeppink;
+  color: #7976b7;
   text-decoration: none;
 }
 
@@ -277,12 +253,6 @@ ul {
   width: 200px;
 }
 
-.btn {
-  background-color: deeppink;
-  border-color: deeppink;
-}
-
-
 /* Small */
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
@@ -295,7 +265,6 @@ ul {
 #mc-embedded-subscribe {
   padding: 8px 20px;
 }
-
 
 /* FOOTER */
 
@@ -323,10 +292,6 @@ footer a {
   margin-right: 20px;
 }
 
-.btn-social-icon {
-  margin-right: 10px;
-}
-
 .social-icons {
  float: initial;
  font-family: ostrich_font;
@@ -343,9 +308,6 @@ footer a {
 
 /* Small */
 @media screen and (min-width: 768px) {
-  footer .btn-social-icon {
-    margin-left: 10px;
-  }
 
   footer .social-icons {
     float: initial;
@@ -420,7 +382,12 @@ h1 {
 visibility:visible;
 }
 
-/* Welcome Page Buttons */
+/* BUTTONS */
+
+.main-buttons {
+  text-align: center;
+}
+
 .myButton {
 	background-color: rgba(0, 0, 0, .5);
 	border: 1px solid #ffffff;
@@ -432,18 +399,16 @@ visibility:visible;
 	font-size:25px;
 	padding:16px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
 	margin: 10px;
 }
 .myButton:hover {
-	background-color:transparent;
-  color: deeppink;
+	color: #7976b7;
+  border:1px solid #7976b7;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
 }
-
 
 /*Team Photos*/
 .img-circle {
