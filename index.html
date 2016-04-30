@@ -11,6 +11,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script src="dist/js/smooth-scroll.js"></script>
   </head>
 
   <body data-spy="scroll" data-target="#navbar">
@@ -28,16 +29,16 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="col-xs-12 col-sm-3">
-            <h3><a href="index.html">Home</a></h3>
+            <h3><a data-scroll href="index.html">Home</a></h3>
           </li>
           <li class="col-xs-12 col-sm-3">
-            <h3><a href="makeschool.html">Workshop Day</a></h3>
+            <h3><a data-scroll href="makeschool.html">Workshop Day</a></h3>
           </li>
           <li class="col-xs-12 col-sm-3">
-            <h3><a href="youtube.html">Hackathon</a></h3>
+            <h3><a data-scroll href="youtube.html">Hackathon</a></h3>
           </li>
           <li class="col-xs-12 col-sm-3">
-            <h3><a href="#contact">Contact</a></h3>
+            <h3><a data-scroll href="#contact">Contact</a></h3>
           </li>
         </ul>
       </div>
@@ -124,5 +125,8 @@
 
     </script>
     <script src="js/main.js"></script>
+    <script>
+      smoothScroll.init();
+    </script>
   </body>
 </html>
