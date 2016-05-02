@@ -23,10 +23,15 @@ body, html, #navbar {
   letter-spacing: 2px;
 }
 
+
 /* Small */
 @media screen and (min-width: 768px) {
   .navbar-fixed-top .navbar-nav {
     width: 100%;
+  }
+
+  .navbar-nav h3 {
+    margin-top: 45px;
   }
 }
 
@@ -259,7 +264,7 @@ ul {
   padding: 10px;
   text-decoration:none;
   text-align: center;
-  width: 300px;
+  width: 250px;
 }
 
 /* Small */
@@ -320,6 +325,10 @@ footer a {
 
   footer .social-icons {
     float: initial;
+  }
+
+  footer .copyright-container {
+    display: inline;
   }
 }
 
@@ -405,7 +414,7 @@ visibility:visible;
 	color: #ffffff;
 	font-family: ostrich_font;
   letter-spacing: 4px;
-	font-size:17px;
+	font-size:14px;
 	padding:16px 31px;
 	text-decoration:none;
 	margin: 10px;
