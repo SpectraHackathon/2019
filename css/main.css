@@ -129,6 +129,13 @@ h3 {
   padding-bottom: 60px;
 }
 
+/* Small */
+@media screen and (min-width: 768px) {
+  .content-section {
+    padding-top: 120px;
+  }
+}
+
 .content-section p {
   color: #fff;
   font-size: 18px;
