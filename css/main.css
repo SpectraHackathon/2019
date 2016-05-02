@@ -96,7 +96,17 @@ h2 {
   color: #fff;
   font-family: ostrich_font;
   letter-spacing: 6px;
-  font-size: 36pt;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 36pt;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
 
 h3 {
@@ -116,7 +126,7 @@ h3 {
 
 .content-section p {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   margin: 25px 0;
 }
@@ -259,20 +269,21 @@ ul {
   color: white;
   font-family: ostrich_font;
   letter-spacing: 4px;
-  font-size: 25px;
+  font-size: 18px;
   margin: 10px;
   padding: 10px;
   text-decoration:none;
   text-align: center;
-  width: 250px;
+  width: 225px;
 }
 
 /* Small */
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
-    width: 250px;
     color: white;
+    font-size: 25px;
     position: center;
+    width: 250px;
   }
 }
 
@@ -309,14 +320,18 @@ footer a {
 .social-icons {
  float: initial;
  font-family: ostrich_font;
- font-size: 25px;
+ font-size: 18px;
  /*left: 40px;*/
  letter-spacing: 4px; 
  
 }
 
+.social-icons .link {
+  margin-right: 0;
+}
+
 .social-icons a {
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none !important;
 }
 
@@ -325,6 +340,11 @@ footer a {
 
   footer .social-icons {
     float: initial;
+    font-size: 25px;
+  }
+
+  footer .social-icons a {
+    font-size: 30px;
   }
 
   footer .copyright-container {
@@ -413,9 +433,9 @@ visibility:visible;
 	cursor: pointer;
 	color: #ffffff;
 	font-family: ostrich_font;
-  letter-spacing: 4px;
-	font-size:14px;
-	padding:16px 31px;
+  letter-spacing: 2px;
+	font-size:18px;
+	padding:10px 15px;
 	text-decoration:none;
 	margin: 10px;
 }
@@ -424,6 +444,8 @@ visibility:visible;
 @media screen and (min-width: 768px) {
   .myButton {
     font-size: 25px;
+    letter-spacing: 4px;
+    padding:16px 31px;
   }
 }
 
