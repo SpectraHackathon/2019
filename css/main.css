@@ -259,13 +259,13 @@ ul {
   padding: 10px;
   text-decoration:none;
   text-align: center;
-  width: 200px;
+  width: 300px;
 }
 
 /* Small */
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
-    width: 300px;
+    width: 250px;
     color: white;
     position: center;
   }
@@ -405,11 +405,19 @@ visibility:visible;
 	color: #ffffff;
 	font-family: ostrich_font;
   letter-spacing: 4px;
-	font-size:25px;
+	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
 	margin: 10px;
 }
+
+/* Small */
+@media screen and (min-width: 768px) {
+  .myButton {
+    font-size: 25px;
+  }
+}
+
 .myButton:hover {
 	color: #7976b7;
   border:1px solid #7976b7;
