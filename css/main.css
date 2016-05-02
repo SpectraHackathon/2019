@@ -30,11 +30,6 @@ body, html, #navbar {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .intro-body {
-    padding-top: 100px;
-  }
-}
 
 .navbar-fixed-top .navbar-nav li {
   text-align: center;
@@ -75,12 +70,22 @@ body, html, #navbar {
   .intro {
     height: 100%;
   }
+
+  .intro-body #mc_embed_signup_scroll p{
+    margin-top: 0;
+  }
 }
 
 .intro-body {
   display: table-cell;
+  padding-top: 75px;
   vertical-align: middle;
 }
+
+.intro-body #signup {
+  padding-top: 0;
+}
+
 
 h2 {
   color: #fff;
