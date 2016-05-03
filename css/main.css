@@ -101,7 +101,6 @@ h2 {
   color: #fff;
   font-family: ostrich_font;
   letter-spacing: 6px;
-  font-size: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -293,7 +292,7 @@ ul {
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     position: center;
     width: 250px;
   }
@@ -361,13 +360,13 @@ footer a {
 
   footer .copyright-container {
     display: inline;
+    margin-left: 20px;
   }
 }
 
 .copyright {
-  font-weight: 400;
-  font-family: arial;
-
+  font-weight: 100;
+  font-family: "Roboto";
 }
 
 /*Team Page*/
@@ -395,7 +394,7 @@ div.img:hover {
 
 div.role {
   font-family: "Roboto";
-  font-size: 15px;  
+  font-size: 16px;
   font-weight: 100;  
   margin-bottom: 20px;
   text-align: center;
@@ -455,7 +454,7 @@ visibility:visible;
 /* Small */
 @media screen and (min-width: 768px) {
   .myButton {
-    font-size: 25px;
+    font-size: 24px;
     letter-spacing: 4px;
     padding:16px 31px;
   }
