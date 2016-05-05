@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Base URL -->
+    <base href='http://sospectra.com'>
+
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="images/logo_small.png">
+    <link rel="shortcut icon" type="image/png" href="/images/logo_small.png">
 <!--     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -24,18 +28,26 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> -->
-
     <title>Spectra</title>
 
+    <!-- Roboto Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100italic,100" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <script src="dist/js/smooth-scroll.js"></script>
+
+    <!-- Main.css -->
+    <link href="/css/main.css" rel="stylesheet">
+
+    <!-- Smooth Scroll by cferdinadni -->
+    <script src="/js/smooth-scroll.js"></script>
+    <script src="/js/smooth-scroll.min.js"></script>
   </head>
 
   <body data-spy="scroll" data-target="#navbar">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- For infinite Scroll -->
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -48,14 +60,23 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="col-xs-12 col-sm-4">
-            <h3><a data-scroll href="index.html">Home</a></h3>
+          <li class="col-xs-12 col-sm-2">
+            <h3><a href="/">Home</a></h3>
           </li>
-          <li class="col-xs-12 col-sm-4">
-            <h3><a data-scroll href="youtube">Hackathon</a></h3>
+          <li class="col-xs-12 col-sm-2">
+            <h3><a data-scroll href="#overview">Overview</a></h3>
           </li>
-          <li class="col-xs-12 col-sm-4">
-            <h3><a data-scroll href="#contact">Contact</a></h3>
+          <li class="col-xs-12 col-sm-2">
+            <h3><a data-scroll href="#faq">FAQ</a></h3>
+          </li>
+          <li class="col-xs-12 col-sm-2">
+            <h3><a data-scroll href="#location">Location</a></h3>
+          </li>
+          <li class="col-xs-12 col-sm-2">
+            <h3><a data-scroll href="#schedule">Schedule</a></h3>
+          </li>
+          <li class="col-xs-12 col-sm-2">
+            <h3><a data-scroll href="#team">Team</a></h3>
           </li>
         </ul>
       </div>
@@ -66,27 +87,487 @@
         <div class="container">
           <div class="row row-header">
             <div class="col-xs-12">
-              <img class="img-responsive" src="./images/spectra-logo.png" />
+              <img class="img-responsive" src="/images/spectra-logo.png" />
             </div>
-            <div class="col-xs-12">
-              <div class="clear main-buttons">
-                <h2>Upcoming Events</h2>
-                <!--<br><a href="makeschool.html"><input type="submit" value="Workshop Day @ Make School, May 2016" name="makeschool" class="myButton"></a>-->
-                <a href="youtube">
-                  <input type="submit" value="Hackathon @ Youtube, July 2016" name="youtube" class="myButton">
-                </a>
-            </div> 
           </div>
+          <center>
+      <section id="signup" class="content-section content-section-overview text-center">
+            <div id="mc_embed_signup">
+              <form action="//spectrahackathon.us12.list-manage.com/subscribe/post?u=f0000ef55a22db2c251318957&amp;id=a7e5335ef7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll" class="col-xs-12">
+                  <input type="email" value="" name="EMAIL" placeholder="you@email.com" class="email" id="mce-EMAIL" required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_f0000ef55a22db2c251318957_a7e5335ef7" tabindex="-1" value="">
+                  </div>
+                  <div class="clear">
+                    <div class="subscribe-button">
+                      <br><input type="submit" value="subscribe" name=" subscribe" id="mc-embedded-subscribe" class="myButton">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </center>
+      </section>
         </div>
       </div>
     </header>
 
-    <section id="contact" class="content-section content-section-register text-center">
+    <section id="overview" class="content-section content-section-overview text-center">
+      <div class="container">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Exploring the Tech Space Together</h2>
+            <p>
+              Spectra is a brand-new all-ladies hackathon coming to the West Coast in July!
+            </p>
+
+            <p>
+              This is a unique event bringing together female college students and professionals from all around the world. Free from the gender stereotypes that often taint the tech industry, Spectra offers participants a safe and inviting environment for women to experiment with technology at any experience level.
+            </p>
+
+            <p>
+              Every woman should have the opportunity to gain confidence in her technical abilities and have an impact in computer science. What are you waiting for? Come learn new skills, inspire one another, and build long-lasting connections at Spectra.
+            </p>
+            <!-- REGISTRATION 
+
+            <input type="submit" value="Register" name="register" id="register" class="btn btn-info btn-lg">
+
+            -->
+          </div>
+      </div>
+    </section>
+
+   <section id="faq" class="content-section content-section-faq text-center">
+      <div class="container">
+          <div class="header col-lg-8 col-lg-offset-2">
+            <h2>FREQUENTLY ASKED QUESTIONS</h2>
+            <p>You’ve got questions, we’ve got answers.</p>
+          </div>
+
+          <div class="row">
+            <div class="faq-row">
+                <div class="col-sm-12 col-md-6">
+                  <div class="faq-card">
+                    <h3>What is a hackathon?</h3>
+                    <p>In this case, the word "hack" describes how multiple technologies can be used together in new and creative ways. Teams will spend the weekend creating a website, mobile app, or hardware creation. The Spectra team believes that the most important aspect of a hackathon is the community it generates and the skills that attendees can take away with them at the end of the event.</p>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="faq-card">
+                    <h3>What if I don’t know how to code?</h3>
+                    <p>Spectra is the perfect place and time to learn! There will be dedicated workshops and mentors to guide you through your first project. And don't worry, participants are not filtered by technical background. Our focus is on making Spectra an awesome event for everyone involved, which means we will welcome attendees at any level of expertise. After all, everyone had to start somewhere!</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+
+        <div class="row">
+            <div class="faq-row">
+            <div class="col-sm-12 col-md-6">
+              <div class="faq-card">
+                <h3>What if I don’t have a team or an idea yet?</h3>
+                <p>Totally fine - if you don’t have a team now, don’t stress! We’ll have team formation and ideation sessions geared towards helping you find people to work with.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="faq-card">
+                  <h3>What is the cost to attend?</h3>
+                  <p>Attendance is 100% free. That includes Wi-Fi access, tables, chairs, food, drinks, hella swag, mentors, an amazing opportunity to learn and network, and more!</p>
+               </div>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="row">
+            <div class="faq-row">
+            <div class="col-sm-12 col-md-6">
+                  <div class="faq-card">
+                    <h3>Who can attend?</h3>
+                    <p>Anyone who identifies as female and is at least 18 years old can register to hack! If you're not 18, stay tuned for other events tailored to you.</p>
+                  </div>
+                </div>
+          <div class="col-sm-12 col-md-6">
+              <div class="faq-card">
+                <h3>What do I need to bring?</h3>
+                <p>All you'll need is a valid photo ID (a student ID works), your laptop, and your charger. Also, a pillow and some toiletries never hurt anyone!</p>
+             </div>
+          </div>
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="faq-row">
+          <div class="col-sm-12 col-md-6">
+                <div class="faq-card">
+                  <h3>How do I register?</h3>
+                  <p>Registration isn't open yet, but sign up for our mailing list to find out when it is!</p>
+                </div>
+            </div>
+           <div class="col-sm-12 col-md-6">
+              <div class="faq-card">
+                <h3>What if my question wasn't answered here?</h3>
+                <p>Shoot us an email at <a href="mailto:spectradirectors@gmail.com">spectradirectors@gmail.com</a> and we'll help you with anything you need!</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="location" class="content-section content-section-location text-center">
+      <div class="container">
+          <div class="col-xs-12">
+            <h2 class="col-xs-12">Hosted at</h2><br>
+            <img class="img-responsive col-xs-8 col-sm-4 col-xs-offset-2 col-sm-offset-4" src="/images/youtube-logo-white.png">
+            <h3 class="col-xs-12">
+              901 Cherry Ave <br>
+              San Bruno, CA <br>
+            </h3>
+            <div id="map" class="col-md-6"></div>
+          </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="content-section content-section-schedule text-center">
+      <div class="container">
+          <div class="col-lg-8 col-lg-offset-2 row">
+            <h2>Schedule</h2>
+              <h3>Details coming soon</h3>
+          </div>
+      </div>
+    </section>
+
+  <section id="team" class="content-section content-section-team text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Meet Our Team</h2>
+
+          <!-- Co-Directas -->
+
+            <div class="row">
+              <div class="col-xs-12 col-sm-0 col-md-2"><!-- purposely empty for spacing --></div>
+
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Cook, Christina.jpg">
+                  <h3>
+                  <div class="name">Christina Cook</div>
+                  <div class="role">Co-Director</div>
+                  </h3>
+<!--                     <a href="http://www.facebook.com/sospectra/">
+                      <i class="fa fa-facebook-official"></i>
+                    </a>
+                    <a href="http://twitter.com/sospectra">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="http://www.instagram.com/sospectra/">
+                      <i class="fa fa-instagram"></i>
+                    </a> -->
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Coronado, Izzy.png">
+                  <h3>
+                  <div class="name">Izzy Coronado</div>
+                  <div class="role">Co-Director</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Nevatia, Shriya.png">
+                  <h3>                  
+                  <div class="name">Shriya Nevatia</div>
+                  <div class="role">Co-Director</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-0 col-md-2"><!-- purposely empty for spacing --></div>
+            </div>
+
+             <!-- Team Directas -->
+
+            <div class="row">
+              
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/White, Maggie.jpg">
+                  <h3>
+                  <div class="name">Maggie White</div>
+                  <div class="role">Logistics Lead</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Truong, Melody.jpg">
+                  <h3>
+                  <div class="name">Melody Truong</div>
+                  <div class="role">Technical Lead</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Nielsen, Natasja.jpeg">
+                  <h3>
+                  <div class="name">Natasja Nielsen</div>
+                  <div class="role">Design and Technical Lead</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Nguyen, Kathy.png">
+                  <h3>
+                  <div class="name">Kathy Nguyen</div>
+                  <div class="role">Design Lead</div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <h3>
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Yin, Cynthia.jpg">
+                  <div class="name">Cynthia Yin</div>
+                  <div class="role">Marketing Lead</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Fang, Janet.jpg">
+                  <h3>
+                  <div class="name">Janet Fang</div>
+                  <div class="role">Marketing Lead</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Perez, Nadine.jpg">
+                  <h3>
+                  <div class="name">Nadine Perez</div>
+                  <div class="role">Sponsorship Lead</div>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Tolentino, Jay.jpg">
+                  <h3>
+                  <div class="name">Jay Tolentino</div>
+                  <div class="role">Sponsorship Lead</div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+        <!-- Team Members -->
+
+          <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="hovereffect">
+              <img class="img-circle" class="img-responsive" src="/images/team-photos/Agrawal, Ashi.jpg">
+              <h3>
+              <div class="name">Ashi Agrawal</div>
+              <div class="role">Logistics</div>
+              </h3>
+            </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                <img class="img-circle" class="img-responsive" src="/images/team-photos/Arteaga, Brenda Grace.jpg">
+                <h3>
+                <div class="name">Brenda Arteaga</div>
+                <div class="role">Logistics</div>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                <img class="img-circle" class="img-responsive" src="/images/team-photos/Pham, Christine.jpg">
+                <h3>
+                <div class="name">Christine Pham</div>
+                <div class="role">Logistics</div>
+                </h3>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                <img class="img-circle" class="img-responsive" src="/images/team-photos/Zhang, Cindy.jpg">
+                <h3>
+                <div class="name">Cindy Zhang</div>
+                <div class="role">Logistics</div>
+                </h3>
+              </div>
+            </div>
+        </div>
+
+       <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                <img class="img-circle" class="img-responsive" src="/images/team-photos/McMahon, Catherine.jpg">
+                <h3>
+                <div class="name">Catherine McMahon</div>
+                <div class="role">Design and Technical</div>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                <img class="img-circle" class="img-responsive" src="/images/team-photos/Souv, Anita.jpg">
+                <h3>
+                <div class="name">Anita Souv</div>
+                <div class="role">Design and Technical</div>
+                </h3>
+              </div>
+            </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="hovereffect">
+              <img class="img-circle" class="img-responsive" src="/images/team-photos/Lau, Phyllis.png">
+              <h3>
+              <div class="name">Phyllis Lau</div>
+              <div class="role">Design and Technical</div>
+              </h3>
+            </div>
+          </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                <img class="img-circle" class="img-responsive" src="/images/team-photos/Ngo, Christopher.png">
+                <h3>
+                <div class="name">Christopher Ngo</div>
+                <div class="role">Technical</div>
+                </h3>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                <img class="img-circle" class="img-responsive" src="/images/team-photos/Siegle, Lizzie.jpg">
+                <h3>
+                <div class="name">Lizzie Siegle</div>
+                <div class="role">Marketing</div>
+                </h3>
+              </div> 
+            </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Skolnick, Gefen.jpg">
+                  <h3>
+                  <div class="name">Gefen Skolnick</div>
+                  <div class="role">Marketing</div>
+                  </h3>
+              </div>
+            </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="hovereffect">
+              <img class="img-circle" class="img-responsive" src="/images/team-photos/Bhatt, Shivani.jpg"> 
+              <h3> 
+              <div class="name">Shivani Bhatt</div>
+              <div class="role">Marketing</div>
+              </h3>
+              </div>
+            </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="hovereffect">
+              <img class="img-circle" class="img-responsive" src="/images/team-photos/Chang, Rachel.jpg">
+              <h3>
+              <div class="name">Rachel Chang</div>
+              <div class="role">Marketing</div>
+              </h3>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="hovereffect">
+              <img class="img-circle" class="img-responsive" src="/images/team-photos/Clawges, Maegan.jpg">
+              <h3>
+              <div class="name">Maegan Clawges</div>
+              <div class="role">Advisor / YouTube Coordinator</div>
+              </h3>
+              </div>
+            </div> 
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="hovereffect">
+              <img class="img-circle" class="img-responsive" src="/images/team-photos/Basole, Samanvitha.jpg">
+              <h3>
+              <div class="name">Samanvitha Basole</div>
+              <div class="role">Sponsorship</div>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="hovereffect">
+              <img class="img-circle" class="img-responsive" src="/images/team-photos/Roumie, Yasmeen.jpg">
+              <h3>
+              <div class="name">Yasmeen Roumie</div>
+              <div class="role">Sponsorship</div>
+              </h3>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="hovereffect">
+                  <img class="img-circle" class="img-responsive" src="/images/team-photos/Hu, Amy.jpg">
+                  <h3>
+                  <div class="name">Amy Hu</div>
+                  <div class="role">Sponsorship</div>
+                  </h3>
+                </div>
+              </div>
+          </div>
+       
+  <!-- Team End -->
+              
+            </p>
+
+          </div>
+      </div>
+    </section>
+
+<section id="contact" class="content-section content-section-register text-center">
       <div class="container">
           <div class="col-xs-12 col-lg-12">
             <h2>Stay Up to Date</h2>
             <p>
-              Sign up here for event updates!
+              Registration isn't open yet.<br> Sign up here for event updates!
             </p>
             <div id="mc_embed_signup">
               <form action="//spectrahackathon.us12.list-manage.com/subscribe/post?u=f0000ef55a22db2c251318957&amp;id=a7e5335ef7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -117,13 +598,13 @@
               <a href="mailto:spectradirectors@gmail.com?Subject=Hi%20there!" target="_top">
                  <i class="fa fa-envelope" aria-hidden="true"></i>
               </a>
-              <a href="http://www.facebook.com/sospectra/">
+              <a href="http://www.facebook.com/sospectra">
                 <i class="fa fa-facebook-official"></i>
               </a>
               <a href="http://twitter.com/sospectra">
                 <i class="fa fa-twitter"></i>
               </a> 
-              <a class="link" href="http://www.instagram.com/sospectra/">
+              <a class="link" href="http://www.instagram.com/sospectra">
                 <i class="fa fa-instagram"></i>
               </a>
               
@@ -134,7 +615,6 @@
         </center>
             </div>
           </div>
-
         </div>
       </div>
       </div>
@@ -144,12 +624,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js">
 
-
-
     </script>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
     <script>
-      smoothScroll.init();
+    smoothScroll.init();
     </script>
   </body>
 </html>
