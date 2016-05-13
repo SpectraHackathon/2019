@@ -271,30 +271,80 @@ ul {
   margin: 25px auto;
 }
 
-/* REGISTER */
+/* INPUT, BUTTONS */
 
 #mce-EMAIL {
-  background-color:transparent;
-  border: 1px solid #ffffff;
-  border-radius: 3px;
-  color: white;
+  width: 350px;
+}
+
+#mce-EMAIL, .submit, .button {
   font-family: ostrich_font;
+  font-size: 24px;
   letter-spacing: 4px;
-  font-size: 18px;
-  margin: 10px;
-  padding: 10px;
-  text-decoration:none;
+  text-decoration: none;
   text-align: center;
-  width: 225px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  margin: 10px;
+  padding: 10px 20px;
+  position: center;
+  transition : all 0.20s ease-in-out;
+  -webkit-transition : all 0.20s ease-in-out;
+  -moz-transition : all 0.20s ease-in-out;
+  -ms-transition : all 0.20s ease-in-out;
+  -o-transition : all 0.20s ease-in-out;
+}
+
+.submit {
+  background : url("../images/arrow.png") no-repeat center;
+  background-size: contain;
+  font-family: "Roboto";
+  height: 56px;
+  width: 56px;
+  margin: 10px 10px 10px -66px !important;
+  padding: 10px !important;
+  position: absolute;
+}
+
+.button {
+  margin-left: -4px;
+}
+
+#mce-EMAIL:focus, #mce-EMAIL:active, #mce-EMAIL:focus:active, #mce-EMAIL:hover, .button:hover {
+  outline: #ffffff;
+  box-shadow: 0 0 6px #ffffff;
+  -webkit-box-shadow: #7976b7;
+  -moz-box-shadow: #7976b7;
+}
+
+.submit:focus, .submit:active, .submit:focus:active, .button:focus, .button:active, .button:focus:active {
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.buttons {
+  margin: auto;
+  text-align: center;
 }
 
 /* Small */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   #mce-EMAIL {
-    color: white;
-    font-size: 24px;
-    position: center;
-    width: 250px;
+    font-size: 18px;
+    width: 270px;
+  }
+
+  .submit {
+    height: 47px;
+    width: 47px;
+    margin: 10px 10px 10px -57px !important;
+  }
+
+  .button {
+    margin-left: 0px;
   }
 }
 
@@ -429,44 +479,6 @@ h1 {
 
 .hover:hover .text {
 visibility:visible;
-}
-
-/* BUTTONS */
-
-.main-buttons {
-  text-align: center;
-}
-
-.myButton {
-	background-color: rgba(0, 0, 0, .5);
-	border: 1px solid #ffffff;
-	display: inline-block;
-	cursor: pointer;
-	color: #ffffff;
-	font-family: ostrich_font;
-  letter-spacing: 2px;
-	font-size:18px;
-	padding:10px 15px;
-	text-decoration:none;
-	margin: 10px;
-}
-
-/* Small */
-@media screen and (min-width: 768px) {
-  .myButton {
-    font-size: 24px;
-    letter-spacing: 4px;
-    padding:16px 31px;
-  }
-}
-
-.myButton:hover {
-	color: #7976b7;
-  border:1px solid #7976b7;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
 }
 
 /*Team Photos*/
