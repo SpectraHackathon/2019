@@ -118,6 +118,7 @@ h3 {
   font-family: ostrich_font;
   letter-spacing: 4px;
   font-size: 24px;
+  padding-bottom: 40px;
 }
 
 /* CONTENT */
@@ -517,5 +518,10 @@ visibility:visible;
   color: white; 
   text-decoration: none;
 
+}
+
+#location img {
+	width: 200px;
+	margin-bottom: 40px;
 }
 
