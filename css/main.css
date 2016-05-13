@@ -289,15 +289,15 @@ ul {
   margin: 10px;
   padding: 10px 20px;
   position: center;
-  transition : all 0.20s ease-in-out;
-  -webkit-transition : all 0.20s ease-in-out;
-  -moz-transition : all 0.20s ease-in-out;
-  -ms-transition : all 0.20s ease-in-out;
-  -o-transition : all 0.20s ease-in-out;
+  transition: all 0.20s ease-in-out;
+  -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -ms-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
 }
 
 .submit {
-  background : url("../images/arrow.png") no-repeat center;
+  background: url("../images/arrow.png") no-repeat center;
   background-size: contain;
   font-family: "Roboto";
   height: 56px;
@@ -323,6 +323,11 @@ ul {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
+}
+
+.submit:hover {
+  background: url("../images/arrow_hover.png") no-repeat center;
+  background-size: contain;
 }
 
 .buttons {
