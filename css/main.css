@@ -276,38 +276,16 @@ ul {
 
 /* INPUT, BUTTONS */
 
-/* Small */
-@media screen and (max-width: 768px) {
-  #mce-EMAIL {
-    font-size: 18px;
-    width: 250px;
-  }
-
-  .submit {
-    height: 47px;
-    width: 47px;
-    margin: 10px 10px 10px -57px !important;
-  }
-
-  .button {
-    margin-left: 0px;
-  }
-}
-
-#mc-embedded-subscribe {
-  padding: 8px 20px;
-}
-
 #mce-EMAIL {
   width: 350px;
 }
 
-@media screen and (min-width: 375px) {
+/*@media screen and (min-width: 375px) {
   #mce-EMAIL {
   width: 250px;
   }
 
-}
+}*/
 
 /*iPhone < 5*/
 @media screen and (device-aspect-ratio: 2/3) {
@@ -421,7 +399,27 @@ and (max-device-width : 736px) {
   text-align: center;
 }
 
+/* Small */
+@media screen and (max-width: 768px) {
+  #mce-EMAIL {
+    font-size: 18px;
+    width: 250px;
+  }
 
+  .submit {
+    height: 47px;
+    width: 47px;
+    margin: 10px 10px 10px -57px !important;
+  }
+
+  .button {
+    margin-left: 0px;
+  }
+}
+
+#mc-embedded-subscribe {
+  padding: 8px 20px;
+}
 
 /* FOOTER */
 
