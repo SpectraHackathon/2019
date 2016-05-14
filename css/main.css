@@ -302,7 +302,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : landscape) {
     #mce-EMAIL {
-      width: 300px;
+      width: 250px;
     }
 }
 
@@ -312,7 +312,7 @@ and (min-device-width : 414px)
 and (max-device-width : 736px) {
 
       #mce-EMAIL {
-      width: 350px;
+      width: 300px;
     }
 }
 
@@ -320,7 +320,7 @@ and (max-device-width : 736px) {
 @media screen and (device-aspect-ratio: 16/9) {
     
     #mce-EMAIL {
-      width: 350px;
+      width: 300px;
     }
 
 }
