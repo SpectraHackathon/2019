@@ -387,7 +387,7 @@ and (max-device-width : 736px) { /* STYLES GO HERE */}
 }
 
 /* Small */
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   #mce-EMAIL {
     font-size: 18px;
     width: 250px;
@@ -402,7 +402,48 @@ and (max-device-width : 736px) { /* STYLES GO HERE */}
   .button {
     margin-left: 0px;
   }
+}*/
+
+/*For smart phones*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #mce-EMAIL {
+    font-size: 18px;
+    width: 200px;
+  }
+
+  .submit {
+    height: 47px;
+    width: 47px;
+    margin: 10px 10px 10px -57px !important;
+  }
+
+  .button {
+    margin-left: 0px;
+  }
 }
+
+
+
+/*For desktops / Laptops*/
+@media only screen  and (min-width : 1224px) {
+  #mce-EMAIL {
+    font-size: 18px;
+    width: 400px;
+  }
+
+  .submit {
+    height: 47px;
+    width: 47px;
+    margin: 10px 10px 10px -57px !important;
+  }
+
+  .button {
+    margin-left: 0px;
+  }
+
+
+}
+
 
 #mc-embedded-subscribe {
   padding: 8px 20px;
