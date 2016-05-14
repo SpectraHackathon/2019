@@ -7,15 +7,17 @@ body, html {
 
 body, html, #navbar {
   background: url('../images/spectra-background.jpg');
-  background-size: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
   body, html, #navbar {
     background-repeat: no-repeat;
     background-size: fixed;
   }
 }
+*/
 
 /* HEADER */
 
