@@ -408,7 +408,7 @@ and (max-device-width : 736px) { /* STYLES GO HERE */}
 @media only screen and (min-device-width : 320px) and (max-device-width : 450px) {
   #mce-EMAIL {
     font-size: 18px;
-    width: 200px;
+    width: 240px;
   }
 
   .submit {
