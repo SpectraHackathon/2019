@@ -283,7 +283,27 @@ ul {
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
   width: 300px;
- }
+}
+
+  #mce-EMAIL, .submit, .button {
+  font-family: ostrich_font;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  margin: 10px;
+  padding: 10px 20px;
+  position: center;
+  transition: all 0.20s ease-in-out;
+  -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -ms-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+}
+ 
 
 }
 
@@ -304,6 +324,24 @@ and (orientation : landscape) {
     #mce-EMAIL {
       width: 250px;
     }
+    #mce-EMAIL, .submit, .button {
+    font-family: ostrich_font;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 10px 20px;
+    position: center;
+    transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
 }
 
 /*iPhone 6 & 6S Portrait & landscape*/
@@ -329,7 +367,26 @@ and (max-device-width : 736px) {
 @media screen and (device-aspect-ratio: 3/4) {
 
       #mce-EMAIL {
-      width: 400px;
+      width: 450px;
+    }
+
+    #mce-EMAIL, .submit, .button {
+      font-family: ostrich_font;
+      font-size: 24px;
+      letter-spacing: 4px;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      margin: 10px;
+      padding: 10px 20px;
+      position: center;
+      transition: all 0.20s ease-in-out;
+      -webkit-transition: all 0.20s ease-in-out;
+      -moz-transition: all 0.20s ease-in-out;
+      -ms-transition: all 0.20s ease-in-out;
+      -o-transition: all 0.20s ease-in-out;
     }
 }
 
