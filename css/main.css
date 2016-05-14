@@ -8,6 +8,7 @@ body, html {
 body, html, #navbar {
   background: url('../images/spectra-background.jpg');
   background-size: cover;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -344,6 +345,23 @@ ul {
     font-size: 18px;
     width: 270px;
   }
+
+/*Ipad in landscape*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+ #mce-EMAIL {
+    font-size: 18px;
+    width: 270px;
+  }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+   #mce-EMAIL {
+    font-size: 18px;
+    width: 270px;
+  }
+}
 
   .submit {
     height: 47px;
