@@ -280,6 +280,54 @@ ul {
   width: 350px;
 }
 
+/*iPhone < 5*/
+@media screen and (device-aspect-ratio: 2/3) {
+    
+    #mce-EMAIL {
+      width: 350px;
+    }
+
+}
+
+/*iPhone 5 & 5S Portrait & landscape:*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+    #mce-EMAIL {
+      width: 350px;
+    }
+}
+
+/*iPhone 6 & 6S Portrait & landscape*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+
+      #mce-EMAIL {
+      width: 350px;
+    }
+}
+
+/*iPhone 6 Plus:*/
+@media screen and (device-aspect-ratio: 16/9) {
+    
+    #mce-EMAIL {
+      width: 350px;
+    }
+
+}
+
+/*iPad:*/
+@media screen and (device-aspect-ratio: 3/4) {
+
+      #mce-EMAIL {
+      width: 350px;
+    }
+}
+
+
+
 #mce-EMAIL, .submit, .button {
   font-family: ostrich_font;
   font-size: 24px;
