@@ -14,17 +14,21 @@ body, html, #navbar {
 /*For phones*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 450px) {
     body, html, #navbar {
+      background: url('../images/spectra-background.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
+}
+
 
   @media screen and (min-width: 768px) {
     body, html, #navbar {
+      background: url('../images/spectra-background.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
   }
-}
+
 
 
 
