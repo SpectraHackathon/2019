@@ -15,21 +15,27 @@ body, html, #navbar {
 @media only screen and (min-device-width : 320px) and (max-device-width : 450px) {
     body, html, #navbar {
       background: url('../images/spectra-background.jpg');
-      height: 100%;
-      width: 100%;
       background-repeat: no-repeat;
-      background-attachment: fixed;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+}
+
+/*Iphone 6 both portrait and landscape */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+
+    html {
+      background-color: #16171C; 
     }
 }
 
 
   @media screen and (min-width: 768px) {
     body, html, #navbar {
-      background: url('../images/spectra-background.jpg');
-      height: 100%;
-      width: 100%;
       background-repeat: no-repeat;
-      background-attachment: fixed;
+      background-attachment: scroll;
     }
   }
 
