@@ -280,11 +280,18 @@ ul {
   width: 350px;
 }
 
+@media screen and (min-width: 768px) {
+  #mce-EMAIL {
+  width: 300px;
+ }
+
+}
+
 /*iPhone < 5*/
 @media screen and (device-aspect-ratio: 2/3) {
     
     #mce-EMAIL {
-      width: 350px;
+      width: 300px;
     }
 
 }
@@ -295,7 +302,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : landscape) {
     #mce-EMAIL {
-      width: 350px;
+      width: 300px;
     }
 }
 
@@ -322,7 +329,7 @@ and (max-device-width : 736px) {
 @media screen and (device-aspect-ratio: 3/4) {
 
       #mce-EMAIL {
-      width: 350px;
+      width: 400px;
     }
 }
 
