@@ -3,6 +3,8 @@ body, html {
   font-weight: 100;
   height: 100%;
   width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body, html, #navbar {
@@ -291,7 +293,7 @@ ul {
   background-color: transparent;
   border: 1px solid #ffffff;
   margin: 10px;
-  padding: 10px 20px;
+  padding: 7px 13px;
   position: center;
   transition: all 0.20s ease-in-out;
   -webkit-transition: all 0.20s ease-in-out;
@@ -304,9 +306,9 @@ ul {
   background: url("../images/arrow.png") no-repeat center;
   background-size: contain;
   font-family: "Roboto";
-  height: 56px;
-  width: 56px;
-  margin: 10px 10px 10px -66px !important;
+  height: 50px;
+  width: 50px;
+  margin: 10px 10px 10px -60px !important;
   padding: 10px !important;
   position: absolute;
 }
