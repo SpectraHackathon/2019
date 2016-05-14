@@ -282,7 +282,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   #mce-EMAIL {
-  width: 300px;
+  width: 250px;
 }
 
   #mce-EMAIL, .submit, .button {
@@ -311,7 +311,7 @@ ul {
 @media screen and (device-aspect-ratio: 2/3) {
     
     #mce-EMAIL {
-      width: 300px;
+      width: 200px;
     }
 
 }
@@ -350,7 +350,7 @@ and (min-device-width : 414px)
 and (max-device-width : 736px) {
 
       #mce-EMAIL {
-      width: 300px;
+      width: 250px;
     }
 }
 
