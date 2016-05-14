@@ -280,18 +280,11 @@ ul {
   width: 350px;
 }
 
-/*@media screen and (min-width: 375px) {
-  #mce-EMAIL {
-  width: 250px;
-  }
-
-}*/
-
 /*iPhone < 5*/
 @media screen and (device-aspect-ratio: 2/3) {
     
     #mce-EMAIL {
-      width: 200px;
+      width: 350px;
     }
 
 }
@@ -302,17 +295,17 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : landscape) {
     #mce-EMAIL {
-      width: 250px;
+      width: 350px;
     }
 }
 
-/*iPhone 6 & 6S Portrait & landscape*/
+/*iPhone 6 & 6S*/
 @media only screen 
 and (min-device-width : 414px) 
-and (max-device-width : 736px) {
+and (max-device-width : 736px) { /* STYLES GO HERE */}
 
       #mce-EMAIL {
-      width: 250px;
+      width: 350px;
     }
 }
 
@@ -320,7 +313,7 @@ and (max-device-width : 736px) {
 @media screen and (device-aspect-ratio: 16/9) {
     
     #mce-EMAIL {
-      width: 300px;
+      width: 350px;
     }
 
 }
@@ -329,14 +322,8 @@ and (max-device-width : 736px) {
 @media screen and (device-aspect-ratio: 3/4) {
 
       #mce-EMAIL {
-      font-size: 18px;
-      width: 450px;
+      width: 350px;
     }
-
-  .submit {
-    height: 47px;
-    width: 47px;
-    margin: 10px 10px 10px -57px !important;
 }
 
 
