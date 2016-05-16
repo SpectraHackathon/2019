@@ -7,7 +7,6 @@ body, html {
 
 body, html, #navbar {
   background: url('../images/spectra-background.jpg');
-   background-repeat: no-repeat;
    background-attachment: fixed;
 }
 
