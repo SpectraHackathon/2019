@@ -76,7 +76,7 @@ body, html, #navbar {
   width: 100%;
 }
 
-.img-responsive {
+.logo {
   margin: 100px auto;
 }
 
@@ -86,7 +86,7 @@ body, html, #navbar {
     height: 100%;
   }
 
-  .intro-body #mc_embed_signup_scroll p{
+  .intro-body #mc_embed_signup_scroll p {
     margin-top: 0;
   }
 }
@@ -97,7 +97,7 @@ body, html, #navbar {
   vertical-align: middle;
 }
 
-.intro-body #signup {
+.intro-body .signup {
   padding-top: 0;
 }
 
@@ -282,7 +282,8 @@ ul {
 /* INPUT, BUTTONS */
 
 #mce-EMAIL {
-  width: 350px;
+  width: 300px;
+  margin: auto;
 }
 
 /*iPhone < 5*/
@@ -307,8 +308,7 @@ and (orientation : landscape) {
 /*iPhone 6 & 6S*/
 @media only screen 
 and (min-device-width : 414px) 
-and (max-device-width : 736px) { /* STYLES GO HERE */}
-
+and (max-device-width : 736px) {
       #mce-EMAIL {
       width: 350px;
     }
@@ -316,19 +316,16 @@ and (max-device-width : 736px) { /* STYLES GO HERE */}
 
 /*iPhone 6 Plus:*/
 @media screen and (device-aspect-ratio: 16/9) {
-    
-    #mce-EMAIL {
-      width: 350px;
-    }
-
+  #mce-EMAIL {
+    width: 300px;
+  }
 }
 
 /*iPad:*/
 @media screen and (device-aspect-ratio: 3/4) {
-
-      #mce-EMAIL {
-      width: 350px;
-    }
+  #mce-EMAIL {
+    width: 350px;
+  }
 }
 
 
@@ -432,21 +429,19 @@ and (max-device-width : 736px) { /* STYLES GO HERE */}
 /*For desktops / Laptops*/
 @media only screen  and (min-width : 1224px) {
   #mce-EMAIL {
-    font-size: 18px;
+    font-size: 24px;
     width: 400px;
   }
 
   .submit {
-    height: 47px;
-    width: 47px;
-    margin: 10px 10px 10px -57px !important;
+    height: 56px;
+    width: 56px;
+    margin: 10px 10px 10px -66px !important;
   }
 
   .button {
     margin-left: 0px;
   }
-
-
 }
 
 
@@ -500,7 +495,6 @@ footer a {
 
 /* Small */
 @media screen and (min-width: 768px) {
-
   footer .social-icons {
     float: initial;
     font-size: 25px;
@@ -560,27 +554,26 @@ h1 {
 /*Image Hovers*/
 
 .hover figure img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .1s ease-in-out;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .1s ease-in-out;
 }
 .hover figure:hover img {
-	opacity: .5;
+  opacity: .5;
 }
 
 .hover .text p {
-	color: white;
-	font-size: 15px;
-	position:relative;
-	bottom:100px;
-	left:0px;
-	visibility:hidden;
-    -webkit-transition: .1s ease-in-out;
-
+  color: white;
+  font-size: 15px;
+  position:relative;
+  bottom:100px;
+  left:0px;
+  visibility:hidden;
+  -webkit-transition: .1s ease-in-out;
 }
 
 .hover:hover .text {
-visibility:visible;
+  visibility: visible;
 }
 
 /*Team Photos*/
