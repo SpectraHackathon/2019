@@ -5,18 +5,23 @@ body, html {
   width: 100%;
 }
 
-body, html, #navbar {
+body, #navbar {
   background: url('../images/spectra-background.jpg');
-   background-attachment: fixed;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-/*@media screen and (min-width: 768px) {
-  body, html, #navbar {
-    background-repeat: no-repeat;
-    background-size: fixed;
+@media screen and (max-width: 760px) {
+  body {
+    background: url('../images/spectra-background-mobile.png');
+    background-size: 100%;
+  }
+
+  #navbar {
+    background: #222;
   }
 }
-*/
+
 
 /* HEADER */
 
