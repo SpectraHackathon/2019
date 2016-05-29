@@ -1,3 +1,5 @@
+/* GENERAL */
+
 body, html {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -5,112 +7,17 @@ body, html {
   width: 100%;
 }
 
-body, #navbar {
-  background: url('../images/spectra-background.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-@media screen and (max-width: 760px) {
-  body {
-    background: url('../images/spectra-background-mobile.png');
-    background-size: 100%;
-  }
-
-  #navbar {
-    background: #222;
-  }
-}
-
-
-/* HEADER */
-
-.navbar-fixed-top {
- border-width: 0;
-}
-
-.navbar {
-  font-family: ostrich_font;
-  letter-spacing: 2px;
-}
-
-
-/* Small */
-@media screen and (min-width: 768px) {
-  .navbar-fixed-top .navbar-nav {
-    width: 100%;
-  }
-
-  .navbar-nav h3 {
-    margin-top: 45px;
-  }
-}
-
-
-.navbar-fixed-top .navbar-nav li {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.navbar-fixed-top .navbar-nav a {
-  padding: 0px 0px 10px 4px;
-  color: #ffffff;
-  border-bottom: 1px solid transparent;    
-  transition: 0.5s ease;
-}
-
-.navbar-fixed-top .navbar-nav li:hover a,
-.navbar-fixed-top .navbar-nav li.active a {
-  border-bottom: 1px solid #ffffff;
-  text-decoration: none;
-  /*color: #7976b7;*/
-}
-
-/* CUSTOM FONT */
-
-@font-face {
-  font-family: ostrich_font;
-  src: local(ostrich_font), url('../fonts/ostrich-regular.ttf') format('opentype');
-}
-
-/* LOGO */
-
-.intro {
-  display: table;
-  height: 75%;
-  width: 100%;
-}
-
-.logo {
-  margin: 100px auto;
-}
-
-/* Small */
-@media screen and (min-width: 768px) {
-  .intro {
-    height: 100%;
-  }
-
-  .intro-body #mc_embed_signup_scroll p {
-    margin-top: 0;
-  }
-}
-
-.intro-body {
-  display: table-cell;
-  padding-top: 75px;
-  vertical-align: middle;
-}
-
-.intro-body .signup {
-  padding-top: 0;
-}
-
-
 h2 {
   color: #fff;
   font-family: ostrich_font;
   letter-spacing: 6px;
+}
+
+h3 {
+  color: #fff;
+  font-family: ostrich_font;
+  letter-spacing: 4px;
+  font-size: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -123,14 +30,117 @@ h2 {
   }
 }
 
-h3 {
-  color: #fff;
-  font-family: ostrich_font;
-  letter-spacing: 4px;
-  font-size: 24px;
+/* BACKGROUND */
+
+body, #navbar {
+  background: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }
-#location h3 {
-  padding-bottom: 30px;
+
+@media screen and (max-device-width: 1024px) {
+  body {
+    background: url('../images/background-mobile.png');
+    background-size: 100%;
+  }
+  #navbar {
+    background: rgba(0, 0, 0, .5);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #navbar {
+    background: rgba(0, 0, 0, .5);
+  }
+}
+
+/* NAV */
+
+.navbar {
+  font-family: ostrich_font;
+  letter-spacing: 2px;
+}
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, .5);
+  border-color: rgba(0, 0, 0, .5);
+}
+
+.navbar-fixed-top {
+  border-width: 0;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 420px;
+}
+
+.navbar-fixed-top .navbar-nav li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.navbar-fixed-top .navbar-nav a {
+  padding: 0px 0px 10px 4px;
+  color: #fff;
+  border-bottom: 1px solid transparent;    
+  transition: 0.5s ease;
+}
+
+.navbar-fixed-top .navbar-nav li:hover a,
+.navbar-fixed-top .navbar-nav li.active a {
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-fixed-top .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav h3 {
+    margin-top: 45px;
+  }
+}
+
+/* FONT */
+
+@font-face {
+  font-family: ostrich_font;
+  src: local(ostrich_font), url('../fonts/ostrich-regular.ttf') format('opentype');
+}
+
+/* INTRO */
+
+.intro {
+  display: table;
+  height: 75%;
+  width: 100%;
+}
+
+.intro-body {
+  display: table-cell;
+  padding-top: 75px;
+  vertical-align: middle;
+}
+
+.intro-body .signup {
+  padding-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    height: 100%;
+  }
+
+  .intro-body #mc_embed_signup_scroll p {
+    margin-top: 0;
+  }
+}
+
+/* LOGO */
+
+.logo {
+  margin: 100px auto;
 }
 
 /* CONTENT */
@@ -141,7 +151,6 @@ h3 {
   padding-bottom: 60px;
 }
 
-/* Small */
 @media screen and (min-width: 768px) {
   .content-section {
     padding-top: 120px;
@@ -153,20 +162,6 @@ h3 {
   font-size: 18px;
   font-weight: 300;
   margin: 25px 0;
-}
-
-.overlay{
-  position:inherit;
-  background: url('../images/spectra-background.jpg');
-  -webkit-animation:100s scroll infinite linear;
-  -moz-animation:100s scroll infinite linear;
-  -o-animation:100s scroll infinite linear;
-  -ms-animation:100s scroll infinite linear;
-  animation:100s scroll infinite linear;
-  top:0;
-  left:0;
-  width:100%;
- height:100%;
 }
 
 @-webkit-keyframes scroll{
@@ -200,7 +195,7 @@ h3 {
 }
 
 .content-section-overview {
-  /* border-top: 10px solid indigo; */
+
 }
 
 .content-section-faq {
@@ -252,7 +247,6 @@ ul {
   border: 1px solid #ccc;
 }
 
-/* Small */
 @media screen and (min-width: 768px) {
   .faq-card {
     margin: 0 0 20px;
@@ -276,7 +270,16 @@ ul {
   text-decoration: none;
 }
 
-/* MAP */
+/* LOCATION */
+
+#location h3 {
+  padding-bottom: 30px;
+}
+
+#location img {
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
 
 #map {
   float: none;
@@ -291,50 +294,6 @@ ul {
   margin: auto;
 }
 
-/*iPhone < 5*/
-@media screen and (device-aspect-ratio: 2/3) {
-    
-    #mce-EMAIL {
-      width: 350px;
-    }
-
-}
-
-/*iPhone 5 & 5S Portrait & landscape:*/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : landscape) {
-    #mce-EMAIL {
-      width: 350px;
-    }
-}
-
-/*iPhone 6 & 6S*/
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
-      #mce-EMAIL {
-      width: 350px;
-    }
-}
-
-/*iPhone 6 Plus:*/
-@media screen and (device-aspect-ratio: 16/9) {
-  #mce-EMAIL {
-    width: 300px;
-  }
-}
-
-/*iPad:*/
-@media screen and (device-aspect-ratio: 3/4) {
-  #mce-EMAIL {
-    width: 350px;
-  }
-}
-
-
-
 #mce-EMAIL, .submit, .button {
   font-family: ostrich_font;
   font-size: 24px;
@@ -343,7 +302,7 @@ and (max-device-width : 736px) {
   text-align: center;
   color: white;
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   margin: 10px;
   padding: 10px 20px;
   position: center;
@@ -365,13 +324,28 @@ and (max-device-width : 736px) {
   position: absolute;
 }
 
-.button {
-  margin-left: -4px;
+@media only screen and (max-device-width : 450px) {
+  #mce-EMAIL {
+    font-size: 18px;
+    width: 240px;
+  }
+
+  .submit {
+    height: 47px;
+    width: 47px;
+    margin: 10px 10px 10px -57px !important;
+  }
+}
+
+@media only screen  and (min-width : 768px) {
+  #mce-EMAIL {
+    width: 400px;
+  }
 }
 
 #mce-EMAIL:focus, #mce-EMAIL:active, #mce-EMAIL:focus:active, #mce-EMAIL:hover, .button:hover {
-  outline: #ffffff;
-  box-shadow: 0 0 6px #ffffff;
+  outline: #fff;
+  box-shadow: 0 0 6px #fff;
   -webkit-box-shadow: #7976b7;
   -moz-box-shadow: #7976b7;
 }
@@ -393,65 +367,30 @@ and (max-device-width : 736px) {
   text-align: center;
 }
 
-/* Small */
-/*@media screen and (max-width: 768px) {
-  #mce-EMAIL {
-    font-size: 18px;
-    width: 250px;
-  }
-
-  .submit {
-    height: 47px;
-    width: 47px;
-    margin: 10px 10px 10px -57px !important;
-  }
-
-  .button {
-    margin-left: 0px;
-  }
-}*/
-
-/*For smart phones*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 450px) {
-  #mce-EMAIL {
-    font-size: 18px;
-    width: 240px;
-  }
-
-  .submit {
-    height: 47px;
-    width: 47px;
-    margin: 10px 10px 10px -57px !important;
-  }
-
-  .button {
-    margin-left: 0px;
-  }
-}
-
-
-
-/*For desktops / Laptops*/
-@media only screen  and (min-width : 1224px) {
-  #mce-EMAIL {
-    font-size: 24px;
-    width: 400px;
-  }
-
-  .submit {
-    height: 56px;
-    width: 56px;
-    margin: 10px 10px 10px -66px !important;
-  }
-
-  .button {
-    margin-left: 0px;
-  }
-}
-
-
 #mc-embedded-subscribe {
   padding: 8px 20px;
+}
+
+/* PLACEHOLDER TEXT */
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+:-moz-placeholder {
+  text-align: center;
+  color: white;
+}
+
+::-moz-placeholder {
+  text-align: center;
+  color: white;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: white;
 }
 
 /* FOOTER */
@@ -481,16 +420,10 @@ footer a {
 }
 
 .social-icons {
- float: initial;
- font-family: ostrich_font;
- font-size: 18px;
- /*left: 40px;*/
- letter-spacing: 4px; 
- 
-}
-
-.social-icons .link {
-  margin-right: 0;
+  float: initial;
+  font-family: ostrich_font;
+  font-size: 18px;
+  letter-spacing: 4px;
 }
 
 .social-icons a {
@@ -498,7 +431,15 @@ footer a {
   text-decoration: none !important;
 }
 
-/* Small */
+.social-icons .link {
+  margin-right: 0;
+}
+
+.copyright {
+  font-weight: 100;
+  font-family: "Roboto";
+}
+
 @media screen and (min-width: 768px) {
   footer .social-icons {
     float: initial;
@@ -515,12 +456,7 @@ footer a {
   }
 }
 
-.copyright {
-  font-weight: 100;
-  font-family: "Roboto";
-}
-
-/*Team Page*/
+/* TEAM */
 
 div.img {
  /* border: 1px solid #ccc;*/
@@ -583,40 +519,11 @@ h1 {
 
 /*Team Photos*/
 .img-circle {
-    border-radius: 50%;
-     width: 150px;
+  border-radius: 50%;
+  width: 150px;
 }
 
-/*Making Placeholder text center*/
-::-webkit-input-placeholder {
-   text-align: center;
-   color: white;
-
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   text-align: center;  
-   color: white;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   text-align: center;  
-   color:; white; 
-}
-
-:-ms-input-placeholder {  
-   text-align: center; 
-   color: white;
-}
 .data-scroll a{
   color: white; 
   text-decoration: none;
-
 }
-
-#location img {
-  margin-bottom: 10px;
-  margin-top: -20px;
-}
-}
-
