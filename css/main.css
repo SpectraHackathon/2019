@@ -83,7 +83,11 @@ body, #navbar {
   padding: 0px 0px 10px 4px;
   color: #fff;
   border-bottom: 1px solid transparent;    
-  transition: 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
 .navbar-fixed-top .navbar-nav li:hover a,
@@ -99,7 +103,13 @@ body, #navbar {
 
   .navbar-nav h3 {
     margin-top: 45px;
+    margin-bottom: 10px;
   }
+}
+
+.data-scroll a {
+  color: white;
+  text-decoration: none;
 }
 
 /* FONT */
@@ -211,11 +221,7 @@ body, #navbar {
 }
 
 .content-section-team {
-  color: white;
-}
 
-.content-section-team img {
-  margin: 0 auto;
 }
 
 .content-section-register {
@@ -307,11 +313,11 @@ ul {
   margin: 10px;
   padding: 10px 20px;
   position: center;
-  transition: all 0.20s ease-in-out;
-  -webkit-transition: all 0.20s ease-in-out;
-  -moz-transition: all 0.20s ease-in-out;
-  -ms-transition: all 0.20s ease-in-out;
-  -o-transition: all 0.20s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 
 .submit {
@@ -459,72 +465,63 @@ footer a {
 
 /* TEAM */
 
-div.img {
- /* border: 1px solid #ccc;*/
-  float: left;
-  margin: 10px;
-  width: 200px;
-}
-
-div.img img {
-  width: 100%;
-}
-/*
-div.img:hover {
-  border: 1px solid #666;
-}*/
-
-/*div.name {
-  font-family: "Arial";
-  padding: 5px;
-  text-align: center;
-}*/
-
-div.role {
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 100;  
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-h1 {
-  font-family: "Roboto";
+.member {
+  max-width: 200px;
+  margin: 20px auto;
   padding: 10px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 
-/*Image Hovers*/
+@media screen and (min-width: 992px) {
+  #team .col-md-4 {
+    width: 26%;
+  }
 
-.hover figure img {
-  opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .1s ease-in-out;
-}
-.hover figure:hover img {
-  opacity: .5;
-}
-
-.hover .text p {
-  color: white;
-  font-size: 15px;
-  position:relative;
-  bottom:100px;
-  left:0px;
-  visibility:hidden;
-  -webkit-transition: .1s ease-in-out;
+  #team .col-md-0 {
+    width: 11%;
+  }
 }
 
-.hover:hover .text {
-  visibility: visible;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .member .name {
+    font-size: 18px;
+  }
+
+  .member .role {
+    font-size: 12px;
+  }
+
+  #team .col-md-4 {
+    width: 31%;
+  }
+
+  #team .col-md-0 {
+    width: 0%;
+  }
 }
 
-/*Team Photos*/
+.member:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border: 1px solid #ccc;
+}
+
+.member .codirecta {
+  margin: auto 20px;
+}
+
 .img-circle {
+  margin: 10px 0 0 0;
   border-radius: 50%;
   width: 150px;
 }
 
-.data-scroll a{
-  color: white; 
-  text-decoration: none;
+.role {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 100;
 }
