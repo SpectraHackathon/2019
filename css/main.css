@@ -133,7 +133,7 @@ body, #navbar {
   vertical-align: middle;
 }
 
-.intro-body .signup {
+.intro-body .signup, .intro-body .register {
   padding-top: 0;
 }
 
@@ -295,7 +295,7 @@ ul {
 
 /* INPUT, BUTTONS */
 
-#mce-EMAIL {
+#mce-EMAIL, .button {
   width: 300px;
   margin: auto;
 }
@@ -313,11 +313,11 @@ ul {
   margin: 10px;
   padding: 10px 20px;
   position: center;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .submit {
@@ -369,7 +369,7 @@ ul {
   background-size: contain;
 }
 
-.buttons {
+.register {
   margin: auto;
   text-align: center;
 }
