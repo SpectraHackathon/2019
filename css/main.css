@@ -497,11 +497,11 @@ footer a {
   margin: 20px auto;
   padding: 10px;
   border: 1px solid transparent;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 @media screen and (min-width: 992px) {
@@ -537,6 +537,10 @@ footer a {
   border: 1px solid #ccc;
 }
 
+.member:hover .social {
+  visibility: visible;
+}
+
 .member .codirecta {
   margin: auto 20px;
 }
@@ -551,4 +555,14 @@ footer a {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 100;
+}
+
+.social {
+  margin: 20px 0;
+  visibility: hidden;
+}
+
+.social a {
+  margin: 0 2px;
+  color: white;
 }
