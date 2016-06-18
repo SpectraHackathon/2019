@@ -308,11 +308,6 @@ ul {
 
 /* INPUT, BUTTONS */
 
-#mce-EMAIL, .button {
-  width: 300px;
-  margin: auto;
-}
-
 #mce-EMAIL, .submit, .button {
   font-family: ostrich_font;
   font-size: 24px;
@@ -333,6 +328,11 @@ ul {
   -o-transition: all 0.3s ease-in-out;
 }
 
+#mce-EMAIL {
+  width: 300px;
+  margin: auto;
+}
+
 .submit {
   background: url("../images/arrow.png") no-repeat center;
   background-size: contain;
@@ -342,6 +342,20 @@ ul {
   margin: 10px 10px 10px -66px !important;
   padding: 10px !important;
   position: absolute;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 2px;
+  padding-right: 4px;
+  width: 400px;
+}
+
+@media only screen and (max-width : 500px) {
+  .button {
+    width: 300px;
+    padding-right: 12px;
+  }
 }
 
 @media only screen and (max-device-width : 450px) {
