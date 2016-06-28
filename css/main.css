@@ -7,8 +7,10 @@ body, html {
   width: 100%;
 }
 
-a {
-  color: #ff3333;
+a, a:hover {
+  color: #7976b7;
+  text-decoration: none;
+  font-weight: 300;
 }
 
 h2 {
