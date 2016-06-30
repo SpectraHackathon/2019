@@ -7,6 +7,12 @@ body, html {
   width: 100%;
 }
 
+a, a:hover {
+  color: #7976b7;
+  text-decoration: none;
+  font-weight: 300;
+}
+
 h2 {
   color: #fff;
   font-family: ostrich_font;
@@ -143,7 +149,7 @@ body, #navbar {
   left: 0;
   right: 0;
   font-size: 24px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   position: absolute;
   text-align: center;
   font-family: "Roboto";
