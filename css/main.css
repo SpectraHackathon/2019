@@ -562,4 +562,6 @@ footer a {
 
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
     border: none;
+    border-collapse: separate;
+    border-spacing: 0 1em;
 }
