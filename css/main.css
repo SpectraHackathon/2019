@@ -89,7 +89,7 @@ body, #navbar {
 .navbar-fixed-top .navbar-nav a {
   padding: 0px 0px 10px 4px;
   color: #fff;
-  border-bottom: 1px solid transparent;    
+  border-bottom: 1px solid transparent;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -561,10 +561,22 @@ footer a {
 }
 
 .table {
-    border-collapse: separate;
-    border-spacing: 0 1em;
+  border-collapse: separate;
+  border-spacing: 0 1em;
 }
 
-.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
-    border: none;
+.table-borderless tbody tr td, .table-borderless tbody tr th {
+  border: none;
+  font-size: 16px;
+}
+
+.table thead th {
+  font-size: 20px;
+}
+
+.table-container {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  width: 350px;
 }
