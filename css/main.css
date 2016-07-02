@@ -575,11 +575,18 @@ footer a {
 }
 
 .table-container {
-  border: 1px solid white;
-  background: rgba(0, 0, 0, .5);
   display: table;
-  margin: 50px auto 0;
+  margin: 20px auto 0;
   padding: 0 20px;
   text-align: left;
   width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .table-container {
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid white;
+    margin: 50px auto 0;
+    width: 400px;
+  }
 }
