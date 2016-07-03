@@ -567,6 +567,8 @@ footer a {
 .table {
   border-collapse: separate;
   border-spacing: 0 1em;
+  margin-bottom: 0px;
+  padding: 20px;
 }
 
 .table-borderless tbody tr td, .table-borderless tbody tr th {
@@ -575,31 +577,35 @@ footer a {
   font-weight: 300;
 }
 
+.table-borderless tbody tr td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .table thead th {
   font-size: 20px;
 }
 
 .table-container {
+  background: rgba(0, 0, 0, .5);
+  border: 1px solid white;
   display: table;
   margin: 20px auto 0;
-  padding: 0 20px;
   text-align: left;
-  width: 350px;
 }
 
 @media only screen and (max-width : 500px) {
   .table-container {
     margin: 0 10px;
     padding: 0;
-    width: 275px;
+  }
+  #schedule h2 {
+    margin-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .table-container {
-    background: rgba(0, 0, 0, .5);
-    border: 1px solid white;
     margin: 50px auto 0;
-    width: 400px;
   }
 }
