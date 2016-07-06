@@ -508,11 +508,11 @@ footer a {
   margin: 20px auto;
   padding: 10px;
   border: 1px solid transparent;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 @media screen and (min-width: 992px) {
@@ -546,6 +546,10 @@ footer a {
 .member:hover {
   background-color: rgba(0, 0, 0, .5);
   border: 1px solid #ccc;
+}
+
+.member:hover .social {
+  visibility: visible;
 }
 
 .member .codirecta {
@@ -608,4 +612,13 @@ footer a {
   .table-container {
     margin: 50px auto 0;
   }
+
+.social {
+  margin: 20px 0;
+  visibility: hidden;
+}
+
+.social a {
+  margin: 0 2px;
+  color: white;
 }
