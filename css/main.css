@@ -31,7 +31,7 @@ h4 {
   color: #fff;
   font-family: ostrich_font;
   letter-spacing: 4px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -588,8 +588,7 @@ footer a {
 .table-borderless tbody tr td, .table-borderless tbody tr th {
   border: none;
   font-family: ostrich_font;
-  font-size: 18px;
-
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: 4px;
 
