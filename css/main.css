@@ -623,3 +623,8 @@ footer a {
   margin: 0 2px;
   color: white;
 }
+
+.closed-reg {
+  font-family: ostrich_font;
+  font-size: 30px;
+}
