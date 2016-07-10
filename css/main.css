@@ -243,10 +243,13 @@ body, #navbar {
 .content-section-team {
 
 }
-
-.content-section-register {
+.content-section-workshops {
 
 }
+
+/*.content-section-register {
+
+}*/
 
 /* HACKATHON */
 
@@ -604,6 +607,10 @@ footer a {
     padding: 0;
   }
   #schedule h2 {
+    margin-bottom: 30px;
+  }
+
+  #workshop h2 {
     margin-bottom: 30px;
   }
 }
