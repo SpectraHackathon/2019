@@ -153,11 +153,11 @@ body, #navbar {
 
 .date {
   width: 100%;
-  margin: -64px auto 0 8px;
+  margin: -50px auto 0;
   left: 0;
   right: 0;
-  font-size: 24px;
-  letter-spacing: 5px;
+  font-size: 18px;
+  letter-spacing: 3px;
   position: absolute;
   text-align: center;
   font-family: "Roboto";
@@ -171,6 +171,12 @@ body, #navbar {
 
   .intro-body #mc_embed_signup_scroll p {
     margin-top: 0;
+  }
+
+  .date {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin: -80px auto 0 8px;
   }
 }
 
@@ -278,22 +284,23 @@ ul {
 .faq-card {
   background-color: rgba(0, 0, 0, .5);
   border-width: 2px;
-  margin: 0 20px 20px;
-  padding: 20px;
+  margin: 0 0 20px;
+  padding: 0 20px;
   border: 1px solid #ccc;
 }
 
 @media screen and (min-width: 768px) {
   .faq-card {
     margin: 0 0 20px;
+    padding: 0 40px;
   }
+
 }
 
 .faq-card p {
   color: #fff;
   font-size: 16px;
   text-align: left;
-  padding: 0 20px;
 /*  border-style: solid;*/
 }
 
@@ -414,6 +421,7 @@ ul {
 }
 
 .register {
+  font-weight: 300;
   margin: auto;
   text-align: center;
 }
@@ -582,7 +590,7 @@ footer a {
   border-collapse: separate;
   border-spacing: 0 1em;
   margin-bottom: 0px;
-  padding: 20px;
+  padding: 0 10px;
 }
 
 .table-borderless tbody tr td, .table-borderless tbody tr th {
@@ -590,13 +598,7 @@ footer a {
   font-family: ostrich_font;
   font-size: 17px;
   font-weight: 300;
-  letter-spacing: 4px;
-
-}
-
-.table-borderless tbody tr td {
-  padding-left: 20px;
-  padding-right: 20px;
+  letter-spacing: 1px;
 }
 
 .table thead th {
@@ -609,13 +611,18 @@ footer a {
   display: table;
   margin: 20px auto 0;
   text-align: left;
+  width: 100%;
+}
+
+#workshops td {
+  width: 55%;
 }
 
 @media only screen and (max-width : 500px) {
   .table-container {
-    margin: 0 10px;
     padding: 0;
   }
+
   #schedule h2 {
     margin-bottom: 30px;
   }
@@ -628,6 +635,20 @@ footer a {
 @media screen and (min-width: 768px) {
   .table-container {
     margin: 50px auto 0;
+    width: auto;
+  }
+
+  .table-borderless tbody tr td {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .table-borderless tbody tr td, .table-borderless tbody tr th {
+    letter-spacing: 4px;
+  }
+
+  #workshops td {
+    width: auto;
   }
 }
 
@@ -643,6 +664,15 @@ footer a {
 
 .closed-reg {
   font-family: ostrich_font;
-  font-size: 30px;
-  letter-spacing: 4px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  .closed-reg {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-top: 40px;
+  }
 }
