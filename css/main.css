@@ -675,4 +675,9 @@ footer a {
     letter-spacing: 4px;
     margin-top: 40px;
   }
+  ul {
+      font-size: 15px; 
+  }
 }
+
+
