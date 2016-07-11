@@ -157,6 +157,7 @@ body, #navbar {
   left: 0;
   right: 0;
   font-size: 18px;
+  letter-spacing: 3px;
   position: absolute;
   text-align: center;
   font-family: "Roboto";
@@ -174,6 +175,7 @@ body, #navbar {
 
   .date {
     font-size: 24px;
+    letter-spacing: 5px;
     margin: -40px auto 0 8px;
   }
 }
@@ -593,8 +595,10 @@ footer a {
 
 .table-borderless tbody tr td, .table-borderless tbody tr th {
   border: none;
+  font-family: ostrich_font; 
   font-size: 16px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .table thead th {
@@ -637,14 +641,34 @@ footer a {
   }
 
   .table-borderless tbody tr td {
-    padding-left: 20px;
-    padding-right: 20px;
+    letter-spacing: 4px;
   }
 
   #workshops td {
-    width: auto;
+    width: 55%;
+    max-width: 260px; 
+    text-align: center;
   }
 }
+
+.closed-reg {
+   font-family: ostrich_font;
+   font-size: 18px;
+   letter-spacing: 3px;
+   margin-top: -30px;
+ }
+ 
+ @media screen and (min-width: 768px) {
+   .closed-reg {
+     font-size: 30px;
+     letter-spacing: 4px;
+     margin-top: 40px;
+   }
+   .square {
+     font-size: 15px; 
+   }
+ 
+ }
 
 .social {
   margin: 20px 0;
