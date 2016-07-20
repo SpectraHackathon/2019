@@ -600,6 +600,7 @@ footer a {
   font-weight: 300;
   letter-spacing: 1px;
   padding: 2px;
+  padding-right: 30px;
 }
 
 .table thead th {
