@@ -623,6 +623,9 @@ footer a {
 }
 
 @media only screen and (max-width : 500px) {
+  .table{
+    padding-right: 20px;
+  }
   .table-container {
     padding: 0;
   }
@@ -637,6 +640,9 @@ footer a {
 }
 
 @media screen and (min-width: 768px) {
+  .table{
+    padding-right: 20px;
+  }
   .table-container {
     margin: 50px auto 0;
     width: auto;
