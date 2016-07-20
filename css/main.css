@@ -608,6 +608,7 @@ footer a {
 
 .table td {
   width: auto;
+  min-width: 170px;
 }
 
 .table-container {
@@ -625,9 +626,13 @@ footer a {
   text-align: center;
 }
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width: 500px) {
   .table {
     padding: 0 10px;
+  }
+
+  .table td {
+    min-width: 100px;
   }
 
   .table-container {
