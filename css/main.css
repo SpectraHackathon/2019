@@ -599,6 +599,7 @@ footer a {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
+  padding: 2px;
 }
 
 .table thead th {
@@ -641,7 +642,7 @@ footer a {
   }
 
   .table-borderless tbody tr td {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
   }
 
   #workshops td {
