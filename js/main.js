@@ -8,12 +8,14 @@ function init() {
 
 function initializeMap() {
   // var siliconValley = new google.maps.LatLng(37.6279340,-122.42666);
+  var isDraggable = $(document).width() > 480 ? true : false;
   var siliconValley = new google.maps.LatLng(37.6279340,-122.42666);
   var mapContainer = document.getElementById("map");
   var mapOptions = {
     center: siliconValley,
     scrollwheel: false,
-    zoom: 12
+    zoom: 12,
+    draggable: isDraggable
   };
   var map = new google.maps.Map(mapContainer, mapOptions);
   var marker = new google.maps.Marker({
@@ -24,4 +26,3 @@ function initializeMap() {
 }
 
 $(document).ready(init);
-
