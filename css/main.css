@@ -335,6 +335,19 @@ ul {
   font-weight: 300;
 }
 
+#schedule .date {
+  width: 680px;
+  margin: auto;
+}
+
+#schedule a {
+  color: white;
+}
+
+#schedule a:hover {
+  color: #7976b7;
+}
+
 /* LOCATION */
 
 #location h3 {
