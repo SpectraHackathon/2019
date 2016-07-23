@@ -284,7 +284,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.faq-card {
+.faq-card, .workshop-card {
   background-color: rgba(0, 0, 0, .5);
   border-width: 2px;
   margin: 0 0 20px;
@@ -297,10 +297,17 @@ ul {
     margin: 0 0 20px;
     padding: 0 40px;
   }
+  .workshop-card {
+    padding: 20px 40px;
+  }
 
 }
 
-.faq-card p {
+.bold {
+  font-weight: 800;
+}
+
+.faq-card p, .workshop-card {
   color: #fff;
   font-size: 16px;
   text-align: left;
@@ -314,6 +321,18 @@ ul {
 .faq-card a:hover {
   color: #7976b7;
   text-decoration: none;
+}
+
+.workshop-card {
+  font-family: "Roboto";
+  width: 690px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.workshop-card p {
+  font-size: 16px;
+  font-weight: 300;
 }
 
 /* LOCATION */
