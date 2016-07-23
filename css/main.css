@@ -168,6 +168,15 @@ body, #navbar {
   letter-spacing: 0px;
 }
 
+.announce {
+  font-size: 18px !important;
+  letter-spacing: 0px !important;
+}
+
+.announce a {
+  color: #7976b7 !important;
+}
+
 @media screen and (min-width: 768px) {
   .intro {
     height: 100%;
@@ -336,7 +345,7 @@ ul {
 }
 
 #schedule .date {
-  width: 680px;
+  width: 600px;
   margin: auto;
 }
 
