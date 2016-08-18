@@ -149,6 +149,7 @@ body, #navbar {
 
 .intro-body .signup, .intro-body .register {
   padding-top: 0;
+  margin-top: -30px;
 }
 
 .date {
@@ -202,14 +203,7 @@ body, #navbar {
 
 .content-section {
   min-height: 300px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-@media screen and (min-width: 768px) {
-  .content-section {
-    padding-top: 120px;
-  }
+  padding: 90px 0;
 }
 
 .content-section p {
@@ -282,6 +276,20 @@ body, #navbar {
   margin-bottom: 50px;
 }
 
+/* OVERVIEW */
+
+@media screen and (min-width: 768px) {
+  #overview .container {
+    position: relative;
+    transform: translateY(20%);
+  }
+
+  #subscribe .container {
+    position: relative;
+    transform: translateY(15%);
+  }
+}
+
 /* FAQ */
 
 ul {
@@ -349,7 +357,7 @@ ul {
   margin: auto;
 }
 
-#schedule a {
+#schedule td a {
   color: white;
 }
 
