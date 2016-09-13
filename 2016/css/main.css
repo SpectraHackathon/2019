@@ -1,0 +1,724 @@
+/* GENERAL */
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+a, a:hover {
+  color: #7976b7;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+h2 {
+  color: #fff;
+  font-family: ostrich_font;
+  letter-spacing: 6px;
+}
+
+h3 {
+  color: #fff;
+  font-family: ostrich_font;
+  letter-spacing: 4px;
+  font-size: 24px;
+}
+
+h4 {
+  color: #fff;
+  font-family: ostrich_font;
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 36pt;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+/* BACKGROUND */
+
+body, #navbar {
+  background: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media screen and (max-device-width: 1024px) {
+  body {
+    background: url('../images/background-mobile.png');
+    background-size: 100%;
+  }
+  #navbar {
+    background: rgba(0, 0, 0, .5);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #navbar {
+    background: rgba(0, 0, 0, .5);
+  }
+}
+
+/* NAV */
+
+.navbar {
+  font-family: ostrich_font;
+  letter-spacing: 2px;
+}
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, .5);
+  border-color: rgba(0, 0, 0, .5);
+}
+
+.navbar-fixed-top {
+  border-width: 0;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 420px;
+}
+
+.navbar-fixed-top .navbar-nav li {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.navbar-fixed-top .navbar-nav a {
+  padding: 0px 0px 10px 4px;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.navbar-fixed-top .navbar-nav li:hover a,
+.navbar-fixed-top .navbar-nav li.active a {
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-fixed-top .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav h3 {
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+}
+
+.data-scroll a {
+  color: white;
+  text-decoration: none;
+}
+
+/* FONT */
+
+@font-face {
+  font-family: ostrich_font;
+  src: local(ostrich_font), url('../fonts/ostrich-regular.ttf') format('opentype');
+}
+
+/* INTRO */
+
+.intro {
+  display: table;
+  height: 75%;
+  width: 100%;
+}
+
+.intro-body {
+  display: table-cell;
+  padding-top: 75px;
+  vertical-align: middle;
+}
+
+.intro-body .signup, .intro-body .register {
+  padding-top: 0;
+  margin-top: -30px;
+}
+
+.date {
+  width: 100%;
+  margin: -80px auto 0;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 200;
+}
+
+.date span {
+  font-size: 18px;
+  letter-spacing: 0px;
+}
+
+.announce {
+  font-size: 18px !important;
+  letter-spacing: 0px !important;
+}
+
+.announce a {
+  color: #7976b7 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    height: 100%;
+  }
+
+  .intro-body #mc_embed_signup_scroll p {
+    margin-top: 0;
+  }
+
+  .date {
+    font-size: 24px;
+    margin: -70px auto 0 8px;
+  }
+}
+
+/* LOGO */
+
+.logo {
+  margin: 100px auto;
+}
+
+/* CONTENT */
+
+.content-section {
+  min-height: 300px;
+  padding: 90px 0;
+}
+
+.content-section p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 25px 0;
+}
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+.content-section-overview {
+
+}
+
+.content-section-faq {
+
+}
+
+.content-section-location {
+
+}
+
+.content-section-schedule {
+
+}
+
+.content-section-team {
+
+}
+.content-section-workshops {
+
+}
+
+/*.content-section-register {
+
+}*/
+
+/* HACKATHON */
+
+#hackathon h2 {
+  margin-bottom: 50px;
+}
+
+/* OVERVIEW */
+
+@media screen and (min-width: 768px) {
+  #overview .container {
+    position: relative;
+    transform: translateY(20%);
+  }
+
+  #subscribe .container {
+    position: relative;
+    transform: translateY(15%);
+  }
+}
+
+/* FAQ */
+
+ul {
+  list-style: none;
+  color: #fff;
+}
+
+#faq .header {
+  margin-bottom: 20px;
+}
+
+.faq-card, .workshop-card {
+  background-color: rgba(0, 0, 0, .5);
+  border-width: 2px;
+  margin: 0 0 20px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+}
+
+@media screen and (min-width: 768px) {
+  .faq-card {
+    margin: 0 0 20px;
+    padding: 0 40px;
+  }
+  .workshop-card {
+    padding: 20px 40px;
+  }
+
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.faq-card p, .workshop-card {
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+/*  border-style: solid;*/
+}
+
+.faq-card a {
+  color: #fff;
+}
+
+.faq-card a:hover {
+  color: #7976b7;
+  text-decoration: none;
+}
+
+.workshop-card {
+  font-family: "Roboto";
+  width: 690px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.workshop-card p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#schedule .date {
+  width: 600px;
+  margin: auto;
+}
+
+#schedule td a {
+  color: white;
+}
+
+#schedule a:hover {
+  color: #7976b7;
+}
+
+/* LOCATION */
+
+#location h3 {
+  padding-bottom: 30px;
+}
+
+#location img {
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+#map {
+  float: none;
+  height: 500px;
+  margin: 25px auto;
+}
+
+/* INPUT, BUTTONS */
+
+#mce-EMAIL, .submit, .button {
+  font-family: ostrich_font;
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  margin: 10px;
+  padding: 10px 20px;
+  position: center;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+#mce-EMAIL {
+  width: 300px;
+  margin: auto;
+}
+
+.submit {
+  background: url("../images/arrow.png") no-repeat center;
+  background-size: contain;
+  font-family: "Roboto";
+  height: 56px;
+  width: 56px;
+  margin: 0px 10px 10px -56px !important;
+  padding: 10px !important;
+  position: absolute;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 2px;
+  padding-right: 4px;
+  width: 400px;
+}
+
+@media only screen and (max-width : 500px) {
+  .button {
+    width: 250px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-device-width : 450px) {
+  #mce-EMAIL {
+    font-size: 18px;
+    width: 240px;
+  }
+
+  .submit {
+    height: 46px;
+    width: 46px;
+    margin: 1px 10px 10px -46px !important;
+  }
+}
+
+@media only screen  and (min-width : 768px) {
+  #mce-EMAIL {
+    width: 400px;
+  }
+}
+
+#mce-EMAIL:focus, #mce-EMAIL:active, #mce-EMAIL:focus:active, #mce-EMAIL:hover, .button:hover {
+  outline: #fff;
+  box-shadow: 0 0 6px #fff;
+  -webkit-box-shadow: #7976b7;
+  -moz-box-shadow: #7976b7;
+}
+
+.submit:focus, .submit:active, .submit:focus:active, .button:focus, .button:active, .button:focus:active {
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.submit:hover {
+  background: url("../images/arrow_hover.png") no-repeat center;
+  background-size: contain;
+}
+
+.register {
+  font-weight: 300;
+  margin: auto;
+  text-align: center;
+}
+
+#mc-embedded-subscribe {
+  padding: 8px 20px;
+}
+
+/* PLACEHOLDER TEXT */
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+:-moz-placeholder {
+  text-align: center;
+  color: white;
+}
+
+::-moz-placeholder {
+  text-align: center;
+  color: white;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  color: white;
+  padding: 30px 0;
+}
+
+footer ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer a {
+  color: white !important;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.social-icons {
+  float: initial;
+  font-family: ostrich_font;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.social-icons a {
+  font-size: 25px;
+  text-decoration: none !important;
+}
+
+.social-icons .link {
+  margin-right: 0;
+}
+
+.copyright {
+  font-weight: 100;
+  font-family: "Roboto";
+}
+
+.copyright-container {
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  footer .social-icons {
+    float: initial;
+    font-size: 25px;
+  }
+
+  footer .social-icons a {
+    font-size: 30px;
+  }
+
+  footer .copyright-container {
+    display: inline;
+    margin-left: 20px;
+  }
+}
+
+/* TEAM */
+
+.member {
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 992px) {
+  #team .col-md-4 {
+    width: 26%;
+  }
+
+  #team .col-md-0 {
+    width: 11%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .member .name {
+    font-size: 18px;
+  }
+
+  .member .role {
+    font-size: 12px;
+  }
+
+  #team .col-md-4 {
+    width: 31%;
+  }
+
+  #team .col-md-0 {
+    width: 0%;
+  }
+}
+
+.member:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border: 1px solid #ccc;
+}
+
+.member:hover .social {
+  visibility: visible;
+}
+
+.member .codirecta {
+  margin: auto 20px;
+}
+
+.img-circle {
+  margin: 10px 0 0 0;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.role {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  margin-bottom: 0px;
+  padding: 10px 20px;
+}
+
+.table-borderless tbody tr td, .table-borderless tbody tr th {
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.table thead th {
+  font-size: 20px;
+}
+
+.table td {
+  width: auto;
+  min-width: 170px;
+}
+
+.table-container {
+  background: rgba(0, 0, 0, .5);
+  border: 1px solid white;
+  display: table;
+  margin: 20px auto 0;
+  text-align: left;
+  width: 100%;
+}
+
+#workshops td {
+  width: 55%;
+  max-width: 260px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .table {
+    padding: 0 10px;
+  }
+
+  .table td {
+    min-width: 100px;
+  }
+
+  .table-container {
+    padding: 0;
+  }
+
+  #schedule h2 {
+    margin-bottom: 30px;
+  }
+
+  #workshops h2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .table-container {
+    margin: 50px auto 0;
+    width: auto;
+  }
+
+  .table-borderless tbody tr td {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #workshops td {
+    width: auto;
+  }
+}
+
+.social {
+  margin: 20px 0;
+  visibility: hidden;
+}
+
+.social a {
+  margin: 0 2px;
+  color: white;
+}
