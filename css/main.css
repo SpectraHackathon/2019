@@ -331,10 +331,6 @@ ul {
 /*  border-style: solid;*/
 }
 
-.faq-card a {
-  color: #fff;
-}
-
 .faq-card a:hover {
   color: #7976b7;
   text-decoration: none;
