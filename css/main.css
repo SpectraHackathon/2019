@@ -39,6 +39,10 @@ img {
   margin: 20px;
 }
 
+
+.photo-grid {
+  margin: 20px;
+}
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 36pt;
