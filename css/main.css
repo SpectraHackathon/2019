@@ -336,10 +336,6 @@ ul {
 /*  border-style: solid;*/
 }
 
-.faq-card a {
-  color: #fff;
-}
-
 .faq-card a:hover {
   color: #7976b7;
   text-decoration: none;
@@ -578,8 +574,8 @@ footer a {
 
 /* TEAM */
 
-.member {
-  max-width: 200px;
+.member, .nonmember {
+  max-width: 240px;
   margin: 20px auto;
   padding: 10px;
   border: 1px solid transparent;
@@ -625,10 +621,6 @@ footer a {
 
 .member:hover .social {
   visibility: visible;
-}
-
-.member .codirecta {
-  margin: auto 20px;
 }
 
 .img-circle {
