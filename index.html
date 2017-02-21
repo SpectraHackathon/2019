@@ -21,6 +21,9 @@
     <!-- CSS -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
     <!-- Smooth Scroll by cferdinadni -->
     <script src="js/smooth-scroll.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
@@ -43,7 +46,7 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="col-xs-12 col-sm-4">
+          <li class="col-xs-12 col-sm-3">
             <h3><a data-scroll href="#overview">Overview</a></h3>
           </li>
 <!--           <li class="col-xs-12 col-sm-2">
@@ -52,13 +55,16 @@
           <li class="col-xs-12 col-sm-2">
             <h3><a data-scroll href="#location">Location</a></h3>
           </li> -->
-          <li class="col-xs-12 col-sm-4">
+          <li class="col-xs-12 col-sm-3">
             <h3><a data-scroll href="#faq">FAQ</a></h3>
+          </li>
+          <li class="col-xs-12 col-sm-3">
+            <h3><a data-scroll href="#photos">Photo</a></h3>
           </li>
 <!--           <li class="col-xs-12 col-sm-2">
             <h3><a data-scroll href="#team">Team</a></h3>
           </li> -->
-          <li class="col-xs-12 col-sm-4">
+          <li class="col-xs-12 col-sm-3">
             <h3><a data-scroll href="#subscribe">Subscribe</a></h3>
           </li>
         </ul>
@@ -248,7 +254,7 @@
       </div>
     </section> -->
 
-       <section id="faq" class="content-section content-section-faq text-center">
+     <section id="faq" class="content-section content-section-faq text-center">
       <div class="container">
           <div class="header col-lg-8 col-lg-offset-2">
             <h2>FREQUENTLY ASKED QUESTIONS</h2>
@@ -310,11 +316,51 @@
       </div>
     </section>
 
+    <!-- Photo Area -->
+
+     <section id="photos" class="content-section content-section-photo text-center">
+      <div class="container">
+      
+            <div class="header col-lg-8 col-lg-offset-2">
+            <h2> 2016 PHOTOS </h2>
+            <p> Check out some of our photos from last year's event! </p>
+          </div>
+
+            <!--
+
+            Width/height ratio of thumbnail and the main image must match to avoid glitches.
+
+            If ratios are different, you may add CSS3 opacity transition to the main image to make the change less noticable.
+
+             -->
+<!--             <a class="image-popup-vertical-fit" href="./images/event_imgs/1.jpg" title="Into The Blue" style="width:193px;height:125px;">
+              <img src="./images/event_imgs/1.jpg" width="193" height="125">
+            </a> -->
+
+            <a class="image-popup-vertical-fit" href="./images/event_imgs/1.jpg" title="Caption. Can be aligned to any side and contain any HTML.">
+              <img src="./images/event_imgs/1.jpg" width="300" height="225">
+            </a>
+            <a class="image-popup-vertical-fit" href="./images/event_imgs/2.jpg" title="Caption. Can be aligned to any side and contain any HTML.">
+              <img src="./images/event_imgs/2.jpg" width="300" height="225">
+            </a>
+
+            <a class="image-popup-vertical-fit" href="./images/event_imgs/3.jpg" title="Caption. Can be aligned to any side and contain any HTML.">
+              <img src="./images/event_imgs/3.jpg" width="300" height="225">
+            </a>
+            <a class="image-popup-vertical-fit" href="./images/event_imgs/4.jpg" title="Caption. Can be aligned to any side and contain any HTML.">
+              <img src="./images/event_imgs/4.jpg" width="300" height="225">
+            </a>            
 
 
+            <a class="image-popup-vertical-fit" href="./images/event_imgs/5.jpg" title="Caption. Can be aligned to any side and contain any HTML.">
+              <img src="./images/event_imgs/5.jpg" width="300" height="225">
+            </a>
+
+      
 
 
-            <!-- Team End -->
+      </div>
+     </section>
 
           </div>
         </div>
@@ -382,6 +428,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.js"></script>
+
+    <script src="js/images.js"></script>
     <script>smoothScroll.init();</script>
   </body>
 </html>
