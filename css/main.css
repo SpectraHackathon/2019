@@ -94,7 +94,8 @@ body, #navbar {
 }
 
 .navbar-fixed-top .navbar-collapse {
-    max-height: 420px;
+  max-height: 420px;
+  text-align: center;
 }
 
 .navbar-fixed-top .navbar-nav li {
@@ -133,6 +134,10 @@ body, #navbar {
 .data-scroll a {
   color: white;
   text-decoration: none;
+}
+
+.col-half-offset{
+    margin-left:  1%
 }
 
 /* FONT */
