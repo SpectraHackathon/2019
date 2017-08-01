@@ -790,3 +790,13 @@ uncomment this part if you haven't added this code anywhere else
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
+
+/* Sponsor */
+
+.hackathon-details {
+  text-align: center;
+}
+
+li {
+  padding-bottom: 15px;
+}
