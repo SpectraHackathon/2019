@@ -43,6 +43,7 @@ img {
 .photo-grid {
   margin: 20px;
 }
+
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 36pt;
@@ -51,6 +52,16 @@ img {
   p {
     font-size: 20px;
   }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 /* BACKGROUND */
@@ -376,6 +387,9 @@ ul {
 }
 
 /* LOCATION */
+.img-responsive {
+  width: 
+}
 
 #location h3 {
   padding-bottom: 30px;
