@@ -1,0 +1,4 @@
+npm_modules
+.DS_STORE
+*.swo
+*.swp
