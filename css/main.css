@@ -610,10 +610,6 @@ footer a {
 }
 
 @media screen and (min-width: 992px) {
-  #team .col-md-4 {
-    width: 26%;
-  }
-
   #team .col-md-0 {
     width: 11%;
   }
@@ -626,10 +622,6 @@ footer a {
 
   .member .role {
     font-size: 12px;
-  }
-
-  #team .col-md-4 {
-    width: 31%;
   }
 
   #team .col-md-0 {
