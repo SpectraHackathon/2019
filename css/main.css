@@ -68,8 +68,10 @@ img {
 /* NAV */
 
 #navbar {
+}
+
+.navbar-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   align-content: center;
 }
@@ -85,7 +87,6 @@ img {
 
 .navbar-fixed-top .navbar-collapse {
   max-height: 420px;
-  text-align: center;
 }
 
 .navbar-fixed-top .navbar-nav li {
@@ -108,6 +109,10 @@ img {
 .navbar-fixed-top .navbar-nav li.active a {
   border-bottom: 1px solid #fff;
   text-decoration: none;
+}
+
+.navbar-toggle {
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
