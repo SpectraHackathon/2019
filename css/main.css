@@ -235,16 +235,51 @@ img {
   display: flex;
   justify-conten: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .logo {
-  width: 300px;
-  margin: 0px 50px;
+  width: 30%;
+  display: block;
+  margin: 0 auto;
 }
 
 .logo-text {
-  width: 400px;
+  width: 40%;
+  display: block;
+  margin: 0 auto;
 }
+
+.registration-button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-registration {
+  /* background-color: #FCB239 !important; */
+  background-color: #D2B456 !important;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-images {
+    align-items: center;
+    margin-top: 160px;
+  }
+
+  .logo {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .logo-text {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 
 /* CONTENT */
 
