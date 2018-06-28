@@ -220,6 +220,13 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .intro {
+    height: 100%;
+  }
+}
+
+
 /* LOGO */
 
 .landing-container {
@@ -263,8 +270,8 @@ img {
 
 @media screen and (max-width: 768px) {
   .logo-images {
+    margin-top: 0;
     align-items: center;
-    margin-top: 160px;
   }
 
   .logo {
