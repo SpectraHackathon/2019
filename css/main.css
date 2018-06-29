@@ -276,8 +276,14 @@ img {
 .btn-volunteer {
   background-color: #D2B456 !important;
   color: #fff;
-  
-  
+}
+
+.btn-workshop {
+  background-color: #D74061 !important;
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  border-color: none;
 }
 
 @media screen and (max-width: 768px) {
