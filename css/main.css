@@ -246,26 +246,36 @@ img {
 }
 
 .logo {
-  width: 30%;
+  width: 28%;
   display: block;
   margin: 0 auto;
 }
 
 .logo-text {
-  width: 40%;
+  width: 35%;
   display: block;
   margin: 0 auto;
 }
 
-.registration-button {
+
+.registration-buttons {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
+
 }
 
 .btn-registration {
-  /* background-color: #FCB239 !important; */
+  background-color: #F37A29  !important;
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+ }
+
+.btn-volunteer {
   background-color: #D2B456 !important;
   color: #fff;
+  
 }
 
 @media screen and (max-width: 768px) {
