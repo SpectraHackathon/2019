@@ -270,11 +270,13 @@ img {
   color: #fff;
   margin-right: 20px;
   text-decoration: none;
+  border-color: none;
  }
 
 .btn-volunteer {
   background-color: #D2B456 !important;
   color: #fff;
+  
   
 }
 
