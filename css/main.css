@@ -258,10 +258,11 @@ img {
 }
 
 
-.registration-buttons {
+.registration-buttons, .registration-info {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  font-size: 25px;
 
 }
 
