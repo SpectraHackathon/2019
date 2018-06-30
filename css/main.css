@@ -257,7 +257,9 @@ img {
   margin: 0 auto;
 }
 
-
+.txt-info {
+	color: #D74061;
+}
 .registration-buttons, .registration-info {
   display: flex;
   justify-content: center;
