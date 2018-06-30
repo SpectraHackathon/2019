@@ -257,14 +257,14 @@ img {
   margin: 0 auto;
 }
 
-.txt-info {
-	color: #D74061;
-}
 .registration-buttons, .registration-info {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   font-size: 25px;
+  	color: #D74061;
+	  display: flex;
+  justify-content: center;
 
 }
 
