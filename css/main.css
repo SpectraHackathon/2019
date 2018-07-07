@@ -257,6 +257,13 @@ img {
   margin: 0 auto;
 }
 
+.twitter-logo {
+  width: 30%;
+}
+
+.asana-logo {
+  width: 70%;
+}
 .registration-buttons, .registration-info {
   display: flex;
   justify-content: center;
