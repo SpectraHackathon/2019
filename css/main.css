@@ -123,12 +123,13 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .navbar-fixed-top .navbar-nav {
-    width: 100%;
-  }
+
 
   .navbar-nav h3 {
     margin-bottom: 10px;
+  }
+  .asana-logo {
+    width: 50%;
   }
 }
 
@@ -843,7 +844,7 @@ footer a {
 
 @media only screen and (max-width: 500px) {
   .asana-logo {
-    width: 80%;
+    width: 47%;
   }
   #map {
     float: none;
