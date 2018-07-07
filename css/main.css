@@ -842,6 +842,13 @@ footer a {
 }
 
 @media only screen and (max-width: 500px) {
+
+  #map {
+    float: none;
+    height: 300px;
+    margin: 25px auto;
+  }
+  
   .table {
     padding: 0 10px;
   }
@@ -854,6 +861,9 @@ footer a {
     padding: 0;
   }
 
+  #txt-address {
+    font-size: 17px;
+  }
   #schedule h2 {
     margin-bottom: 30px;
   }
