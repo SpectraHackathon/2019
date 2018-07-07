@@ -10,7 +10,14 @@ body, html {
 }
 
 a, a:hover {
-  color: #7976b7;
+  color: #F37A29;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+
+a:hover {
+  color: #FCB239;
   text-decoration: none;
   font-weight: 300;
 }
@@ -260,6 +267,9 @@ img {
 .padding {
   padding-top:  40px;
 }
+.girlsmakeapps-logo {
+  width: 10%;
+}
 .logo-col {
   padding: 0 20px 0 20px;
 }
@@ -279,8 +289,10 @@ img {
   width: 50%;
 }
 
-.sm-logo {
-  width: 30%;
+
+
+.snap-logo {
+  width: 18%;
 }
 .registration-buttons, .registration-info {
   display: flex;
