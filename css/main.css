@@ -263,6 +263,10 @@ img {
 .logo-col {
   padding: 0 20px 0 20px;
 }
+
+.sticker-giant-logo {
+  width: 30%;
+}
 .twitter-logo {
   width: 20%;
 }
