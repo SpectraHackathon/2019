@@ -257,12 +257,26 @@ img {
   margin: 0 auto;
 }
 
+.padding {
+  padding-top:  40px;
+}
+.logo-col {
+  padding: 0 20px 0 20px;
+}
 .twitter-logo {
-  width: 30%;
+  width: 20%;
 }
 
 .asana-logo {
-  width: 70%;
+  width: 30%;
+}
+
+.md-logo {
+  width: 50%;
+}
+
+.sm-logo {
+  width: 30%;
 }
 .registration-buttons, .registration-info {
   display: flex;
