@@ -91,6 +91,7 @@ img {
 
 .navbar-fixed-top {
   border-width: 0;
+  width: 100%;
 }
 
 .navbar-fixed-top .navbar-collapse {
