@@ -74,7 +74,8 @@ img {
 
 /* NAV */
 
-#navbar {
+.nav {
+  float: none !important;
 }
 
 .navbar-container {
@@ -127,6 +128,7 @@ img {
 
   .navbar-nav h3 {
     margin-bottom: 10px;
+    float: none !important;
   }
   .asana-logo {
     width: 50%;
@@ -269,7 +271,7 @@ img {
   padding-top:  40px;
 }
 .girlsmakeapps-logo {
-  width: 10%;
+  width: 15%;
 }
 .logo-col {
   padding: 0 20px 0 20px;
@@ -286,6 +288,9 @@ img {
   width: 40%;
 }
 
+.product-logo {
+  width: 40%;
+}
 .pintrest-logo {
   width: 34%;
 }
@@ -542,10 +547,10 @@ ul {
   padding-bottom: 30px;
 }
 
-/* #location img {
+#location img {
   margin-bottom: 10px;
   margin-top: -20px;
-} */
+}
 
 #map {
   float: none;
