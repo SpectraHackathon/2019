@@ -547,11 +547,11 @@ ul {
 #location h3 {
   padding-bottom: 30px;
 }
-
+/* 
 #location img {
   margin-bottom: 10px;
   margin-top: -20px;
-}
+} */
 
 #map {
   float: none;
