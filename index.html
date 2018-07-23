@@ -36,6 +36,8 @@
         <script src="js/smooth-scroll.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
 
+        <!-- Schedule CSS -->
+        <link rel="stylesheet" href="css/schedule-style.css"> <!-- Resource style -->
         <base target="_blank">
     </head>
 
@@ -162,7 +164,17 @@
                  </div>
                 </div>
             </section>
-
+            <section id="schedule" class="content-section content-section-schedule text-center">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <h2>Schedule</h2>
+                    <p>See additional workshop details <a href="workshops">here</a></p>
+                        
+                  </div>
+                </div>
+              </div>
+            </section>
         <section id="faq" class="content-section content-section-faq text-center">
             <div class="container">
                 <div class="header col-lg-8 col-lg-offset-2">
@@ -463,11 +475,7 @@
                 <div class="col-xs-12 col-lg-12">
                     <h2 class="orange">Subscribe</h2>
                 </div>
-                <!--
-                <div class="col-xs-12 col-lg-12">
-                    <h2 class="orange">Ready to attend?</h2>
-                </div>
-                -->
+
                 <section class="signup content-section content-section-overview text-center">
                     <div id="mc_embed_signup">
                         <form action="//spectrahackathon.us12.list-manage.com/subscribe/post?u=f0000ef55a22db2c251318957&amp;id=a7e5335ef7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -645,6 +653,12 @@
         <script src="http://maps.googleapis.com/maps/api/js"></script>
         <script src="js/main.js"></script>
         <script src="js/featherlight.min.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script>
+            if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+        </script>
+        <script src="js/main.js"></script> <!-- Resource jQuery -->
 
         <script>smoothScroll.init();</script>
     </body>
