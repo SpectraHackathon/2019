@@ -58,7 +58,7 @@ img {
   }
 
   p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -307,14 +307,17 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 15px;
   	color: #D74061;
 	  display: flex;
   justify-content: center;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
 
 }
 
-.btn-registration {
+/*.btn-registration {
   background-color: #F37A29  !important;
   color: #fff;
   margin-right: 20px;
@@ -325,7 +328,7 @@ img {
 .btn-volunteer {
   background-color: #D2B456 !important;
   color: #fff;
-}
+}*/
 
 .btn-workshop {
   background-color: #D74061 !important;
@@ -546,7 +549,9 @@ ul {
 
 #location h3 {
   padding-bottom: 30px;
+  letter-spacing: 0px;
 }
+
 /* 
 #location img {
   margin-bottom: 10px;
