@@ -217,8 +217,8 @@
             <text id="YOGA-&amp;-FACEMASKS" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="311.525" y="571">YOGA &amp; FACEMASKS</tspan>
             </text>
-            <text id="04:00---05:00-@-COMM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="468.11" y="566">04:00 - 05:00</tspan>
+            <text id="04:00---04:30-@-COMM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="467.945" y="566">04:00 - 04:30</tspan>
                 <tspan x="449.295" y="578">@ COMMUNITY AREA</tspan>
             </text>
             <text id="HOW-TO-GET-STARTED-I" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
@@ -231,13 +231,13 @@
             <text id="SUBMISSIONS-DUE" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="315.765" y="676">SUBMISSIONS DUE</tspan>
             </text>
-            <text id="11:00---12:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="337.236" y="446">11:00 - 12:00 </tspan>
+            <text id="01:00---02:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="335.012" y="446">01:00 - 02:00 </tspan>
             </text>
             <text id="NAVIGATING-THE-TECHN" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" letter-spacing="0.100000001" fill="#000000">
-                <tspan x="319.215" y="606">NAVIGATING THE </tspan>
-                <tspan x="305.335" y="618">TECHNICAL INTERVIE</tspan>
-                <tspan x="397.095" y="618">W</tspan>
+                <tspan x="317.215" y="606">NAVIGATING THE </tspan>
+                <tspan x="303.335" y="618">TECHNICAL INTERVIE</tspan>
+                <tspan x="395.095" y="618">W</tspan>
             </text>
             <text id="04:30---05:30" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="333.76" y="639">04:30 - 05:30</tspan>
