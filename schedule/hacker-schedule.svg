@@ -1,57 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="612px" height="928px" viewBox="0 0 612 928" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+<svg width="612px" height="850px" viewBox="0 0 612 850" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
     <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
     <title>Desktop</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <text id="11:00-AM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="269">11:00 AM</tspan>
+        <text id="11:00-AM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="44" y="269">11:00 AM</tspan>
         </text>
-        <text id="10:00-AM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="220">10:00 AM</tspan>
+        <text id="10:00-AM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="44" y="220">10:00 AM</tspan>
         </text>
-        <text id="12:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="317">12:00 PM</tspan>
+        <text id="12:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="44" y="317">12:00 PM</tspan>
         </text>
-        <text id="01:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="366">01:00 PM</tspan>
+        <text id="01:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="44" y="366">01:00 PM</tspan>
         </text>
-        <text id="01:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="415">01:00 PM</tspan>
-        </text>
-        <text id="02:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="463">02:00 PM</tspan>
-        </text>
-        <text id="03:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="512">03:00 PM</tspan>
-        </text>
-        <text id="04:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="559">04:00 PM</tspan>
-        </text>
-        <text id="05:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="608">05:00 PM</tspan>
-        </text>
-        <text id="06:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="657">06:00 PM</tspan>
-        </text>
-        <text id="07:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="705">07:00 PM</tspan>
-        </text>
-        <text id="08:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="754">08:00 PM</tspan>
-        </text>
-        <text id="09:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="803">09:00 PM</tspan>
-        </text>
-        <text id="10:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="851">10:00 PM</tspan>
-        </text>
-        <text id="11:00-PM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="900">11:00 PM</tspan>
-        </text>
-        <text id="09:00-AM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="12" font-weight="normal" fill="#000000">
-            <tspan x="52" y="171">09:00 AM</tspan>
+        <text id="09:00-AM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+            <tspan x="44" y="171">09:00 AM</tspan>
         </text>
         <g id="Group-2" transform="translate(94.000000, 143.000000)" fill-rule="nonzero" stroke="#DEDEDE" stroke-linecap="square" stroke-width="0.6">
             <g id="Group-3">
@@ -71,8 +38,6 @@
                 <path d="M30.5,557.208333 L502.154795,557.208333" id="Line"></path>
                 <path d="M30.5,606.208333 L502.154795,606.208333" id="Line"></path>
                 <path d="M30.5,655.208333 L502.154795,655.208333" id="Line"></path>
-                <path d="M30.5,703.208333 L502.154795,703.208333" id="Line"></path>
-                <path d="M30.5,752.208333 L502.154795,752.208333" id="Line"></path>
                 <path d="M0.556096118,97.2965839 L502.154795,97.2965839" id="Line"></path>
                 <path d="M0.508816691,145.25 L502.202074,145.25" id="Line"></path>
                 <path d="M0.508816691,194.25 L502.202074,194.25" id="Line"></path>
@@ -85,196 +50,227 @@
                 <path d="M0.508816691,485.25 L502.202074,485.25" id="Line"></path>
                 <path d="M0.508816691,533.25 L502.202074,533.25" id="Line"></path>
                 <path d="M0.508816691,631.25 L502.202074,631.25" id="Line"></path>
-                <path d="M0.508816691,679.25 L502.202074,679.25" id="Line"></path>
-                <path d="M0.508816691,728.25 L502.202074,728.25" id="Line"></path>
                 <path d="M0.508816691,582.25 L502.202074,582.25" id="Line"></path>
             </g>
         </g>
         <g id="Desktop">
             <rect id="Rectangle" fill="#C6DAB3" fill-rule="nonzero" x="141" y="193" width="112" height="47"></rect>
             <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="141" y="240" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="141" y="579" width="112" height="24"></rect>
-            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="312" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="700" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="141" y="806" width="112" height="40"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="141" y="530" width="112" height="24"></rect>
+            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="361" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="651" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="141" y="758" width="112" height="40"></rect>
             <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="461" y="142" width="112" height="51"></rect>
             <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="461" y="263" width="112" height="51"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="297" y="166" width="119" height="25"></rect>
-            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="300" y="240" width="112" height="28"></rect>
-            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="300" y="263" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="140" y="504" width="112" height="26"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="462" y="725" width="112" height="25"></rect>
-            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="300.2" y="458.2" width="111.6" height="95.6"></rect>
-            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="300" y="580" width="112" height="71"></rect>
-            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="464.2" y="458.2" width="111.6" height="48.6"></rect>
-            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="464" y="409" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="298" y="749" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="300" y="409" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="300" y="554" width="112" height="26"></rect>
-            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="300" y="651" width="112" height="49"></rect>
-            <text id="KEYNOTE" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="174" y="219">KEYNOTE</tspan>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="296" y="166" width="119" height="25"></rect>
+            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="299" y="240" width="112" height="28"></rect>
+            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="141" y="458" width="112" height="26"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="462" y="676" width="112" height="25"></rect>
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="299.2" y="264.2" width="111.6" height="95.6"></rect>
+            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="299" y="532" width="112" height="71"></rect>
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="461.2" y="409.2" width="111.6" height="48.6"></rect>
+            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="461" y="312" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="299" y="700" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="299" y="506" width="112" height="26"></rect>
+            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="299" y="603" width="112" height="49"></rect>
+            <text id="KEYNOTE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="167" y="220">KEYNOTE</tspan>
             </text>
-            <text id="PRACTICAL-MACHINE-LE" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="332.13" y="494">PRACTICAL</tspan>
-                <tspan x="337.175" y="506">MACHINE </tspan>
-                <tspan x="334.975" y="518">LEARNING </tspan>
+            <text id="PRACTICAL-MACHINE-LE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="327.438477" y="300">PRACTICAL</tspan>
+                <tspan x="332.443359" y="311">MACHINE </tspan>
+                <tspan x="329.938477" y="322">LEARNING </tspan>
             </text>
-            <text id="10:30---11:30" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="178.2" y="281">10:30 - 11:30</tspan>
+            <text id="10:30---11:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="173.722656" y="281">10:30 - 11:30</tspan>
             </text>
-            <text id="Schedule" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="40" font-weight="normal" fill="#000000">
-                <tspan x="52" y="71">Schedule</tspan>
+            <text id="Spectra-Schedule" font-family="Arial-BoldMT, Arial" font-size="40" font-weight="bold" fill="#000000">
+                <tspan x="52" y="71">Spectra Schedule</tspan>
             </text>
-            <text id="Community-Area" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="14" font-weight="normal" fill="#000000">
+            <text id="Community-Area" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="145" y="114">Community Area</tspan>
             </text>
-            <text id="Hidden-Layer" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="14" font-weight="normal" fill="#000000">
-                <tspan x="316" y="114">Hidden Layer</tspan>
+            <text id="Hidden-Layer" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="305" y="114">Hidden Layer</tspan>
             </text>
-            <text id="Random-Forest" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="14" font-weight="normal" fill="#000000">
-                <tspan x="471" y="114">Random Forest</tspan>
+            <text id="Random-Forest" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                <tspan x="465" y="114">Random Forest</tspan>
             </text>
             <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="141" y="144" width="112" height="49"></rect>
-            <text id="CHECK-IN" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="174" y="165">CHECK IN</tspan>
+            <text id="CHECK-IN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="170" y="165">CHECK IN</tspan>
             </text>
-            <text id="LUNCH-&amp;-MENTOR-/-SPO" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="180.568" y="325">LUNCH &amp; </tspan>
-                <tspan x="159.764" y="335">MENTOR / SPONSOR </tspan>
-                <tspan x="172.688" y="345">NETWORKING</tspan>
+            <text id="LUNCH-&amp;-MENTOR-/-SPO" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="178.941406" y="373">LUNCH &amp; </tspan>
+                <tspan x="155.902344" y="382">MENTOR / SPONSOR </tspan>
+                <tspan x="168.945312" y="391">NETWORKING</tspan>
             </text>
-            <text id="08:30---09:30" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="174.924" y="176">08:30 - 09:30</tspan>
+            <text id="08:30---09:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="173.425781" y="176">08:30 - 09:30</tspan>
             </text>
-            <text id="09:30---10:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="175.968" y="228">09:30 - 10:00</tspan>
+            <text id="09:30---10:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="173.425781" y="228">09:30 - 10:00</tspan>
             </text>
-            <text id="TEAM-FORMATION" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="317.08" y="178">TEAM FORMATION </tspan>
+            <text id="TEAM-FORMATION" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="310.595215" y="178">TEAM FORMATION </tspan>
             </text>
-            <text id="HOW-TO-KICK-ASS-AS-A" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="306.008" y="251">HOW TO KICK ASS AS A PM</tspan>
+            <text id="HOW-TO-KICK-ASS-AS-A" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="309.796875" y="251">HOW TO KICK ASS AS A </tspan>
+                <tspan x="349" y="260">PM</tspan>
             </text>
-            <text id="INTRO-TO-GOOGLE-CLOU" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="7" font-weight="normal" fill="#000000">
-                <tspan x="326.0965" y="277">INTRO TO GOOGLE </tspan>
-                <tspan x="344.6885" y="285">CLOUD</tspan>
-                <tspan x="339.4245" y="293">PLATFORM</tspan>
+            <text id="INTRO-TO-UX" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="172.793945" y="258">INTRO TO </tspan>
+                <tspan x="189.554199" y="269">UX</tspan>
             </text>
-            <text id="UI/UX-WORKSHOP" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="183.61" y="258">UI/UX </tspan>
-                <tspan x="170.85" y="270">WORKSHOP</tspan>
+            <text id="09:00---09:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="331.425781" y="187">09:00 - 09:30</tspan>
             </text>
-            <text id="09:00---09:30" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="333.884" y="187">09:00 - 09:30</tspan>
+            <text id="BREAKFAST" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="487.546875" y="164">BREAKFAST</tspan>
             </text>
-            <text id="BREAKFAST" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="491.62" y="164">BREAKFAST</tspan>
+            <text id="08:30---09:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="493.425781" y="178">08:30 - 09:30</tspan>
             </text>
-            <text id="08:30---09:30" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="494.924" y="178">08:30 - 09:30</tspan>
+            <text id="DINNER" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="177.83252" y="672">DINNER</tspan>
             </text>
-            <text id="DINNER" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="180.44" y="721">DINNER</tspan>
+            <text id="07:00---08:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="173.425781" y="684">07:00 - 08:00</tspan>
             </text>
-            <text id="07:00---08:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="175.008" y="733">07:00 - 08:00</tspan>
+            <text id="07:30---08:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="494.425781" y="757">07:30 - 08:00</tspan>
             </text>
-            <text id="07:30---08:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="496.044" y="808">07:30 - 08:00</tspan>
+            <text id="INTRO-TO-APIs" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="481.621582" y="283">INTRO TO APIs</tspan>
             </text>
-            <text id="INTRO-TO-APIs" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="484.735" y="283">INTRO TO APIs</tspan>
+            <text id="11:00---12:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="494.222656" y="297">11:00 - 12:00 </tspan>
             </text>
-            <text id="11:00---12:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="498.736" y="297">11:00 - 12:00 </tspan>
+            <text id="INTRO-TO-GO" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="493.293945" y="331">INTRO TO </tspan>
+                <tspan x="509.22168" y="342">GO</tspan>
             </text>
-            <text id="INTRO-TO-GO" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="494.72" y="428">INTRO TO </tspan>
-                <tspan x="508.98" y="440">GO</tspan>
+            <text id="INTRO-TO-DOCKER" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="493.293945" y="424">INTRO TO </tspan>
+                <tspan x="495.608398" y="435">DOCKER </tspan>
             </text>
-            <text id="INTRO-TO-DOCKER" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="500.72" y="474">INTRO TO </tspan>
-                <tspan x="503.44" y="486">DOCKER </tspan>
+            <text id="12:00--01:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="495.037109" y="354">12:00- 01:00</tspan>
             </text>
-            <text id="01:00--02:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="496.912" y="451">01:00- 02:00</tspan>
+            <text id="02:00---03:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="493.925781" y="449">02:00 - 03:00</tspan>
             </text>
-            <text id="02:00---03:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="497.436" y="499">02:00 - 03:00</tspan>
+            <text id="GOOGLE-VOICE-ASSISTA" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="158.379395" y="470">GOOGLE VOICE </tspan>
+                <tspan x="169.587891" y="481">ASSISTANT</tspan>
             </text>
-            <text id="INTRO-TO-iOS" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="334.72" y="425">INTRO TO</tspan>
-                <tspan x="348.795" y="437">iOS </tspan>
+            <text id="BOBA-BREAK" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="165.041992" y="546">BOBA BREAK</tspan>
             </text>
-            <text id="GOOGLE-VOICE-ASSISTA" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="161.975" y="514">GOOGLE VOICE </tspan>
-                <tspan x="172.04" y="526">ASSISTANT</tspan>
+            <text id="YOGA-&amp;-FACEMASKS" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="304.150391" y="523">YOGA &amp; FACEMASKS</tspan>
             </text>
-            <text id="BOBA-BREAK" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="168.01" y="595">BOBA BREAK</tspan>
+            <text id="04:00---04:30-@-COMM" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="464.532227" y="523">04:00 - 04:30</tspan>
+                <tspan x="442.066406" y="534">@ COMMUNITY AREA</tspan>
             </text>
-            <text id="YOGA-&amp;-FACEMASKS" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="311.525" y="571">YOGA &amp; FACEMASKS</tspan>
+            <text id="HOW-TO-GET-STARTED-I" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="485.961426" y="734">HOW TO GET</tspan>
+                <tspan x="480.402344" y="745">STARTED IN CS</tspan>
             </text>
-            <text id="04:00---04:30-@-COMM" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="467.945" y="566">04:00 - 04:30</tspan>
-                <tspan x="449.295" y="578">@ COMMUNITY AREA</tspan>
+            <text id="FIRESIDE-CHAT" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="480.312012" y="691">FIRESIDE CHAT</tspan>
             </text>
-            <text id="HOW-TO-GET-STARTED-I" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="488.12" y="785">HOW TO GET</tspan>
-                <tspan x="484.625" y="797">STARTED IN CS</tspan>
+            <text id="SUBMISSIONS-DUE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="308.825195" y="628">SUBMISSIONS DUE</tspan>
             </text>
-            <text id="FIRESIDE-CHAT" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="486.175" y="740">FIRESIDE CHAT</tspan>
+            <text id="NAVIGATING-THE-TECHN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.100000001" fill="#000000">
+                <tspan x="312.905957" y="552">NAVIGATING THE </tspan>
+                <tspan x="326.398145" y="563">TECHNICAL </tspan>
+                <tspan x="326.862012" y="574">INTERVIEW</tspan>
             </text>
-            <text id="SUBMISSIONS-DUE" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="315.765" y="676">SUBMISSIONS DUE</tspan>
+            <text id="04:30---05:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="331.425781" y="591">04:30 - 05:30</tspan>
             </text>
-            <text id="01:00---02:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="335.012" y="446">01:00 - 02:00 </tspan>
+            <text id="07:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="345.490234" y="642">07:00</tspan>
             </text>
-            <text id="NAVIGATING-THE-TECHN" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" letter-spacing="0.100000001" fill="#000000">
-                <tspan x="317.215" y="606">NAVIGATING THE </tspan>
-                <tspan x="303.335" y="618">TECHNICAL INTERVIE</tspan>
-                <tspan x="395.095" y="618">W</tspan>
+            <text id="PROJECT-DEMOS/JUDGIN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="310.64209" y="717">PROJECT DEMOS/</tspan>
+                <tspan x="332.5" y="728">JUDGING </tspan>
             </text>
-            <text id="04:30---05:30" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="333.76" y="639">04:30 - 05:30</tspan>
+            <text id="08:00---09:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="331.425781" y="741">08:00 - 09:00</tspan>
             </text>
-            <text id="07:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="346.736" y="690">07:00</tspan>
+            <text id="CLOSING-CEREMONY" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="143.714355" y="778">CLOSING CEREMONY</tspan>
             </text>
-            <text id="PROJECT-DEMOS/JUDGIN" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="313.505" y="766">PROJECT DEMOS/</tspan>
-                <tspan x="334.43" y="778">JUDGING </tspan>
+            <text id="END-OF-EVENT" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="310.551758" y="799">END OF EVENT</tspan>
             </text>
-            <text id="08:00---09:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="331.852" y="790">08:00 - 09:00</tspan>
+            <text id="09:15---10:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="172.925781" y="789">09:15 - 10:00</tspan>
             </text>
-            <text id="CLOSING-CEREMONY" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="150.855" y="826">CLOSING CEREMONY</tspan>
+            <text id="11:00---1:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="333.947266" y="344">11:00 - 1:00</tspan>
             </text>
-            <text id="09:15---10:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="176.576" y="837">09:15 - 10:00</tspan>
+            <text id="10:30---11:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="332.222656" y="234">10:30 - 11:00</tspan>
             </text>
-            <text id="02:00---04:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="333.764" y="538">02:00 - 04:00 </tspan>
+            <text id="01:00---2:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="175.150391" y="403">01:00 - 2:00</tspan>
             </text>
-            <text id="10:30---11:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="336.664" y="260">10:30 - 11:00</tspan>
+            <path d="M408.5,519.25 L446.5,519.25" id="Line-2" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
+            <path d="M518.5,694.25 L518.5,717.5" id="Line-2" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
+            <text id="@-COMMUNITY-AREA" font-family="ArialMT, Arial" font-size="7" font-weight="normal" fill="#000000">
+                <tspan x="317.674072" y="198"> @ COMMUNITY AREA</tspan>
             </text>
-            <text id="11:00---12:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="336.736" y="304">11:00 - 12:00</tspan>
+            <text id="02:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="412">02:00 PM</tspan>
             </text>
-            <text id="12:00---1:00" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="178.72" y="355">12:00 - 1:00</tspan>
+            <text id="03:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="461">03:00 PM</tspan>
             </text>
-            <path d="M408.5,570.25 L446.5,570.25" id="Line-2" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
-            <path d="M518.5,745.25 L518.5,768.5" id="Line-2" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
-            <text id="@-COMMUNITY-AREA" font-family="RadioGrotesk-Regular, Radio Grotesk" font-size="7" font-weight="normal" fill="#000000">
-                <tspan x="322.0815" y="198"> @ COMMUNITY AREA</tspan>
+            <text id="04:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="508">04:00 PM</tspan>
             </text>
+            <text id="05:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="557">05:00 PM</tspan>
+            </text>
+            <text id="06:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="606">06:00 PM</tspan>
+            </text>
+            <text id="07:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="654">07:00 PM</tspan>
+            </text>
+            <text id="08:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="703">08:00 PM</tspan>
+            </text>
+            <text id="09:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="752">09:00 PM</tspan>
+            </text>
+            <text id="10:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="44" y="800">10:00 PM</tspan>
+            </text>
+            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="299" y="410" width="112" height="49"></rect>
+            <text id="INTRO-TO-GOOGLE-CLOU" font-family="ArialMT, Arial" font-size="7" font-weight="normal" fill="#000000">
+                <tspan x="322.762695" y="424">INTRO TO GOOGLE </tspan>
+                <tspan x="343.248291" y="431">CLOUD</tspan>
+                <tspan x="336.702881" y="438">PLATFORM</tspan>
+            </text>
+            <text id="02:00---03:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="331.925781" y="451">02:00 - 03:00</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="461.2" y="361.2" width="111.6" height="48.6"></rect>
+            <text id="INTRO-TO-iOS" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="493.293945" y="379">INTRO TO</tspan>
+                <tspan x="508.665039" y="390">iOS </tspan>
+            </text>
+            <text id="12:00---01:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="493.425781" y="400">12:00 - 01:00 </tspan>
+            </text>
+            <path d="M123.5,797.5 L294.5,797.5" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" fill-rule="nonzero"></path>
+            <path d="M403.5,797.25 L594.5,797.25" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" fill-rule="nonzero"></path>
         </g>
     </g>
 </svg>
