@@ -54,7 +54,7 @@
             </g>
         </g>
         <g id="Desktop">
-            <rect id="Rectangle" fill="#C6DAB3" fill-rule="nonzero" x="141" y="193" width="112" height="47"></rect>
+            <rect id="Rectangle" fill="#C6DAB3" fill-rule="nonzero" x="141" y="192" width="112" height="49"></rect>
             <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="141" y="240" width="112" height="49"></rect>
             <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="141" y="530" width="112" height="24"></rect>
             <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="361" width="112" height="49"></rect>
@@ -74,7 +74,7 @@
             <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="299" y="506" width="112" height="26"></rect>
             <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="299" y="603" width="112" height="49"></rect>
             <text id="KEYNOTE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="167" y="220">KEYNOTE</tspan>
+                <tspan x="172" y="216">KEYNOTE</tspan>
             </text>
             <text id="PRACTICAL-MACHINE-LE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="327.438477" y="300">PRACTICAL</tspan>
@@ -96,9 +96,9 @@
             <text id="Random-Forest" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="465" y="114">Random Forest</tspan>
             </text>
-            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="141" y="144" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="141" y="143" width="112" height="49"></rect>
             <text id="CHECK-IN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="170" y="165">CHECK IN</tspan>
+                <tspan x="171" y="165">CHECK IN</tspan>
             </text>
             <text id="LUNCH-&amp;-MENTOR-/-SPO" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="178.941406" y="373">LUNCH &amp; </tspan>
@@ -109,7 +109,7 @@
                 <tspan x="173.425781" y="176">08:30 - 09:30</tspan>
             </text>
             <text id="09:30---10:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="173.425781" y="228">09:30 - 10:00</tspan>
+                <tspan x="171.925781" y="226">09:30 - 10:00</tspan>
             </text>
             <text id="TEAM-FORMATION" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="310.595215" y="178">TEAM FORMATION </tspan>
