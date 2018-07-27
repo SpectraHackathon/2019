@@ -261,13 +261,13 @@
             <text id="02:00---03:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="331.925781" y="451">02:00 - 03:00</tspan>
             </text>
-            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="461.2" y="361.2" width="111.6" height="48.6"></rect>
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="141.2" y="312.2" width="111.6" height="48.6"></rect>
             <text id="INTRO-TO-iOS" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="493.293945" y="379">INTRO TO</tspan>
-                <tspan x="508.665039" y="390">iOS </tspan>
+                <tspan x="173.293945" y="330">INTRO TO</tspan>
+                <tspan x="188.665039" y="341">iOS </tspan>
             </text>
             <text id="12:00---01:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="493.425781" y="400">12:00 - 01:00 </tspan>
+                <tspan x="173.425781" y="351">12:00 - 01:00 </tspan>
             </text>
             <path d="M123.5,797.5 L294.5,797.5" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" fill-rule="nonzero"></path>
             <path d="M403.5,797.25 L594.5,797.25" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" fill-rule="nonzero"></path>
