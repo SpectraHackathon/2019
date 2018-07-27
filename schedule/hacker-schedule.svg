@@ -56,30 +56,31 @@
         <g id="Desktop">
             <rect id="Rectangle" fill="#C6DAB3" fill-rule="nonzero" x="141" y="192" width="112" height="49"></rect>
             <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="141" y="240" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="141" y="530" width="112" height="24"></rect>
-            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="361" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="361" width="432" height="49"></rect>
             <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="141" y="651" width="112" height="49"></rect>
             <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="141" y="758" width="112" height="40"></rect>
-            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="461" y="142" width="112" height="51"></rect>
-            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="461" y="263" width="112" height="51"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="296" y="166" width="119" height="25"></rect>
-            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="299" y="240" width="112" height="28"></rect>
+            <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="462" y="142" width="112" height="51"></rect>
+            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="462" y="263" width="112" height="51"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="298" y="166" width="119" height="25"></rect>
+            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="301" y="240" width="112" height="28"></rect>
             <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="141" y="458" width="112" height="26"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="462" y="676" width="112" height="25"></rect>
-            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="299.2" y="264.2" width="111.6" height="95.6"></rect>
-            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="299" y="532" width="112" height="71"></rect>
-            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="461.2" y="409.2" width="111.6" height="48.6"></rect>
-            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="461" y="312" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="299" y="700" width="112" height="49"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="299" y="506" width="112" height="26"></rect>
-            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="299" y="603" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="301" y="676" width="112" height="25"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="301" y="676" width="112" height="25"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="461" y="628" width="112" height="48"></rect>
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="301.2" y="265.2" width="111.6" height="95.6"></rect>
+            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="462" y="215" width="112" height="48"></rect>
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="462.2" y="409.2" width="111.6" height="48.6"></rect>
+            <rect id="Rectangle" fill="#FFDEA9" fill-rule="nonzero" x="462" y="312" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="301" y="700" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="144" y="507" width="427" height="25"></rect>
+            <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="301" y="603" width="112" height="49"></rect>
             <text id="KEYNOTE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="172" y="216">KEYNOTE</tspan>
             </text>
             <text id="PRACTICAL-MACHINE-LE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="327.438477" y="300">PRACTICAL</tspan>
-                <tspan x="332.443359" y="311">MACHINE </tspan>
-                <tspan x="329.938477" y="322">LEARNING </tspan>
+                <tspan x="329.438477" y="300">PRACTICAL</tspan>
+                <tspan x="334.443359" y="311">MACHINE </tspan>
+                <tspan x="331.938477" y="322">LEARNING </tspan>
             </text>
             <text id="10:30---11:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="173.722656" y="281">10:30 - 11:30</tspan>
@@ -91,19 +92,19 @@
                 <tspan x="145" y="114">Community Area</tspan>
             </text>
             <text id="Hidden-Layer" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
-                <tspan x="305" y="114">Hidden Layer</tspan>
+                <tspan x="314" y="114">Hidden Layer</tspan>
             </text>
             <text id="Random-Forest" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
-                <tspan x="465" y="114">Random Forest</tspan>
+                <tspan x="466" y="114">Random Forest</tspan>
             </text>
             <rect id="Rectangle" fill="#CD3E8D" fill-rule="nonzero" x="141" y="143" width="112" height="49"></rect>
             <text id="CHECK-IN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="171" y="165">CHECK IN</tspan>
             </text>
             <text id="LUNCH-&amp;-MENTOR-/-SPO" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="178.941406" y="373">LUNCH &amp; </tspan>
-                <tspan x="155.902344" y="382">MENTOR / SPONSOR </tspan>
-                <tspan x="168.945312" y="391">NETWORKING</tspan>
+                <tspan x="265.441406" y="374">LUNCH &amp; </tspan>
+                <tspan x="242.402344" y="383">MENTOR / SPONSOR </tspan>
+                <tspan x="255.445312" y="392">NETWORKING</tspan>
             </text>
             <text id="08:30---09:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="173.425781" y="176">08:30 - 09:30</tspan>
@@ -112,24 +113,24 @@
                 <tspan x="171.925781" y="226">09:30 - 10:00</tspan>
             </text>
             <text id="TEAM-FORMATION" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="310.595215" y="178">TEAM FORMATION </tspan>
+                <tspan x="312.595215" y="178">TEAM FORMATION </tspan>
             </text>
             <text id="HOW-TO-KICK-ASS-AS-A" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="309.796875" y="251">HOW TO KICK ASS AS A </tspan>
-                <tspan x="349" y="260">PM</tspan>
+                <tspan x="311.796875" y="251">HOW TO KICK ASS AS A </tspan>
+                <tspan x="351" y="260">PM</tspan>
             </text>
-            <text id="INTRO-TO-UX" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+            <text id="INTRO-TO-UI-/-UX" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="172.793945" y="258">INTRO TO </tspan>
-                <tspan x="189.554199" y="269">UX</tspan>
+                <tspan x="180.386719" y="269">UI / UX</tspan>
             </text>
             <text id="09:00---09:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="331.425781" y="187">09:00 - 09:30</tspan>
+                <tspan x="333.425781" y="187">09:00 - 09:30</tspan>
             </text>
             <text id="BREAKFAST" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="487.546875" y="164">BREAKFAST</tspan>
+                <tspan x="488.546875" y="164">BREAKFAST</tspan>
             </text>
             <text id="08:30---09:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="493.425781" y="178">08:30 - 09:30</tspan>
+                <tspan x="494.425781" y="178">08:30 - 09:30</tspan>
             </text>
             <text id="DINNER" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="177.83252" y="672">DINNER</tspan>
@@ -137,22 +138,22 @@
             <text id="07:00---08:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="173.425781" y="684">07:00 - 08:00</tspan>
             </text>
-            <text id="07:30---08:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="494.425781" y="757">07:30 - 08:00</tspan>
+            <text id="07:00---07:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="462.425781" y="731">07:00 - 07:30</tspan>
             </text>
             <text id="INTRO-TO-APIs" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="481.621582" y="283">INTRO TO APIs</tspan>
+                <tspan x="482.621582" y="283">INTRO TO APIs</tspan>
             </text>
             <text id="11:00---12:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="494.222656" y="297">11:00 - 12:00 </tspan>
             </text>
             <text id="INTRO-TO-GO" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="493.293945" y="331">INTRO TO </tspan>
-                <tspan x="509.22168" y="342">GO</tspan>
+                <tspan x="494.293945" y="331">INTRO TO </tspan>
+                <tspan x="510.22168" y="342">GO</tspan>
             </text>
             <text id="INTRO-TO-DOCKER" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="493.293945" y="424">INTRO TO </tspan>
-                <tspan x="495.608398" y="435">DOCKER </tspan>
+                <tspan x="494.293945" y="424">INTRO TO </tspan>
+                <tspan x="496.608398" y="435">DOCKER </tspan>
             </text>
             <text id="12:00--01:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="495.037109" y="354">12:00- 01:00</tspan>
@@ -164,66 +165,78 @@
                 <tspan x="158.379395" y="470">GOOGLE VOICE </tspan>
                 <tspan x="169.587891" y="481">ASSISTANT</tspan>
             </text>
-            <text id="BOBA-BREAK" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="165.041992" y="546">BOBA BREAK</tspan>
+            <text id="BOBA,-YOGA-&amp;-FACEMAS" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="187.568359" y="522">BOBA, YOGA &amp; FACEMASKS</tspan>
             </text>
-            <text id="YOGA-&amp;-FACEMASKS" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="304.150391" y="523">YOGA &amp; FACEMASKS</tspan>
+            <text id="@-COMMUNITY-AREA" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="369.066406" y="389">@ COMMUNITY AREA</tspan>
             </text>
-            <text id="04:00---04:30-@-COMM" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="464.532227" y="523">04:00 - 04:30</tspan>
-                <tspan x="442.066406" y="534">@ COMMUNITY AREA</tspan>
+            <text id="@-COMMUNITY-AREA" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="369.066406" y="522">@ COMMUNITY AREA</tspan>
+            </text>
+            <text id="@-COMMUNITY-AREA" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="444.453125" y="720">@ COMMUNITY AREA</tspan>
+            </text>
+            <text id="@-COMMUNITY-AREA" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="475.453125" y="621">@ COMMUNITY AREA</tspan>
             </text>
             <text id="HOW-TO-GET-STARTED-I" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="485.961426" y="734">HOW TO GET</tspan>
-                <tspan x="480.402344" y="745">STARTED IN CS</tspan>
+                <tspan x="453.961426" y="696">HOW TO GET</tspan>
+                <tspan x="448.402344" y="707">STARTED IN CS</tspan>
             </text>
             <text id="FIRESIDE-CHAT" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="480.312012" y="691">FIRESIDE CHAT</tspan>
+                <tspan x="319.312012" y="691">FIRESIDE CHAT</tspan>
+            </text>
+            <text id="OFFICE-HOURS" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="479.22168" y="644">OFFICE HOURS</tspan>
             </text>
             <text id="SUBMISSIONS-DUE" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="308.825195" y="628">SUBMISSIONS DUE</tspan>
+                <tspan x="310.825195" y="628">SUBMISSIONS DUE</tspan>
             </text>
-            <text id="NAVIGATING-THE-TECHN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.100000001" fill="#000000">
-                <tspan x="312.905957" y="552">NAVIGATING THE </tspan>
-                <tspan x="326.398145" y="563">TECHNICAL </tspan>
-                <tspan x="326.862012" y="574">INTERVIEW</tspan>
+            <text id="NAVIGATING-THE-TECHN" font-family="ArialMT, Arial" font-size="8" font-weight="normal" letter-spacing="0.0800000057" fill="#000000">
+                <tspan x="483.824766" y="232">NAVIGATING THE </tspan>
+                <tspan x="470.956797" y="241">TECHNICAL INTERVIEW</tspan>
             </text>
-            <text id="04:30---05:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="331.425781" y="591">04:30 - 05:30</tspan>
+            <text id="10:00---11:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="494.722656" y="254">10:00 - 11:00</tspan>
             </text>
             <text id="07:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="345.490234" y="642">07:00</tspan>
+                <tspan x="347.490234" y="642">07:00</tspan>
             </text>
             <text id="PROJECT-DEMOS/JUDGIN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="310.64209" y="717">PROJECT DEMOS/</tspan>
-                <tspan x="332.5" y="728">JUDGING </tspan>
+                <tspan x="312.64209" y="717">PROJECT DEMOS/</tspan>
+                <tspan x="334.5" y="728">JUDGING </tspan>
             </text>
             <text id="08:00---09:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="331.425781" y="741">08:00 - 09:00</tspan>
+                <tspan x="333.425781" y="741">08:00 - 09:00</tspan>
             </text>
             <text id="CLOSING-CEREMONY" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="143.714355" y="778">CLOSING CEREMONY</tspan>
+                <tspan x="144.714355" y="778">CLOSING CEREMONY</tspan>
             </text>
             <text id="END-OF-EVENT" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
-                <tspan x="310.551758" y="799">END OF EVENT</tspan>
+                <tspan x="320.551758" y="799">END OF EVENT</tspan>
             </text>
             <text id="09:15---10:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="172.925781" y="789">09:15 - 10:00</tspan>
             </text>
             <text id="11:00---1:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="333.947266" y="344">11:00 - 1:00</tspan>
+                <tspan x="335.947266" y="344">11:00 - 1:00</tspan>
             </text>
             <text id="10:30---11:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="332.222656" y="234">10:30 - 11:00</tspan>
+                <tspan x="334.222656" y="234">10:30 - 11:00</tspan>
             </text>
             <text id="01:00---2:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="175.150391" y="403">01:00 - 2:00</tspan>
+                <tspan x="261.650391" y="402">01:00 - 2:00</tspan>
             </text>
-            <path d="M408.5,519.25 L446.5,519.25" id="Line-2" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
-            <path d="M518.5,694.25 L518.5,717.5" id="Line-2" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
+            <path d="M405.5,692.25 L442.5,692.25" id="Line-2" stroke="#979797" stroke-linecap="square" fill-rule="nonzero"></path>
+            <text id="07:00---07:30" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
+                <tspan x="493.425781" y="670">07:00 - 07:30</tspan>
+            </text>
+            <text id="W/-JEN-APRAHAMIAN" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="465.881836" y="659">W/ JEN APRAHAMIAN</tspan>
+            </text>
             <text id="@-COMMUNITY-AREA" font-family="ArialMT, Arial" font-size="7" font-weight="normal" fill="#000000">
-                <tspan x="317.674072" y="198"> @ COMMUNITY AREA</tspan>
+                <tspan x="320.674072" y="162"> @ COMMUNITY AREA</tspan>
             </text>
             <text id="02:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
                 <tspan x="44" y="412">02:00 PM</tspan>
@@ -252,14 +265,14 @@
             <text id="10:00-PM" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
                 <tspan x="44" y="800">10:00 PM</tspan>
             </text>
-            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="299" y="410" width="112" height="49"></rect>
+            <rect id="Rectangle" fill="#D2ACD9" fill-rule="nonzero" x="301" y="410" width="112" height="49"></rect>
             <text id="INTRO-TO-GOOGLE-CLOU" font-family="ArialMT, Arial" font-size="7" font-weight="normal" fill="#000000">
-                <tspan x="322.762695" y="424">INTRO TO GOOGLE </tspan>
-                <tspan x="343.248291" y="431">CLOUD</tspan>
-                <tspan x="336.702881" y="438">PLATFORM</tspan>
+                <tspan x="324.762695" y="424">INTRO TO GOOGLE </tspan>
+                <tspan x="345.248291" y="431">CLOUD</tspan>
+                <tspan x="338.702881" y="438">PLATFORM</tspan>
             </text>
             <text id="02:00---03:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="331.925781" y="451">02:00 - 03:00</tspan>
+                <tspan x="333.925781" y="451">02:00 - 03:00</tspan>
             </text>
             <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="141.2" y="312.2" width="111.6" height="48.6"></rect>
             <text id="INTRO-TO-iOS" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
