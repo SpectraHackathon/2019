@@ -61,13 +61,13 @@
             <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="462" y="142" width="112" height="51"></rect>
             <path d="M141,240 L253,240 L253,289 L141,289 L141,240 Z M298,166 L417,166 L417,191 L298,191 L298,166 Z" id="Rectangle" fill="#FFDEA9" fill-rule="nonzero"></path>
             <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="462.2" y="263.2" width="111.6" height="50.6"></rect>
-            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="301" y="240" width="112" height="28"></rect>
+            <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="462" y="235" width="112" height="28"></rect>
             <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="141" y="458" width="112" height="26"></rect>
             <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="301" y="676" width="112" height="25"></rect>
             <rect id="Rectangle" fill="#A3C6F0" fill-rule="nonzero" x="301" y="676" width="112" height="25"></rect>
             <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="461" y="628" width="112" height="48"></rect>
             <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="301.2" y="265.2" width="111.6" height="95.6"></rect>
-            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="462.2" y="240.2" width="111.6" height="23.6"></rect>
+            <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="301.2" y="240.2" width="111.6" height="24.6"></rect>
             <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="462.2" y="409.2" width="111.6" height="48.6"></rect>
             <rect id="Rectangle" stroke="#979797" stroke-width="0.4" fill="#FFDEA9" fill-rule="nonzero" x="462.2" y="312.2" width="111.6" height="48.6"></rect>
             <rect id="Rectangle" fill="#F38A97" fill-rule="nonzero" x="301" y="700" width="112" height="49"></rect>
@@ -124,8 +124,8 @@
                 <tspan x="312.595215" y="178">TEAM FORMATION </tspan>
             </text>
             <text id="HOW-TO-KICK-ASS-AS-A" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="311.796875" y="251">HOW TO KICK ASS AS A </tspan>
-                <tspan x="351" y="260">PM</tspan>
+                <tspan x="466.796875" y="244">HOW TO KICK ASS AS A </tspan>
+                <tspan x="506" y="253">PM</tspan>
             </text>
             <text id="INTRO-TO-UI-/-UX" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
                 <tspan x="172.793945" y="258">INTRO TO </tspan>
@@ -210,8 +210,8 @@
                 <tspan x="310.825195" y="628">SUBMISSIONS DUE</tspan>
             </text>
             <text id="NAVIGATING-THE-TECHN" font-family="ArialMT, Arial" font-size="8" font-weight="normal" letter-spacing="0.0800000057" fill="#000000">
-                <tspan x="485.324766" y="251">NAVIGATING THE </tspan>
-                <tspan x="472.456797" y="260">TECHNICAL INTERVIEW</tspan>
+                <tspan x="324.324766" y="252">NAVIGATING THE </tspan>
+                <tspan x="311.456797" y="261">TECHNICAL INTERVIEW</tspan>
             </text>
             <text id="07:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="347.490234" y="642">07:00</tspan>
@@ -239,7 +239,7 @@
                 <tspan x="332.222656" y="236">10:30 - 11:00</tspan>
             </text>
             <text id="10:30---11:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
-                <tspan x="496.222656" y="236">10:30 - 11:00</tspan>
+                <tspan x="496.222656" y="233">10:30 - 11:00</tspan>
             </text>
             <text id="01:00---2:00" font-family="ArialMT, Arial" font-size="8" font-weight="normal" fill="#000000">
                 <tspan x="261.650391" y="402">01:00 - 2:00</tspan>
