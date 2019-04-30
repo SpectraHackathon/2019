@@ -3,10 +3,10 @@ function init() {
      $(".navbar-nav li").removeClass("active");
      $(this).addClass("active");
   });
-  initializeMap();
+  initMap();
 }
 
-function initializeMap() {
+function initMap() {
   // var siliconValley = new google.maps.LatLng(37.6279340,-122.42666);
   var isDraggable = $(document).width() > 480 ? true : false;
   var siliconValley = {lat:37.778816, lng:-122.397592};
@@ -14,7 +14,7 @@ function initializeMap() {
   var mapOptions = {
     center: siliconValley,
     scrollwheel: false,
-    zoom: 12,
+    zoom: 14,
     draggable: isDraggable
   };
   var map = new google.maps.Map(mapContainer, mapOptions);
