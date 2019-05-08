@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'AirbnbCereal';
+  src: url('../fonts/AirbnbCereal-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'AirbnbCereal-Book';
+  src: url('../fonts/AirbnbCereal-Book.ttf') format('truetype');
+}
+
+html {
+	font-family: 'AirbnbCereal', Arial, sans-serif;
+	background: #F4BC68;
+
+}
+
+a {
+	color: #FF731B;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+nav {
+	background-image: linear-gradient(to right,#FF480A, #FF9B2B);
+}
+nav div ul li {
+	padding: 0 1em;
+}
+
+.lightorange-color {
+	background-color: #F4BC68;
+}
+
+.font {
+	font-family: 'AirbnbCereal', Arial, sans-serif;
+}
+
+.font-book {
+	font-family: 'AirbnbCereal-Book', Arial, sans-serif;
+}
+
+.basic-padding {
+	padding: 2em 1em;
+}
+
+
+.title-underline {
+	background-color: #F4BC68;
+	height: 1em;
+	margin-bottom: 2em;
+	top: -1em;
+	position: relative;
+	z-index: 0;
+}
+
+.nav-item a{
+	font-family: 'AirbnbCereal', Arial, sans-serif;
+	color: white;
+}
+
+#main {
+	background-color: #F4BC68;
+	padding: 12em 5em 5em 5em;
+}
+
+#main div h3 {
+	font-family: 'AirbnbCereal', Arial, sans-serif;
+	font-size: 3em;
+	color: white;
+}
+
+#FAQ {
+	padding: 2em 0em;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+}
+
+.color-border {
+	background-color: #FF9B2B;
+	height: 4px;
+}
+
+.subscribe-button {
+	color: white;
+	background-image: linear-gradient(to right,#FF480A, #FF9B2B);
+	border-radius: 30px;
+}
+
+.form-control {
+	border-radius: 30px;
+}
+
+.row-padding {
+	padding: 0em 2em;
+}
+
+.faq-description {
+	background-color: white;
+	border-radius: 15px;
+	padding: 1.5em 1em;
+	margin-bottom: 3em;
+}
+
+.faq-description p {
+	font-size: 14px;
+}
+
+.faq-title {
+	font-family: 'AirbnbCereal', Arial, sans-serif;
+	border-radius: 30px;
+	background-image: linear-gradient(to right,#F4BC68, #FF9B2B);
+	color: white;
+	text-align: center;
+	display:inline-block;
+	padding: 0.25em 1em;
+}
+
+.section-title {
+	padding: 2em;
+	color: #FF731B;
+}
+
+.about-title {
+	z-index: 1;
+	position: relative;
+}
+
+.application-button {
+	font-family: 'AirbnbCereal', Arial, sans-serif;
+	background-image: linear-gradient(to right,#FF480A, #FF9B2B);
+	padding: 0.5em 2em;
+	border-radius: 30px;
+	color: white;
+}
+
+.team-profile {
+	display:grid;
+	grid-template-columns: 1fr 1fr 150px 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto;
+}
+
+.social {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	padding-bottom: 5em;
+}
+
+.social a {
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.social a:hover {
+	color: black;
+}
+
+.team-profile img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: -15px 15px #FF731B;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.profile-name {
+	margin: 0.5em 0 0 0;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 3;
+	color: black;
+}
+
+.profile-title {
+	grid-column-start: 2;
+	grid-column-end: 5;
+	color: grey;
+	grid-row-start: 4;
+	margin: 0;
+}
+
+.img-highlight {
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background-color: #FF731B;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	margin: -10px -12px 0 auto;
+}
