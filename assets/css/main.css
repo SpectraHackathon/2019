@@ -75,6 +75,14 @@ nav div ul li {
 	padding: 2em 0em;
 }
 
+#sponsors {
+	padding-bottom: 2em;
+}
+
+#sponsor-logos {
+	padding-bottom: 2em;
+}
+
 #logo {
 	width: 200px;
 	height: 200px;
@@ -182,6 +190,22 @@ nav div ul li {
 	color: grey;
 	grid-row-start: 4;
 	margin: 0;
+}
+
+.sponsors-row {
+	padding: 1em;
+}
+
+.sponsor-logo-1 {
+	width: 150px;
+	height: 100%;
+	margin: auto 1em 2em 1em;
+}
+
+.sponsor-logo-3 {
+	width: 500px;
+	height: 100%;
+	margin: auto 1em 2em 1em;
 }
 
 .img-highlight {
