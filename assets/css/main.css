@@ -196,28 +196,24 @@ nav div ul li {
 	padding: 1em;
 }
 
+.sponsors-row a {
+	margin: auto 1em 2em 1em;
+}
+
 .sponsor-logo-0 {
 	width: 150px;
-	height: 100%;
-	margin: auto 1em 2em 1em;
 }
 
 .sponsor-logo-1 {
 	width: 200px;
-	height: 100%;
-	margin: auto 1em 2em 1em;
 }
 
 .sponsor-logo-2{
 	width: 300px;
-	height: 100%;
-	margin: auto 1em 2em 1em;
 }
 
 .sponsor-logo-3 {
 	width: 500px;
-	height: 100%;
-	margin: auto 1em 2em 1em;
 }
 
 .img-highlight {
