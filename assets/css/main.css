@@ -196,6 +196,11 @@ nav div ul li {
 	margin: auto 1em 2em 1em;
 }
 
+.sponsor-main {
+	width: 600px;
+	max-width: 100%;
+}
+
 .sponsor-logo-0 {
 	width: 150px;
 }
