@@ -41,6 +41,12 @@
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#FAQ">faq's</a>
 	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" data-scroll href="#">register</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" data-scroll href="#location">location</a>
+	      </li>
 	      <!-- <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#">schedule (coming soon)</a>
 	      </li> -->
@@ -64,18 +70,20 @@
 		</div>
 	</div>
 
-	<div class="container basic-padding d-flex justify-content-center">
-		<form action="https://sospectra.us12.list-manage.com/subscribe/post" method="POST" style="width: 24em;">
-			<input type="hidden" name="u" value="f0000ef55a22db2c251318957">
-    	<input type="hidden" name="id" value="a7e5335ef7">
-    	<input type="hidden" name="mc_signupsource" value="hosted">
-			<div class="input-group" id="about">
-			  <input type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="subscribe to get the latest updates" aria-label="email" aria-describedby="button-addon2">
-			  <div class="input-group-append">
-			    <button class="btn subscribe-button" type="submit" id="button-addon2">subscribe</button>
-			  </div>
-			</div>
-		</form>
+	<div class="container-fluid" id="email">
+		<div class="container basic-padding d-flex justify-content-center" >
+			<form action="https://sospectra.us12.list-manage.com/subscribe/post" method="POST" style="width: 24em;">
+				<input type="hidden" name="u" value="f0000ef55a22db2c251318957">
+	    	<input type="hidden" name="id" value="a7e5335ef7">
+	    	<input type="hidden" name="mc_signupsource" value="hosted">
+				<div class="input-group" id="about">
+				  <input type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="subscribe to get the latest updates" aria-label="email" aria-describedby="button-addon2">
+				  <div class="input-group-append">
+				    <button class="btn subscribe-button" type="submit" id="button-addon2">subscribe</button>
+				  </div>
+				</div>
+			</form>
+		</div>
 	</div>
 
 	<!-- break line -->
@@ -109,6 +117,15 @@
 	<!-- break line -->
 <!-- 	<div class="color-border">
 	</div> -->
+
+	<div class="container-fluid lightorange-color">
+		<div class="container text-center justify-content-center" id="location">
+			<h1 class="section-title font" style="padding-bottom: 1em; color: white">Hosted at</h1>
+			<img src="./assets/images/sponsors/MakeSchool.svg" style="width:300px; height: 100%; max-width: 100%;"/>
+			<h3 class="section-title font" style="color: white">555 Post St, San Francisco, CA 94102</h3>
+			<div id="map"></div>
+		</div>
+	</div>
 
 	<!-- FAQ -->
 	<div class="container-fluid lightorange-color"  id="FAQ">
@@ -438,9 +455,13 @@
 		</div>
 	</div>
 
-
+	
 	<!-- custom JavaScript -->
 	<script type="text/javascript" src="./assets/js/main.js"></script>
+	<!-- google maps api -->
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPoYjL0HaAJYCCwmjTMuMv242ht0NrIxg&callback=initMap">
+  </script>
 	<!-- BootStrap -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 

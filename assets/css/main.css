@@ -10,7 +10,10 @@
 html {
 	font-family: 'AirbnbCereal', Arial, sans-serif;
 	background: #F4BC68;
+}
 
+body{
+	background: #F4BC68;
 }
 
 a {
@@ -69,6 +72,17 @@ nav div ul li {
 	font-family: 'AirbnbCereal', Arial, sans-serif;
 	font-size: 3em;
 	color: white;
+}
+
+#email {
+	background: white;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+	max-width: 100%;
+	margin: 0px auto 0px auto;
 }
 
 #FAQ {
