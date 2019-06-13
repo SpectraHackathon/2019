@@ -15,6 +15,7 @@ function initMap() {
 }
 
 var a = document.getElementById('outerButton')
+var b = document.getElementById('navbarRegister')
 var div = document.getElementById('innerButton')
 
 function updateTimer() {
@@ -33,6 +34,7 @@ function updateTimer() {
 	} else {
 		div.innerHTML = "register now"
 		a.setAttribute("href", "https://tinyurl.com/gotospectra3")
+		b.setAttribute("href", "https://tinyurl.com/gotospectra3")
 	}
 }
 
