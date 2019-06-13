@@ -29,7 +29,6 @@ function updateTimer() {
 	let seconds = Math.floor(diff / 1000)
 	if (releaseDate > now) {
 		div.innerHTML = `Apps open in ${hours} hour(s) ${minutes} minute(s) and ${seconds} second(s)`
-		a.setAttribute("href", "#")
 		setTimeout(() => updateTimer(), 1000)
 	} else {
 		div.innerHTML = "register now"

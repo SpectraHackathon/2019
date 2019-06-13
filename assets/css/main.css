@@ -85,6 +85,11 @@ nav div ul li {
 	margin: 0px auto 0px auto;
 }
 
+#location {
+	padding-right: 0;
+	padding-left: 0; 
+}
+
 #FAQ {
 	padding: 2em 0em;
 }
