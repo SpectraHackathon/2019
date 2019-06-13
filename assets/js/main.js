@@ -13,3 +13,27 @@ function initMap() {
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: makeSchool, map: map});
 }
+
+var a = document.getElementById('outerButton')
+var div = document.getElementById('innerButton')
+
+function updateTimer() {
+	const releaseDate = new Date('June 13, 2019 08:30:00 GMT-07:00')
+	let now = new Date()
+	let diff = releaseDate - now
+	let hours = Math.floor(diff / (60 * 60 * 1000))
+	diff -= (hours * (60 * 60 * 1000))
+	let minutes = Math.floor(diff / (60 * 1000))
+	diff -= (minutes * (60 * 1000))
+	let seconds = Math.floor(diff / 1000)
+	if (releaseDate > now) {
+		div.innerHTML = `Apps open in ${hours} hour(s) ${minutes} minute(s) and ${seconds} second(s)`
+		a.setAttribute("href", "#")
+		setTimeout(() => updateTimer(), 1000)
+	} else {
+		div.innerHTML = "register now"
+		a.setAttribute("href", "https://tinyurl.com/gotospectra3")
+	}
+}
+
+updateTimer()
