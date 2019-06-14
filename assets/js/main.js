@@ -19,7 +19,7 @@ var b = document.getElementById('navbarRegister')
 var div = document.getElementById('innerButton')
 
 function updateTimer() {
-	const releaseDate = new Date('June 13, 2019 08:30:00 GMT-07:00')
+	const releaseDate = new Date('June 13, 2019 20:30:00 GMT-07:00')
 	let now = new Date()
 	let diff = releaseDate - now
 	let hours = Math.floor(diff / (60 * 60 * 1000))
