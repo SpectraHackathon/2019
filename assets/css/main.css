@@ -32,6 +32,21 @@ nav div ul li {
 	padding: 0 1em;
 }
 
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+footer a {
+	margin: 0.5em;
+}
+
+footer h2 {
+	display: inline-block;
+	color: #FF731B;
+	margin: auto 0.5em;
+}
+
 .lightorange-color {
 	background-color: #F4BC68;
 }
