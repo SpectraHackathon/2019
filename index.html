@@ -24,22 +24,50 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-77365611-1');
+		
+		//FB Tracking
+		<!-- Facebook Pixel Code -->
+	
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '612378962632992');
+		  fbq('track', 'PageView');
 	</script>
-
+	<!-- FB Pixel Tracking Code -->
+	<noscript><img height="1" width="1" style="display:none"
+	  src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End FB Code -->
+	
 </head>
 <body>
+	<script>
+	  fbq('track', 'ViewContent');
+	</script>
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  	<span class="navbar-toggler-icon"></span>
+ 	</button>
 
 		<div class="collapse navbar-collapse" id="navbarToggler">
 	    <ul class="navbar-nav d-flex justify-content-center container">
+	    	<li class="nav-item">
+	        <a class="nav-link" data-scroll href="#" id="navbarRegister">register</a>
+	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#about">about</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#FAQ">faq's</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" data-scroll href="#location">location</a>
 	      </li>
 	      <!-- <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#">schedule (coming soon)</a>
@@ -58,24 +86,28 @@
 		<div>
 			<img class="img-fluid mx-auto d-block" id="logo" src="./assets/images/spectra/logo.png"/>
 			<h3 class="text-center font">SPECTRA</h3>
-			<div class="application-button text-center">
-				apps open in June
-			</div>
+			<a href="#" id="outerButton">
+				<div class="application-button text-center" id="innerButton">
+					apps open June 13th
+				</div>
+			</a>
 		</div>
 	</div>
 
-	<div class="container basic-padding d-flex justify-content-center">
-		<form action="https://sospectra.us12.list-manage.com/subscribe/post" method="POST" style="width: 24em;">
-			<input type="hidden" name="u" value="f0000ef55a22db2c251318957">
-    	<input type="hidden" name="id" value="a7e5335ef7">
-    	<input type="hidden" name="mc_signupsource" value="hosted">
-			<div class="input-group" id="about">
-			  <input type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="subscribe to get the latest updates" aria-label="email" aria-describedby="button-addon2">
-			  <div class="input-group-append">
-			    <button class="btn subscribe-button" type="submit" id="button-addon2">subscribe</button>
-			  </div>
-			</div>
-		</form>
+	<div class="container-fluid" id="email">
+		<div class="container basic-padding d-flex justify-content-center" >
+			<form action="https://sospectra.us12.list-manage.com/subscribe/post" method="POST" style="width: 24em;">
+				<input type="hidden" name="u" value="f0000ef55a22db2c251318957">
+	    	<input type="hidden" name="id" value="a7e5335ef7">
+	    	<input type="hidden" name="mc_signupsource" value="hosted">
+				<div class="input-group" id="about">
+				  <input type="email" name="MERGE0" id="MERGE0" class="form-control" placeholder="subscribe to get the latest updates" aria-label="email" aria-describedby="button-addon2">
+				  <div class="input-group-append">
+				    <button class="btn subscribe-button" type="submit" id="button-addon2">subscribe</button>
+				  </div>
+				</div>
+			</form>
+		</div>
 	</div>
 
 	<!-- break line -->
@@ -90,7 +122,7 @@
 					<h3 class="font about-title">Exploring the Tech Space Together</h3>
 					<div class="title-underline"></div>
 					<p class="font">
-						Spectra is an organization that hosts bi-annual, full-day events on the west coast for women in tech. Mostly recently, we hosted a women’s hackathon at YouTube HQ in July 2016. Our 2018 event is July 28th at Domino Data Lab.
+						Spectra is an organization that hosts bi-annual, full-day events on the west coast for women in tech. In the past, we have hosted women’s hackathons at YouTube HQ in July 2016 and Domino Data Lab in July 2018. Our upcoming event will be on July 20th!
 					</p>
 					<p class="font">
 						We are passionate about bringing together female students and professionals in tech from all around the world. Our events offer attendees a safe and inviting environment to experiment with technology at any experience level.
@@ -109,6 +141,17 @@
 	<!-- break line -->
 <!-- 	<div class="color-border">
 	</div> -->
+
+	<div class="container-fluid lightorange-color">
+		<div class="container text-center justify-content-center" id="location">
+			<h1 class="section-title font" style="padding-bottom: 1em; color: white">Hosted at</h1>
+			<a href="https://www.makeschool.com/">
+				<img src="./assets/images/sponsors/MakeSchool.svg" style="width:300px; height: 100%; max-width: 100%;"/>
+			</a>
+			<h3 class="section-title font" style="color: white">555 Post St, San Francisco, CA 94102</h3>
+			<div id="map"></div>
+		</div>
+	</div>
 
 	<!-- FAQ -->
 	<div class="container-fluid lightorange-color"  id="FAQ">
@@ -136,6 +179,12 @@
 					<p class="faq-title">When will I know if I'm able to attend?</p>
 					<div class="faq-description">
 						<p class="font" style="margin: 0">We are still currently working on the process of notifying if you will be able to attend. Most likely you will recieve an email from us confirming your spot for this hackathon. Please check back soon for an update.</p>
+					</div>
+					<p class="faq-title">What do you mean by non competitive? Will there be no prizes?</p>
+					<div class="faq-description">
+						<p class="font" style="margin: 0">
+							Non-competitive means there will be no ranking for best overall hacks (no 1st/2nd etc place). Instead, we will have other fun categories for prizes such as “best mobile hack” or “most creative use of xyz API
+						</p>
 					</div>
 				</div>
 
@@ -194,7 +243,7 @@
 						<h5 class="profile-name font">Christina Cook</h5>
 						<p class="profile-title font">Co-Director</p>
 						<div class="social">
-							<a href="http://christinacook.me">
+							<a href="https://twitter.com/tinathetechiee/">
 		            <i class="fab fa-twitter"></i>
 		        	</a>
 		        	<a href="https://www.linkedin.com/in/tinafcook/">
@@ -250,9 +299,9 @@
 		        	<a href="https://linkedin.com/in/elsiegle">
 		            <i class="fab fa-linkedin"></i>
 		        	</a>
-                            <a href = "https://github.com/elizabethsiegle">
-                            <i class="fab fa-github"></i>
-                            </a>
+              <a href = "https://github.com/elizabethsiegle">
+              	<i class="fab fa-github"></i>
+              </a>
           	</div>
 					</div>
 				</div>
@@ -282,7 +331,7 @@
 						<p class="profile-title font">Marketing</p>
 						<div class="social">
 							<a href="https://dianephan.github.io">
-		            <i class="fab fa-github"></i>
+		            <i class="fas fa-globe-americas"></i>
 		        	</a>
 		        	<a href="https://www.linkedin.com/in/diane-phan/">
 		            <i class="fab fa-linkedin"></i>
@@ -383,25 +432,52 @@
 		<div class="container text-center">
 			<h1 class="section-title font" style="color: white;">Sponsors</h1>
 			<div class="row justify-content-center sponsors-row">
-				<img class="sponsor-logo-3" src="./assets/images/sponsors/servicenow-logo.svg">
-				<!-- <img class="sponsor-logo-3" src="./assets/images/sponsors/mongodb.png">
-				<img class="sponsor-logo-3" src="./assets/images/sponsors/braintree.png">
-				<img class="sponsor-logo-3" src="./assets/images/sponsors/venmo.png">
-				<img class="sponsor-logo-3" src="./assets/images/sponsors/twilio-logo-white.svg">
-				<img class="sponsor-logo-3" src="./assets/images/sponsors/sisu.svg">
-				<img class="sponsor-logo-3" src="./assets/images/sponsors/typeform.png"> -->
+				<a class="sponsor-main" href="https://www.makeschool.com/">
+					<img class="sponsor-main" src="./assets/images/sponsors/MakeSchool.svg" alt="makeschool">
+				</a>
+			</div>
+			<div class="row justify-content-center sponsors-row">
+				<a href="https://www.servicenow.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/servicenow-logo.svg" alt="servicenow">
+				</a>
+				<a href="https://sisu.ai/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/sisu.svg">
+				</a>
+				<a href="https://www.braintreepayments.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/braintree.png">
+				</a>
+				<a href="https://venmo.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/venmo.png">
+				</a>
+				<a href="https://www.mongodb.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/mongodb.png">
+				</a>
+				<!-- <img class="sponsor-logo-3" src="./assets/images/sponsors/twilio-logo-white.svg"> -->
 			</div>
 			<!-- <div class="row justify-content-center sponsors-row">
 				<img class="sponsor-logo-2" src="./assets/images/sponsors/facebook.svg">
 			</div> -->
 			<div class="row justify-content-center sponsors-row">
-				<img class="sponsor-logo-1" src="./assets/images/sponsors/GWC_logo.png">
-				<img class="sponsor-logo-1" src="./assets/images/sponsors/benefit.webp">
+				<a href="https://girlswhocode.com/">
+					<img class="sponsor-logo-1" src="./assets/images/sponsors/GWC_logo.png" alt="gwc">
+				</a>
+				<a href="https://www.benefitcosmetics.com/">
+					<img class="sponsor-logo-1" src="./assets/images/sponsors/benefit.png" alt="benefit">
+				</a>
 			</div>
 			<div class="row justify-content-center sponsors-row">
-				<img class="sponsor-logo-0" src="./assets/images/sponsors/bobos.png">
-				<img class="sponsor-logo-0" src="./assets/images/sponsors/fitbit.png">
-				<img class="sponsor-logo-0" src="./assets/images/sponsors/interviewcake.png">
+				<a href="https://eatbobos.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/bobos.png" alt="bobos">
+				</a>
+				<a href="https://www.fitbit.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/fitbit.png" alt="fitbit">
+				</a>
+				<a href="https://www.interviewcake.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/interviewcake.png" alt="interviewcake">
+				</a>
+				<a href="https://www.typeform.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/typeform.png">
+				</a>
 			</div>
 		</div>
 	</div>
@@ -415,16 +491,18 @@
 		</div>
 	</div>
 
-
+	
 	<!-- custom JavaScript -->
 	<script type="text/javascript" src="./assets/js/main.js"></script>
+	<!-- google maps api -->
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPoYjL0HaAJYCCwmjTMuMv242ht0NrIxg&callback=initMap">
+  </script>
 	<!-- BootStrap -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 
 	<!-- Smooth Scroll by cferdinandi -->
 	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 	<script>var scroll = new SmoothScroll('a[href*="#"]');</script>
-
-
 </body>
 </html>
