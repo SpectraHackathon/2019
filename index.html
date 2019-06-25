@@ -44,7 +44,9 @@
 	  src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End FB Code -->
-	
+	<!-- Google Charts -->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<!-- End of Google Charts -->
 </head>
 <body>
 	<script>
@@ -64,14 +66,14 @@
 	        <a class="nav-link" data-scroll href="#about">about</a>
 	      </li>
 	      <li class="nav-item">
+	        <a class="nav-link" data-scroll href="#schedule">schedule</a>
+	      </li>
+	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#location">location</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#FAQ">faq's</a>
 	      </li>
-	      <!-- <li class="nav-item">
-	        <a class="nav-link" data-scroll href="#">schedule (coming soon)</a>
-	      </li> -->
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#team">team</a>
 	      </li>
@@ -110,10 +112,6 @@
 		</div>
 	</div>
 
-	<!-- break line -->
-<!-- 	<div class="color-border">
-	</div> -->
-
 	<!-- Mission Statement -->
 	<div class="container-fluid" style="background-color: #F9F9F9;" >
 		<div class="container" style="padding: 3em; background-color: #F9F9F9;">
@@ -138,9 +136,12 @@
 		</div>
 	</div>
 
-	<!-- break line -->
-<!-- 	<div class="color-border">
-	</div> -->
+	<div class="container-fluid lightorange-color" id="schedule">
+		<div class="container text-center justify-content-center">
+			<h1 class="section-title font" style="color: white;">Schedule</h1>
+			<div id="timeline" style="height: 300px"></div>
+		</div>
+	</div>
 
 	<div class="container-fluid lightorange-color">
 		<div class="container text-center justify-content-center" id="location">
@@ -517,6 +518,8 @@
 	<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPoYjL0HaAJYCCwmjTMuMv242ht0NrIxg&callback=initMap">
   </script>
+  <!-- Google Charts.js -->
+  <script type="text/javascript" src="./assets/js/charts.js"></script>
 	<!-- BootStrap -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 
