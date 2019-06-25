@@ -24,14 +24,36 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-77365611-1');
+		
+		//FB Tracking
+		<!-- Facebook Pixel Code -->
+	
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '612378962632992');
+		  fbq('track', 'PageView');
 	</script>
-
+	<!-- FB Pixel Tracking Code -->
+	<noscript><img height="1" width="1" style="display:none"
+	  src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End FB Code -->
+	
 </head>
 <body>
+	<script>
+	  fbq('track', 'ViewContent');
+	</script>
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  	<span class="navbar-toggler-icon"></span>
+ 	</button>
 
 		<div class="collapse navbar-collapse" id="navbarToggler">
 	    <ul class="navbar-nav d-flex justify-content-center container">
@@ -465,7 +487,7 @@
 		<div class="container text-center" style="background-color: #F9F9F9; padding: 10em 1em;">
 			<h1 class="section-title font" style="padding: 0;">Interested in Becoming a Sponsor?</h1>
 			<h5 class="font" style="margin-bottom: 2em;">Be a sponsor for our upcoming hackathon in July 2019</h5>
-			<a href="mailto:hello@sospectra.com?subject=Sponsoring%20Spectra" class="application-button" rel="email">email us</a>
+			<a href="mailto:hello@sospectra.com?subject=Sponsoring%20Spectra" class="application-button" rel="email">email us</a> or check out our <a href = "./assets/sponsorpdf/sponsorpdf.pdf">sponsorship tiers</a>.
 		</div>
 	</div>
 
