@@ -11,7 +11,6 @@
 	
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery.roadmap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 	<!-- jQuery -->
@@ -19,31 +18,9 @@
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77365611-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-77365611-1');
-		
-		//FB Tracking
-		<!-- Facebook Pixel Code -->
-	
-		  !function(f,b,e,v,n,t,s)
-		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		  n.queue=[];t=b.createElement(e);t.async=!0;
-		  t.src=v;s=b.getElementsByTagName(e)[0];
-		  s.parentNode.insertBefore(t,s)}(window, document,'script',
-		  'https://connect.facebook.net/en_US/fbevents.js');
-		  fbq('init', '612378962632992');
-		  fbq('track', 'PageView');
-	</script>
+	<script type="text/javascript" src="./assets/js/facebooktracking.js"></script>
 	<!-- FB Pixel Tracking Code -->
-	<noscript><img height="1" width="1" style="display:none"
-	  src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"
-	/></noscript>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"/></noscript>
 	<!-- End FB Code -->
 </head>
 <body>
@@ -58,7 +35,7 @@
 		<div class="collapse navbar-collapse" id="navbarToggler">
 	    <ul class="navbar-nav d-flex justify-content-center container">
 	    	<li class="nav-item">
-	        <a class="nav-link" data-scroll href="#" id="navbarRegister">register</a>
+	        <a class="nav-link" data-scroll href="https://tinyurl.com/gotospectra3" id="navbarRegister">register</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#about">about</a>
@@ -86,9 +63,9 @@
 		<div>
 			<img class="img-fluid mx-auto d-block" id="logo" src="./assets/images/spectra/logo.png"/>
 			<h3 class="text-center font">SPECTRA</h3>
-			<a href="#" id="outerButton">
+			<a href="https://tinyurl.com/gotospectra3" id="outerButton">
 				<div class="application-button text-center" id="innerButton">
-					apps open June 13th
+					register now
 				</div>
 			</a>
 		</div>
@@ -135,12 +112,12 @@
 	</div>
 
 	<!-- Timeline -->
-	<div class="container-fluid lightorange-color" id="schedule">
+	<!-- <div class="container-fluid lightorange-color" id="schedule">
 		<div class="container text-center justify-content-center">
 			<h1 class="section-title font" style="color: white;">Schedule</h1>
-			<div id="my-timeline"></div>
+			<div id="schedule"></div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="container-fluid lightorange-color">
 		<div class="container text-center justify-content-center" id="location">
@@ -429,8 +406,8 @@
 	</div>
 
 	<div class="container-fluid lightorange-color" id="sponsor-logos">
-		<div class="container text-center">
-			<h1 class="section-title font" style="color: white;">Sponsors</h1>
+		<!-- <div class="container text-center"> -->
+			<h1 class="section-title font text-center" style="color: white;">Sponsors</h1>
 			<div class="row justify-content-center sponsors-row">
 				<a class="sponsor-main" href="https://www.makeschool.com/">
 					<img class="sponsor-main" src="./assets/images/sponsors/MakeSchool.svg" alt="makeschool">
@@ -487,7 +464,7 @@
 					<img class="sponsor-logo-0" src="./assets/images/sponsors/typeform.png">
 				</a>
 			</div>
-		</div>
+		<!-- </div> -->
 	</div>
 
 
@@ -520,7 +497,6 @@
 	</footer>
 	
 	<!-- custom JavaScript -->
-	<script type="text/javascript" src="./assets/js/jquery.roadmap.min.js"></script>
 	<script type="text/javascript" src="./assets/js/main.js"></script>
 	<!-- google maps api -->
 	<script async defer
