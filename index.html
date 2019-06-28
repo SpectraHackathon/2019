@@ -8,13 +8,14 @@
 	<title>Spectra</title>
 	<!-- BootStrap -->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+	
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.roadmap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77365611-1"></script>
@@ -44,9 +45,6 @@
 	  src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End FB Code -->
-	<!-- Google Charts -->
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-	<!-- End of Google Charts -->
 </head>
 <body>
 	<script>
@@ -137,12 +135,12 @@
 	</div>
 
 	<!-- Timeline -->
-	<!-- <div class="container-fluid lightorange-color" id="schedule">
+	<div class="container-fluid lightorange-color" id="schedule">
 		<div class="container text-center justify-content-center">
 			<h1 class="section-title font" style="color: white;">Schedule</h1>
-			<div id="timeline" style="height: 300px"></div>
+			<div id="my-timeline"></div>
 		</div>
-	</div> -->
+	</div>
 
 	<div class="container-fluid lightorange-color">
 		<div class="container text-center justify-content-center" id="location">
@@ -522,13 +520,12 @@
 	</footer>
 	
 	<!-- custom JavaScript -->
+	<script type="text/javascript" src="./assets/js/jquery.roadmap.min.js"></script>
 	<script type="text/javascript" src="./assets/js/main.js"></script>
 	<!-- google maps api -->
 	<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPoYjL0HaAJYCCwmjTMuMv242ht0NrIxg&callback=initMap">
   </script>
-  <!-- Google Charts.js -->
-  <script type="text/javascript" src="./assets/js/charts.js"></script>
 	<!-- BootStrap -->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 

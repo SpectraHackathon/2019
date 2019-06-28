@@ -1,4 +1,3 @@
-
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -38,3 +37,21 @@ function updateTimer() {
 }
 
 updateTimer()
+
+var myEvents = [{
+      date: '9:00 - 10:00',
+      content: 'Registration Check-In'
+    },{
+      date: '10:00 - 10:30',
+      content: 'Opening Ceramony'
+    },{
+      date: '10:30 - 11:00',
+      content: 'Team Formation'
+    },{
+      date: '11:00 - 8:00',
+      content: 'Hacking'
+    }
+];
+
+$('#my-timeline').roadmap(myEvents, {eventsPerSlide: 4
+});
