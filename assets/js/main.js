@@ -49,35 +49,40 @@ var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 var requirement = document.getElementById("modal-requirements");
 var description = document.getElementById("modal-description");
+var title = document.getElementById("modal-title");
 
 var descriptions ={
 	braintreevenmo: {
+		t: "Braintree + Venmo - Infrastructure",
 		r: "None",
 		d: "* What is infrastructure? <br>* What is commonly seen in industry, some keywords <br>* Ways to deploy your app, what is relevant to a hackathon <br>* Some good practices -> show spinning up an instance"
 	},
 	android: {
+		t: "Building Intelligent Android Applications with Deep Learning APIs",
 		r: "All participants in this workshop will need a laptop with the latest version of Android Studio installed.",
 		d: "How difficult is it to build an intelligent application with no prior experience in AI? When you hear “artificial intelligence”, you might think of complex solutions like self-driving cars, autonomous drones, or robots- but it doesn’t have to be that complex. In this workshop, we’ll build an intelligent Android application using Azure Cognitive Services."
 	},
 	flutter: {
+		t: "Getting Started with Flutter",
 		r: "None",
 		d: "I have created a presentation which will talk about the basics of Flutter, and why it's a good choice for mobile development in hackathons, especially for beginners. After going over key concepts, there will be a quick tutorial to demonstrate those concepts that the participants can follow along with. At the end of the presentation, participants should be comfortable with the basics of how the Flutter framework works, have their development environment setup, and be ready to develop their app without running into conceptual roadblocks."
 	},
 	react: {
+		t: "Let's move fast with React",
 		r: "Participants will need their own laptops",
 		d: "This is an introductory React workshop. It assumes the participant has at least half a year of programming experience in any language. Participants will leave the workshop with having written React code which can be extended to their projects."
 	},
 	game: {
+		t: "Game Changing Bonanza hosted by RingCentral",
 		r: "None",
 		d: "It's time for the bonus round!  Aka Prizes, prizes prizes!  Join us for 30 minutes of hands on learning, networking, and growing your developer skills (while also learning more about RingCentral) while earning your way to awesome prizes including RingCentral swag, collectibles, conference passes, software and e-learning subscriptions, iPads, game consoles, MacBooks, and even an all expenses paid trip to CoderCruise - the RingCentral Developer conference on a cruise ship in the Bahamas!!!  Plus, we'll have a special prize and an honorary badge to show off to the world for whoever earns the most points!"
 	}
-
 }
 
 // When the user clicks on the button, open the modal 
 function showDescription(tag) {
-	console.log(tag)
   modal.style.display = "block";
+  title.innerHTML = descriptions[tag].t
   requirement.innerHTML = descriptions[tag].r
   description.innerHTML = descriptions[tag].d
 }
