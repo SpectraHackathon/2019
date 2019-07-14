@@ -118,6 +118,7 @@
 	<div class="container-fluid lightorange-color">
 		<div class="container text-center justify-content-center" id="schedule-container">
 			<h1 class="section-title font" style="color: white;">Schedule</h1>
+			<p><b>Disclaimer:</b> please note that time are tentative</p>
 			<table class="table table-responsive" id="schedule">
 				<thead>
 			    <tr>
@@ -131,12 +132,11 @@
 			  <tbody>
 			    <tr>
 			      <th scope="row">8:30AM</th>
-			      <td>Check-In and Breakfast</td>
-			      <td colspan="3"></td>
+			      <td colspan="4" style="font-weight: bold;">Check-In and Breakfast</td>
 			    </tr>
 			    <tr>
 			      <th scope="row">9:00AM</th>
-			      <td>Check-In and Breakfast</td>
+			      <td style="font-weight: bold;">Check-In and Breakfast</td>
 			      <td>Team Formation</td>
 			      <td colspan="2"></td>
 			    </tr>
@@ -153,130 +153,152 @@
 			    <tr>
 			      <th scope="row">10:30AM</th>
 			      <td style="font-weight: bold;">Hacking Starts</td>
-			      <td>Braintree + Venmo - Infrastructure</td>
-			      <td>Building Intelligent Applications with Android</td>
-			      <td>PubNub</td>
+			      <td onclick="showDescription('braintreevenmo')" class="schedule-link">Braintree + Venmo - Infrastructure</td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Android Applications with Deep Learning APIs</td>
+			      <td></td>
 			    </tr>
 			    <tr>
 			      <th scope="row">11:00AM</th>
 			      <td>Sisu Panel</td>
-			      <td>Braintree + Venmo - Infrastructure (continued)</td>
-			      <td>Building Intelligent Applications with Android (continued)</td>
+			      <td onclick="showDescription('braintreevenmo')" class="schedule-link">Braintree + Venmo - Infrastructure (continued)</td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Android Applications with Deep Learning APIs (continued)</td>
 			      <td></td>
 			    </tr>
 			    <tr>
 			      <th scope="row">11:30AM</th>
 			      <td></td>
-			      <td>Intro to iOS</td>
-			      <td>Building Intelligent Applications with Android (continued)</td>
-			      <td>Getting Started with Flutter</td>
+			      <td></td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Android Applications with Deep Learning APIs (continued)</td>
+			      <td onclick="showDescription('flutter')" class="schedule-link">Getting Started with Flutter</td>
 			    </tr>
 			    <tr>
 			      <th scope="row">12:00PM</th>
 			      <td></td>
-			      <td>Intro to iOS (continued)</td>
-			      <td>Building Intelligent Applications with Android (continued)</td>
-			      <td>Getting Started with Flutter (continued)</td>
+			      <td></td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Android Applications with Deep Learning APIs (continued)</td>
+			      <td onclick="showDescription('flutter')" class="schedule-link">Getting Started with Flutter (continued)</td>
 			    </tr>
 			    <tr>
 			      <th scope="row">12:30PM</th>
+			      <td colspan="4" style="font-weight: bold;">Lunch</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">1:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Lunch</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">1:30PM</th>
 			      <td></td>
-			      <td colspan="3" style="font-weight: bold;">Lunch</td>
+			      <td onclick="showDescription('react')" class="schedule-link">Let's move fast with React</td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">1:00PM - 1:30PM</th>
-			      <td>How to Hack at Hackathons</td>
-			      <td colspan="3" style="font-weight: bold;">Lunch</td>
+			      <th scope="row">2:00PM</th>
+			      <td></td>
+			      <td onclick="showDescription('react')" class="schedule-link">Let's move fast with React (continued)</td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">1:30PM - 2:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">2:30PM</th>
+			      <td></td>
+			      <td onclick="showDescription('react')" class="schedule-link">Let's move fast with React (continued)</td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">2:00PM - 2:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">3:00PM</th>
+			      <td></td>
+			      <td>Python (Data Wrangling - IBM)</td>
+			      <td>Machine Learning/NLP</td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">2:30PM - 3:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">3:30PM</th>
+			      <td></td>
+			      <td>Python (Data Wrangling - IBM) continued</td>
+			      <td>Machine Learning/NLP</td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">3:00PM - 3:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">4:00PM</th>
+			      <td>Facemasks</td>
+			     	<td onclick="showDescription('game')" class="schedule-link">Game Changing Bonanza hosted by RingCentral</td>
+			      <td>Yoga</td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">3:30PM - 4:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">4:30PM</th>
+			     	<td></td>
+			     	<td>ServiceNow</td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">4:00PM - 4:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">5:00PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">4:30PM - 5:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">5:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">5:00PM - 5:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">6:00PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">5:30PM - 6:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">6:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">6:00PM - 6:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">7:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Hacking Ends / Dinner</td>
 			    </tr>
 			    <tr>
-			      <th scope="row">6:30PM - 7:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">7:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">7:00PM - 7:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">8:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Project Demos & Judging</td>
 			    </tr>
 			    <tr>
-			      <th scope="row">7:30PM - 8:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">8:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">8:00PM - 8:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">9:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Closing ceremony + prizes</td>
 			    </tr>
 			    <tr>
-			      <th scope="row">8:30PM - 9:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">9:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
 			    </tr>
 			    <tr>
-			      <th scope="row">9:00PM - 9:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
-			    </tr>
-			    <tr>
-			      <th scope="row">9:30PM - 10:00PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
-			    </tr>
-			    <tr>
-			      <th scope="row">10:00PM - 10:30PM</th>
-			      <td>Opening Cermony</td>
-			      <td colspan="3"></td>
+			      <th scope="row">10:00PM</th>
+			      <td colspan="4"><b>Event Ends</b><br>(May end sooner or later)</td>
 			    </tr>
 			  </tbody>
 			</table>
@@ -665,7 +687,10 @@
 	  <!-- Modal content -->
 	  <div class="modal-content">
 	    <span class="close">&times;</span>
-	    <p>Some text in the Modal..</p>
+	    <label for="modal-requirements"><b>Requirements:</b></label>
+	    <p id="modal-requirements"></p>
+	    <label for="modal-description"><b>Description:</b></label>
+	    <p id="modal-description"></p>
 	  </div>
 
 	</div>

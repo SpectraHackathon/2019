@@ -145,6 +145,11 @@ footer h3 {
 	min-width: 500px;
 }
 
+.schedule-link {
+	color: blue;
+	text-decoration: underline;
+}
+
 #logo {
 	width: 200px;
 	height: 200px;
