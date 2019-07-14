@@ -44,7 +44,7 @@
 	        <a class="nav-link" data-scroll href="#about">about</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" data-scroll href="#schedule">schedule</a>
+	        <a class="nav-link" data-scroll href="#schedule-container">schedule</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#location">location</a>
@@ -114,18 +114,18 @@
 		</div>
 	</div>
 
-	<!-- Timeline -->
-	<div class="container-fluid lightorange-color" id="schedule">
-		<div class="container text-center justify-content-center table-responsive">
+	<!-- Schedule -->
+	<div class="container-fluid lightorange-color">
+		<div class="container text-center justify-content-center" id="schedule-container">
 			<h1 class="section-title font" style="color: white;">Schedule</h1>
-			<table class="table" id="schedule">
+			<table class="table table-responsive" id="schedule">
 				<thead>
 			    <tr>
-			      <th scope="col">Time</th>
-			      <th scope="col">Great Hall</th>
-			      <th scope="col">Golden Gate</th>
-			      <th scope="col">Stonehenge</th>
-			      <th scope="col">Quiet</th>
+			      <th >Time</th>
+			      <th >Great Hall</th>
+			      <th >Golden Gate</th>
+			      <th >Stonehenge</th>
+			      <th >Quiet</th>
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -180,7 +180,8 @@
 			    </tr>
 			    <tr>
 			      <th scope="row">12:30PM</th>
-			      <td colspan="4" style="font-weight: bold;">Lunch</td>
+			      <td></td>
+			      <td colspan="3" style="font-weight: bold;">Lunch</td>
 			    </tr>
 			    <tr>
 			      <th scope="row">1:00PM - 1:30PM</th>
@@ -657,6 +658,16 @@
 			<div style="margin-bottom: 2em;" >check out our <a href = "./assets/sponsorpdf/sponsorpdf.pdf">sponsorship package</a>.</div>
 			<a href="mailto:hello@sospectra.com?subject=Sponsoring%20Spectra" class="application-button" rel="email">email us</a>
 		</div>
+	</div>
+
+	<div id="myModal" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <span class="close">&times;</span>
+	    <p>Some text in the Modal..</p>
+	  </div>
+
 	</div>
 
 	<footer class="footer container-fluid" style="margin-top: 2em;">
