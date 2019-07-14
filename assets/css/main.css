@@ -122,7 +122,6 @@ footer h3 {
 
 #schedule {
 	background-color: white;
-	min-width: 500px;
 	overflow-x: scroll;
 }
 
@@ -130,6 +129,8 @@ footer h3 {
 	display: block;
 	height: 50vh;
 	overflow-y: auto;
+	overflow-x: hidden;
+	min-width: 500px;
 }
 
 #schedule thead {
@@ -141,6 +142,7 @@ footer h3 {
 	display: table;
 	width: 100%;
 	table-layout: fixed;
+	min-width: 500px;
 }
 
 #logo {
