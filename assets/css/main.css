@@ -127,7 +127,7 @@ footer h3 {
 
 #schedule tbody {
 	display: block;
-	height: 50vh;
+	height: 75vh;
 	overflow-y: auto;
 	overflow-x: hidden;
 	min-width: 500px;
