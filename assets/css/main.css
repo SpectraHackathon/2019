@@ -120,6 +120,43 @@ footer h3 {
 	padding-bottom: 2em;
 }
 
+#schedule {
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-row: 2em auto;
+}
+
+.schedule-row-title {
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.schedule-row-body {
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.schedule-column-1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.schedule-column-2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.schedule-column-3 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+
+}
+
+.schedule-column-4 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+
 #logo {
 	width: 200px;
 	height: 200px;
