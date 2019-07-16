@@ -58,14 +58,14 @@ var descriptions ={
 		d: "* What is infrastructure? <br>* What is commonly seen in industry, some keywords <br>* Ways to deploy your app, what is relevant to a hackathon <br>* Some good practices -> show spinning up an instance"
 	},
 	android: {
-		t: "Building Intelligent Android Applications with Deep Learning APIs",
-		r: "All participants in this workshop will need a laptop with the latest version of Android Studio installed.",
-		d: "How difficult is it to build an intelligent application with no prior experience in AI? When you hear “artificial intelligence”, you might think of complex solutions like self-driving cars, autonomous drones, or robots- but it doesn’t have to be that complex. In this workshop, we’ll build an intelligent Android application using Azure Cognitive Services."
+		t: "Building Intelligent Applications with Android",
+		r: "This workshop is beginner friendly! Participants should have an understanding of how code architecture is executed, and have the following installed on their machines:<br>- Android Studio with Java SDK<br>- Microsoft Azure Developer account",
+		d: "How difficult is it to build yourself an intelligent application? When you hear “artificial intelligence”, you might think of complex solutions like autonomous drones, self-driving cars, and smart robots - but it doesn’t have to be that complex. In this workshop, you will learn how to build intelligent algorithms into an Android application that detects human faces in an image using Azure Cognitive Services."
 	},
 	flutter: {
-		t: "Getting Started with Flutter",
-		r: "None",
-		d: "I have created a presentation which will talk about the basics of Flutter, and why it's a good choice for mobile development in hackathons, especially for beginners. After going over key concepts, there will be a quick tutorial to demonstrate those concepts that the participants can follow along with. At the end of the presentation, participants should be comfortable with the basics of how the Flutter framework works, have their development environment setup, and be ready to develop their app without running into conceptual roadblocks."
+		t: "Introduction to Flutter - iOS/Android",
+		r: "Beginners welcome! Bring a computer installed with Android Studio, Xcode, or  any text editor you find comfortable, and either the ability to open a mobile simulator on your machine, or a mobile phone compatible with your laptop. Installing Flutter and other programs needed will be covered in the workshop.",
+		d: "Learn an easy way to create a cross-platform mobile application that looks great! At this workshop, you'll learn how to take you hackathon idea and make a beautiful, fast, and productive functional UI in a few easy steps."
 	},
 	react: {
 		t: "Let's move fast with React",
@@ -76,7 +76,18 @@ var descriptions ={
 		t: "Game Changing Bonanza hosted by RingCentral",
 		r: "None",
 		d: "It's time for the bonus round!  Aka Prizes, prizes prizes!  Join us for 30 minutes of hands on learning, networking, and growing your developer skills (while also learning more about RingCentral) while earning your way to awesome prizes including RingCentral swag, collectibles, conference passes, software and e-learning subscriptions, iPads, game consoles, MacBooks, and even an all expenses paid trip to CoderCruise - the RingCentral Developer conference on a cruise ship in the Bahamas!!!  Plus, we'll have a special prize and an honorary badge to show off to the world for whoever earns the most points!"
-	}
+	},
+	pubnub: {
+		t: "PubNub - My experience as an intern in Silicon Valley",
+		r: "None",
+		d: "1) Talk about my experience as a new grad in computer science and working as a Dev Rel Intern at PubNub.<br>2) I will briefly discuss some of the projects I have worked on at PubNub and mainly focus on my current project, a React Native tic tac toe game.<br>3) I will show the audience a demo of my project and pick someone from the audience to play a round of tic tac toe with me.<br>4) The takeaway I want people to have is to know about life after graduation, life as an intern, what Developer Relations is, and to see what can be done with React Native."
+	},
+	sisu: {
+		t: "Sisu - Engineering Product Market Fit",
+		r: "None",
+		d: "Learn first hand why shipping a product is more than just code, moving fast (and not breaking things) is encouraged, and listening to your customers are key ingredients to building a stellar product and company. In this session, you'll hear directly from Sisu's engineering and design team what really happens behind the scenes at an early startup - the good, the bad, and the messy."
+	},
+
 }
 
 // When the user clicks on the button, open the modal 

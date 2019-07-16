@@ -146,8 +146,8 @@ footer h3 {
 }
 
 .schedule-link {
-	color: blue;
-	text-decoration: underline;
+	color: #FF731B;
+	font-weight: bold;
 }
 
 #logo {
