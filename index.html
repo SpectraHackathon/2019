@@ -8,43 +8,23 @@
 	<title>Spectra</title>
 	<!-- BootStrap -->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+	
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.js"
+  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+  crossorigin="anonymous"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77365611-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-77365611-1');
-		
-		//FB Tracking
-		<!-- Facebook Pixel Code -->
-	
-		  !function(f,b,e,v,n,t,s)
-		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		  n.queue=[];t=b.createElement(e);t.async=!0;
-		  t.src=v;s=b.getElementsByTagName(e)[0];
-		  s.parentNode.insertBefore(t,s)}(window, document,'script',
-		  'https://connect.facebook.net/en_US/fbevents.js');
-		  fbq('init', '612378962632992');
-		  fbq('track', 'PageView');
-	</script>
+	<script type="text/javascript" src="./assets/js/facebooktracking.js"></script>
 	<!-- FB Pixel Tracking Code -->
-	<noscript><img height="1" width="1" style="display:none"
-	  src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"
-	/></noscript>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=612378962632992&ev=PageView&noscript=1"/></noscript>
 	<!-- End FB Code -->
-	
 </head>
 <body>
 	<script>
@@ -58,25 +38,25 @@
 		<div class="collapse navbar-collapse" id="navbarToggler">
 	    <ul class="navbar-nav d-flex justify-content-center container">
 	    	<li class="nav-item">
-	        <a class="nav-link" data-scroll href="#" id="navbarRegister">register</a>
+	        <a class="nav-link" data-scroll href="https://tinyurl.com/gotospectra3" id="navbarRegister">register</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#about">about</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" data-scroll href="#FAQ">faq's</a>
+	        <a class="nav-link" data-scroll href="#schedule">schedule</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#location">location</a>
 	      </li>
-	      <!-- <li class="nav-item">
-	        <a class="nav-link" data-scroll href="#">schedule (coming soon)</a>
-	      </li> -->
+	      <li class="nav-item">
+	        <a class="nav-link" data-scroll href="#FAQ">faq's</a>
+	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" data-scroll href="#team">team</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" data-scroll href="#sponsors">sponsors</a>
+	        <a class="nav-link" data-scroll href="#sponsor-logos">sponsors</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -86,9 +66,9 @@
 		<div>
 			<img class="img-fluid mx-auto d-block" id="logo" src="./assets/images/spectra/logo.png"/>
 			<h3 class="text-center font">SPECTRA</h3>
-			<a href="#" id="outerButton">
+			<a href="https://tinyurl.com/gotospectra3" id="outerButton">
 				<div class="application-button text-center" id="innerButton">
-					apps open June 13th
+					register now
 				</div>
 			</a>
 		</div>
@@ -109,10 +89,6 @@
 			</form>
 		</div>
 	</div>
-
-	<!-- break line -->
-<!-- 	<div class="color-border">
-	</div> -->
 
 	<!-- Mission Statement -->
 	<div class="container-fluid" style="background-color: #F9F9F9;" >
@@ -138,9 +114,195 @@
 		</div>
 	</div>
 
-	<!-- break line -->
-<!-- 	<div class="color-border">
-	</div> -->
+	<!-- Schedule -->
+	<div class="container-fluid lightorange-color">
+		<div class="container text-center justify-content-center">
+			<h1 class="section-title font" style="color: white;">Schedule</h1>
+			<table class="table table-responsive" id="schedule">
+				<thead>
+			    <tr>
+			      <th >Time</th>
+			      <th >Great Hall</th>
+			      <th >Golden Gate</th>
+			      <th >Stonehenge</th>
+			      <th >Quiet</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">8:30AM</th>
+			      <td colspan="4" style="font-weight: bold;">Check-In and Breakfast</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">9:00AM</th>
+			      <td style="font-weight: bold;">Check-In and Breakfast</td>
+			      <td>Team Formation</td>
+			      <td colspan="2"></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">9:30AM</th>
+			      <td>Opening Cermony</td>
+			      <td colspan="3"></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">10:00AM</th>
+			      <td>Opening Cermony</td>
+			      <td colspan="3"></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">10:30AM</th>
+			      <td style="font-weight: bold;">Hacking Starts</td>
+			      <td onclick="showDescription('braintreevenmo')" class="schedule-link">Braintree + Venmo - Infrastructure</td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Applications with Android</td>
+			      <td onclick="showDescription('pubnub')" class="schedule-link">PubNub - My experience as an intern in Silicon Valley</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">11:00AM</th>
+			      <td onclick="showDescription('sisu')" class="schedule-link">Sisu - Engineering Product Market Fit</td>
+			      <td onclick="showDescription('braintreevenmo')" class="schedule-link">Braintree + Venmo - Infrastructure (continued)</td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Applications with Android (continued)</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">11:30AM</th>
+			      <td></td>
+			      <td>Intro to iOS</td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Applications with Android (continued)</td>
+			      <td onclick="showDescription('flutter')" class="schedule-link">Introduction to Flutter - iOS/Android</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">12:00PM</th>
+			      <td></td>
+			      <td>Intro to iOS (continued)</td>
+			      <td onclick="showDescription('android')" class="schedule-link">Building Intelligent Applications with Android (continued)</td>
+			      <td onclick="showDescription('flutter')" class="schedule-link">Introduction to Flutter - iOS/Android (continued)</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">12:30PM</th>
+			      <td colspan="4" style="font-weight: bold;">Lunch Sponsored by Curry Up Now</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">1:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Lunch Sponsored by Curry Up Now</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">1:30PM</th>
+			      <td></td>
+			      <td onclick="showDescription('react')" class="schedule-link">Learn web development by building a Pokedex</td>
+			      <td onclick="showDescription('scratch')" class="schedule-link">Build A Website From Scratch!</td>
+			      <td onclick="showDescription('mongodb')" class="schedule-link">Introduction to MongoDB - Hands-On Workshop</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2:00PM</th>
+			      <td></td>
+			      <td onclick="showDescription('react')" class="schedule-link">Learn web development by building a Pokedex (continued)</td>
+			      <td onclick="showDescription('scratch')" class="schedule-link">Build A Website From Scratch! (continued)</td>
+			      <td onclick="showDescription('mongodb')" class="schedule-link">Introduction to MongoDB - Hands-On Workshop (continued)</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2:30PM</th>
+			      <td></td>
+			      <td onclick="showDescription('react')" class="schedule-link">Learn web development by building a Pokedex (continued)</td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3:00PM</th>
+			      <td></td>
+			      <td>Introduction to Data Wrangling with Jupyter Notebooks</td>
+			      <td onclick="showDescription('nlp')" class="schedule-link">Introduction to Natural Language Processing and Machine Learning in Python</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3:30PM</th>
+			      <td></td>
+			      <td>Introduction to Data Wrangling with Jupyter Notebooks (continued)</td>
+			      <td onclick="showDescription('nlp')" class="schedule-link">Introduction to Natural Language Processing and Machine Learning in Python (continued)</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">4:00PM</th>
+			      <td>Facemasks</td>
+			     	<td onclick="showDescription('game')" class="schedule-link">Game Changing Bonanza hosted by RingCentral</td>
+			      <td>Meditation Session</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">4:30PM</th>
+			     	<td>Boba Sponsored by ShareTea</td>
+			     	<td onclick="showDescription('design')" class="schedule-link">What is Design Thinking?</td>
+			     	<td onclick="showDescription('servicenow')" class="schedule-link">ServiceNow - Introduction to Enterprise Chatbot</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">5:00PM</th>
+			      <td></td>
+			     	<td onclick="showDescription('design')" class="schedule-link">What is Design Thinking?</td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">5:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">6:00PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">6:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">7:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Hacking Ends / Dinner - Chipotle?</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">7:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">8:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Project Demos & Judging</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">8:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">9:00PM</th>
+			      <td colspan="4" style="font-weight: bold;">Closing ceremony + prizes</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">9:30PM</th>
+			      <td></td>
+			     	<td></td>
+			      <td></td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <th scope="row">10:00PM</th>
+			      <td colspan="4"><b>Event Ends</b><br>(May end sooner or later)</td>
+			    </tr>
+			  </tbody>
+			</table>
+		</div>
+	</div>
 
 	<div class="container-fluid lightorange-color">
 		<div class="container text-center justify-content-center" id="location">
@@ -159,7 +321,7 @@
 			<h1 class="text-center font section-title">FAQ's</h1>
 			<div class="row row-padding">
 				<div class="col-sm">
-					<p class="faq-title">What is spectra?</p>
+					<p class="faq-title">What is Spectra?</p>
 					<div class="faq-description">
 						<p class="font" style="margin: 0">Spectra is a 12-hour hackathon open to all individuals who identify as female or non-binary. In this case, the word "hack" describes how multiple technologies can be used together in new and creative ways. Teams will spend the day creating a website, mobile app, or hardware creation. The Spectra team believes that the most important aspect of a hackathon is the community it generates and the skills that attendees can take away with them at the end of the event.</p>
 					</div>
@@ -288,6 +450,22 @@
 				</div>
 				<div class="col-sm text-center">
 					<div class="team-profile">
+						<img class="img-fluid" src="./assets/images/team/DanielleDelRosario.jpg">
+						<div class="img-highlight"></div>
+						<h5 class="profile-name font">Danielle Del Rosario</h5>
+						<p class="profile-title font">Design/Marketing</p>
+						<div class="social">
+							<a href="https://www.instagram.com/ddaaniielle/">
+		            <i class="fab fa-instagram"></i>
+		        	</a>
+		        	<a href="https://www.linkedin.com/in/danielle-delrosario">
+		            <i class="fab fa-linkedin"></i>
+		        	</a>
+          	</div>
+					</div>
+				</div>
+				<div class="col-sm text-center">
+					<div class="team-profile">
 						<img class="img-fluid" src="./assets/images/team/LizzieSiegle.jpg">
 						<div class="img-highlight"></div>
 						<h5 class="profile-name font">Lizzie Siegle</h5>
@@ -305,6 +483,9 @@
           	</div>
 					</div>
 				</div>
+				
+			</div>
+			<div class="row justify-content-center">
 				<div class="col-sm text-center">
 					<div class="team-profile">
 						<img class="img-fluid" src="./assets/images/team/JasmineReyes.jpg">
@@ -316,24 +497,6 @@
 		            <i class="fab fa-instagram"></i>
 		        	</a>
 		        	<a href="https://www.linkedin.com/in/jasmine-reyes-560a22144/">
-		            <i class="fab fa-linkedin"></i>
-		        	</a>
-          	</div>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-sm text-center">
-					<div class="team-profile">
-						<img class="img-fluid" src="./assets/images/team/DianePhan.jpg">
-						<div class="img-highlight"></div>
-						<h5 class="profile-name font">Diane Phan</h5>
-						<p class="profile-title font">Marketing</p>
-						<div class="social">
-							<a href="https://dianephan.github.io">
-		            <i class="fas fa-globe-americas"></i>
-		        	</a>
-		        	<a href="https://www.linkedin.com/in/diane-phan/">
 		            <i class="fab fa-linkedin"></i>
 		        	</a>
           	</div>
@@ -378,7 +541,7 @@
 						<img class="img-fluid" src="./assets/images/team/ShivaniGupta.jpg">
 						<div class="img-highlight"></div>
 						<h5 class="profile-name font">Shivani Gupta</h5>
-						<p class="profile-title font">Hacker Experience</p>
+						<p class="profile-title font">Director - Experience</p>
 						<div class="social">
 							<a href="https://twitter.com/shivanii72">
 		            <i class="fab fa-twitter"></i>
@@ -415,9 +578,9 @@
 						<h5 class="profile-name font">Samar Barakat</h5>
 						<p class="profile-title font">Sponsorship</p>
 						<div class="social">
-							<!-- <a href="#">
+							<a href="https://twitter.com/sbarakitkat">
 		            <i class="fab fa-twitter"></i>
-		        	</a> -->
+		        	</a>
 		        	<a href="https://www.linkedin.com/in/samar-barakat-686394134/">
 		            <i class="fab fa-linkedin"></i>
 		        	</a>
@@ -430,7 +593,7 @@
 
 	<div class="container-fluid lightorange-color" id="sponsor-logos">
 		<div class="container text-center">
-			<h1 class="section-title font" style="color: white;">Sponsors</h1>
+			<h1 class="section-title font text-center" style="color: white;">Sponsors</h1>
 			<div class="row justify-content-center sponsors-row">
 				<a class="sponsor-main" href="https://www.makeschool.com/">
 					<img class="sponsor-main" src="./assets/images/sponsors/MakeSchool.svg" alt="makeschool">
@@ -441,28 +604,42 @@
 					<img class="sponsor-logo-3" src="./assets/images/sponsors/servicenow-logo.svg" alt="servicenow">
 				</a>
 				<a href="https://sisu.ai/">
-					<img class="sponsor-logo-3" src="./assets/images/sponsors/sisu.svg">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/sisu.svg" alt="sisu">
 				</a>
 				<a href="https://www.braintreepayments.com/">
-					<img class="sponsor-logo-3" src="./assets/images/sponsors/braintree.png">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/braintree.png" alt="braintree">
 				</a>
 				<a href="https://venmo.com/">
-					<img class="sponsor-logo-3" src="./assets/images/sponsors/venmo.png">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/venmo.png" alt="venmo">
 				</a>
 				<a href="https://www.mongodb.com/">
-					<img class="sponsor-logo-3" src="./assets/images/sponsors/mongodb.png">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/mongodb.svg" alt="mongodb">
 				</a>
-				<!-- <img class="sponsor-logo-3" src="./assets/images/sponsors/twilio-logo-white.svg"> -->
+				<a href="https://www.twilio.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/twilio-logo-white.svg" alt="twilio">
+				</a>
+				<a href="https://www.ringcentral.com/">
+					<img class="sponsor-logo-3" src="./assets/images/sponsors/ringcentral.svg" alt="ringcentral">
+				</a>
 			</div>
-			<!-- <div class="row justify-content-center sponsors-row">
-				<img class="sponsor-logo-2" src="./assets/images/sponsors/facebook.svg">
-			</div> -->
+			<div class="row justify-content-center sponsors-row">
+				<!-- <img class="sponsor-logo-2" src="./assets/images/sponsors/facebook.svg"> -->
+				<a href="https://www.pubnub.com/">
+					<img class="sponsor-logo-2" src="./assets/images/sponsors/pubnub.svg" alt="pubnub">
+				</a>
+				<a href="https://www.here.com/">
+					<img class="sponsor-logo-2" style="width: auto;" src="./assets/images/sponsors/here.svg" alt="here">
+				</a>
+			</div>
 			<div class="row justify-content-center sponsors-row">
 				<a href="https://girlswhocode.com/">
 					<img class="sponsor-logo-1" src="./assets/images/sponsors/GWC_logo.png" alt="gwc">
 				</a>
 				<a href="https://www.benefitcosmetics.com/">
 					<img class="sponsor-logo-1" src="./assets/images/sponsors/benefit.png" alt="benefit">
+				</a>
+				<a href="https://ripple.com/">
+					<img class="sponsor-logo-1" src="./assets/images/sponsors/ripple.svg" alt="ripple">
 				</a>
 			</div>
 			<div class="row justify-content-center sponsors-row">
@@ -476,21 +653,72 @@
 					<img class="sponsor-logo-0" src="./assets/images/sponsors/interviewcake.png" alt="interviewcake">
 				</a>
 				<a href="https://www.typeform.com/">
-					<img class="sponsor-logo-0" src="./assets/images/sponsors/typeform.png">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/typeform.svg" alt="typeform">
+				</a>
+				<a href="https://stripe.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/stripe.svg" alt="stripe">
+				</a>
+				<a href="https://www.stickergiant.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/stickergiant.svg" alt="stickergiant">
+				</a>
+				<a href="http://www.1992sharetea.com/">
+					<img class="sponsor-logo-0" src="./assets/images/sponsors/sharetea.png" alt="sharetea">
+				</a>
+				<a href="https://www.curryupnow.com/">
+					<img class="sponsor-logo-0" style="max-height: 65px; width: auto;"src="./assets/images/sponsors/curryupnow.png" alt="curryupnow">
+				</a>
+				<a href="https://www.techtreeroot.org/">
+					<img class="sponsor-logo-0" style="max-height: 65px; width: auto;"src="./assets/images/sponsors/scotty.png" alt="curryupnow">
 				</a>
 			</div>
 		</div>
 	</div>
 
 
-	<div class="container-fluid lightorange-color" id="sponsors">
+	<div class="container-fluid lightorange-color">
 		<div class="container text-center" style="background-color: #F9F9F9; padding: 10em 1em;">
 			<h1 class="section-title font" style="padding: 0;">Interested in Becoming a Sponsor?</h1>
-			<h5 class="font" style="margin-bottom: 2em;">Be a sponsor for our upcoming hackathon in July 2019</h5>
-			<a href="mailto:hello@sospectra.com?subject=Sponsoring%20Spectra" class="application-button" rel="email">email us</a> or check out our <a href = "./assets/sponsorpdf/sponsorpdf.pdf">sponsorship tiers</a>.
+			<h5 class="font">Be a sponsor for our upcoming hackathon in July 2019</h5>
+			<div style="margin-bottom: 2em;" >check out our <a href = "./assets/sponsorpdf/sponsorpdf.pdf">sponsorship package</a>.</div>
+			<a href="mailto:hello@sospectra.com?subject=Sponsoring%20Spectra" class="application-button" rel="email">email us</a>
 		</div>
 	</div>
 
+	<div id="myModal" class="modal">
+	  <div class="modal-content">
+	  	<div class="modal-header">
+	  		<h4 class="font" id="modal-title"></h4>
+	    	<span class="close">&times;</span>
+	  	</div>
+	  	<div class="modal-body">
+	    	<label for="modal-requirements"><b>Requirements:</b></label>
+	    	<p id="modal-requirements"></p>
+	    	<label for="modal-description"><b>Description:</b></label>
+	    	<p id="modal-description"></p>
+	    </div>
+	  </div> 
+	</div>
+
+	<footer class="footer container-fluid" style="margin-top: 2em;">
+		<div class="text-center">
+			<a href="mailto:hello@sospectra.com">
+				<i class="fas fa-2x fa-envelope"></i>
+			</a>
+			<a href="https://www.facebook.com/sospectra">
+				<i class="fab fa-2x fa-facebook-square"></i>
+			</a>
+			<a href="https://twitter.com/sospectra">
+				<i class="fab fa-2x fa-twitter"></i>
+			</a>
+			<a href="https://www.instagram.com/sospectra/">
+				<i class="fab fa-2x fa-instagram"></i>
+			</a>
+			<a href="https://medium.com/spectra-hackathon">
+				<i class="fab fa-2x fa-medium-m"></i>
+			</a>
+		</div>
+		<h3 class="font">© Spectra 2019</h3>
+	</footer>
 	
 	<!-- custom JavaScript -->
 	<script type="text/javascript" src="./assets/js/main.js"></script>
@@ -499,7 +727,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPoYjL0HaAJYCCwmjTMuMv242ht0NrIxg&callback=initMap">
   </script>
 	<!-- BootStrap -->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Smooth Scroll by cferdinandi -->
 	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>

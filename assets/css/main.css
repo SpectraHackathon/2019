@@ -25,11 +25,29 @@ a:hover {
 	color: black;
 	text-decoration: none;
 }
+
 nav {
 	background-image: linear-gradient(to right,#FF480A, #FF9B2B);
 }
 nav div ul li {
 	padding: 0 1em;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+}
+
+footer a {
+	margin: 0.5em;
+}
+
+footer h3 {
+	color: #FF731B;
+	margin: auto 0.5em;
+	font-size: 3vh;
+	white-space: nowrap;
 }
 
 .lightorange-color {
@@ -100,6 +118,36 @@ nav div ul li {
 
 #sponsor-logos {
 	padding-bottom: 2em;
+}
+
+#schedule {
+	background-color: white;
+	overflow-x: scroll;
+}
+
+#schedule tbody {
+	display: block;
+	height: 75vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	min-width: 500px;
+}
+
+#schedule thead {
+	background-color: #FF9B2B;
+	color: white;
+}
+
+#schedule thead, #schedule tbody tr{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	min-width: 500px;
+}
+
+.schedule-link {
+	color: #FF731B;
+	font-weight: bold;
 }
 
 #logo {
@@ -212,28 +260,30 @@ nav div ul li {
 }
 
 .sponsors-row a {
-	margin: auto 1em 2em 1em;
+	display:grid;
+	align-items: center;
+	padding: 1em;
 }
 
 .sponsor-main {
-	width: 600px;
+	width: 300px;
 	max-width: 100%;
 }
 
 .sponsor-logo-0 {
-	width: 150px;
+	width: 100px;
 }
 
 .sponsor-logo-1 {
-	width: 200px;
+	width: 150px;
 }
 
 .sponsor-logo-2{
-	width: 300px;
+	width: 200px;
 }
 
 .sponsor-logo-3 {
-	width: 400px;
+	width: 250px;
 	max-width: 100%;
 }
 
@@ -245,4 +295,74 @@ nav div ul li {
 	grid-column-start: 3;
 	grid-column-end: 4;
 	margin: -10px -12px 0 auto;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #FF9B2B;
+  color: white;
+}
+
+#modal-title {
+	margin: auto 0;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 15vh auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
 }
