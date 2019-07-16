@@ -68,9 +68,9 @@ var descriptions ={
 		d: "Learn an easy way to create a cross-platform mobile application that looks great! At this workshop, you'll learn how to take you hackathon idea and make a beautiful, fast, and productive functional UI in a few easy steps."
 	},
 	react: {
-		t: "Let's move fast with React",
-		r: "Participants will need their own laptops",
-		d: "This is an introductory React workshop. It assumes the participant has at least half a year of programming experience in any language. Participants will leave the workshop with having written React code which can be extended to their projects."
+		t: "Learn web development by building a Pokedex",
+		r: "1. Install a text editor, I recommend VS Code<br>2. Install Node.js LTS<br>3. Install Git",
+		d: "Learn how web applications work and how to build one using React. You will learn how modern web applications are built, how to use real software engineering tools and best practices. You will leave having built a working Pokedex which can be used as a starting point for your hackathon project."
 	},
 	game: {
 		t: "Game Changing Bonanza hosted by RingCentral",
@@ -111,6 +111,11 @@ var descriptions ={
 		t: "Introduction to Enterprise Chatbot",
 		r: "Some understanding of the ServiceNow platform will help, but it is not required.",
 		d: "Search is the entry point for people interacts with the Web. Have you wondered what will the entry point for entering AI based society?  Many people say it will be a chatbot. In this workshop, you have the opportunity to learn the basics of the Enterprise chatbot and its two key components: NLU and conversation flow designer.  You will also have the chance to watch how a simple conversation flow is built using the ServiceNow platform."
+	},
+	design: {
+		t: "What is Design Thinking?",
+		r: "None",
+		d: "Of all the Silicon Valley buzzwords, \"design thinking\" is one of the most obtuse. I'll introduce the design process, along with examples of its use, and run a 30-minute journey map activity with participants. Participants should come away with an understanding of what iterative design is and how it can help their work."
 	}
 }
 
