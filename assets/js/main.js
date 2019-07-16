@@ -87,7 +87,31 @@ var descriptions ={
 		r: "None",
 		d: "Learn first hand why shipping a product is more than just code, moving fast (and not breaking things) is encouraged, and listening to your customers are key ingredients to building a stellar product and company. In this session, you'll hear directly from Sisu's engineering and design team what really happens behind the scenes at an early startup - the good, the bad, and the messy."
 	},
-
+	ios: {
+		t: "Intro to iOS",
+		r: "",
+		d: ""
+	},
+	scratch: {
+		t: "Build A Website From Scratch!",
+		r: "Participants will need their own laptops",
+		d: "Learn how to build a simple static personal website or company \"coming soon\" page! This beginner-friendly workshop will cover HTML & CSS basics, how to customize design, how to add images and social media links, and how to get the website hosted on the internet!"
+	},
+	mongodb: {
+		t: "Introduction to MongoDB - Hands-On Workshop",
+		r: "Please come with a laptop and a text editor. To get a head start, attendees can download Compass, our GUI for MongoDB - https://www.mongodb.com/download-center/compass",
+		d: "MongoDB is the BEST way to work with data - and the best way to learn MongoDB is to get your hands dirty. Join our hands-on workshop to get up and running with all aspects of MongoDB. From deploying an Atlas cluster to creating Stitch services, we’ll work through a variety of lab exercises together. Don’t worry if you don’t finish! The free environment you create in this lab will be yours forever."
+	},
+	nlp: {
+		t: "Introduction to Natural Language Processing and Machine Learning in Python",
+		r: "Laptop with the <a href=\"https://www.anaconda.com/distribution/\">Anaconda</a> software installed. Basic knowledge of Python/coding will help, but anyone willing to learn is welcome!",
+		d: "When you look at a piece of text, what patterns do you see? Maybe you'll notice something about the words that are used or the sentence structure. Natural language processing is a fast-growing, interdisciplinary field that makes use of patterns in textual data, and uses machine learning as a tool to make models and predictions about this data. We'll cover an example of how to use Python tools like Scikit-Learn to classify text and evaluate machine learning models."
+	},
+	servicenow: {
+		t: "Introduction to Enterprise Chatbot",
+		r: "Some understanding of the ServiceNow platform will help, but it is not required.",
+		d: "Search is the entry point for people interacts with the Web. Have you wondered what will the entry point for entering AI based society?  Many people say it will be a chatbot. In this workshop, you have the opportunity to learn the basics of the Enterprise chatbot and its two key components: NLU and conversation flow designer.  You will also have the chance to watch how a simple conversation flow is built using the ServiceNow platform."
+	}
 }
 
 // When the user clicks on the button, open the modal 
