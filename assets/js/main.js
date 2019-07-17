@@ -80,8 +80,8 @@ var descriptions ={
 	},
 	pubnub: {
 		t: "PubNub - My experience as an intern in Silicon Valley",
-		r: "This workshop is for all levels! You just need a laptop and to complete the following things:<br>a. A text editor of your choice (I recommend VS Code).<br>b. Follow the ‘Getting Started’ documentation to set up React Native on your machine (<a href=\"https://facebook.github.io/react-native/docs/getting-started.html\">https://facebook.github.io/react-native/docs/getting-started.html</a>). <br>c. Install Git if you have a Windows machine. Mac users can use the terminal. <br>d. Clone the following repo: <a href=\"https://github.com/ocastroa/react-native-tictactoe\">https://github.com/ocastroa/react-native-tictactoe</a>",
-		d: "<b>Oscar –</b> What’s it like to be an intern in Developer Relations? I will briefly talk about my personal experience working as a Developer Relations Intern at PubNub. I will go over some projects I have worked on, with an emphasis on my latest project: A realtime React Native tic tac toe game. I will do a live demo of the game and you can play along too. In this workshop, you will learn about being a Developer Relations intern and how to make a realtime app!<br><b>Craig –</b> Two main subjects: one being a discussion on how Craig navigated becoming a part of the SF tech scene without a CS degree, the second discusses a discovered passion of QA/Engineering."
+		r: "Oscar’s portion of the talk is for all levels! You can check out his React Native tic tac toe game by cloning the following repo and following the README instructions: <a href=\"https://github.com/ocastroa/react-native-tictactoe\">https://github.com/ocastroa/react-native-tictactoe</a>",
+		d: "<b>Oscar –</b> What’s it like to be an intern in Developer Relations? I will briefly talk about my personal experience working as a Developer Relations Intern at PubNub. I will go over some projects I have worked on, with an emphasis on my latest project: A realtime React Native tic tac toe game. In this workshop, you will learn about Developer Relations as a career path and how to make a realtime app!<br><b>Craig –</b> Trying to break into the Tech industry without a CS degree? If there’s a will, there’s a way! Many folks with atypical backgrounds make amazing software engineers, but how do you find who/what/where works best for you? A quick walk through how a Texas born nuclear engineer found a passion for QA/Automation and acceptance within the Bay Area tech scene."
 	},
 	sisu: {
 		t: "Sisu - Engineering Product Market Fit",
@@ -90,8 +90,8 @@ var descriptions ={
 	},
 	ios: {
 		t: "Intro to iOS",
-		r: "",
-		d: ""
+		r: "Writing utensils and a willingness to share and collaborate.",
+		d: "Learn the basics of iOS, Swift, and computer science by studying code written for different iPhone apps!"
 	},
 	scratch: {
 		t: "Build A Website From Scratch!",
