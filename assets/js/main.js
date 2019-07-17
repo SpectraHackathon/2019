@@ -79,8 +79,8 @@ var descriptions ={
 	},
 	pubnub: {
 		t: "PubNub - My experience as an intern in Silicon Valley",
-		r: "None",
-		d: "1) Talk about my experience as a new grad in computer science and working as a Dev Rel Intern at PubNub.<br>2) I will briefly discuss some of the projects I have worked on at PubNub and mainly focus on my current project, a React Native tic tac toe game.<br>3) I will show the audience a demo of my project and pick someone from the audience to play a round of tic tac toe with me.<br>4) The takeaway I want people to have is to know about life after graduation, life as an intern, what Developer Relations is, and to see what can be done with React Native."
+		r: "This workshop is for all levels! You just need a laptop and to complete the following things:<br>a. A text editor of your choice (I recommend VS Code).<br>b. Follow the ‘Getting Started’ documentation to set up React Native on your machine (<a href=\"https://facebook.github.io/react-native/docs/getting-started.html\">https://facebook.github.io/react-native/docs/getting-started.html</a>). <br>c. Install Git if you have a Windows machine. Mac users can use the terminal. <br>d. Clone the following repo: <a href=\"https://github.com/ocastroa/react-native-tictactoe\">https://github.com/ocastroa/react-native-tictactoe</a>",
+		d: "What’s it like to be an intern in Developer Relations? I will briefly talk about my personal experience working as a Developer Relations Intern at PubNub. I will go over some projects I have worked on, with an emphasis on my latest project: A realtime React Native tic tac toe game. I will do a live demo of the game and you can play along too. In this workshop, you will learn about being a Developer Relations intern and how to make a realtime app!"
 	},
 	sisu: {
 		t: "Sisu - Engineering Product Market Fit",
@@ -104,7 +104,7 @@ var descriptions ={
 	},
 	nlp: {
 		t: "Introduction to Natural Language Processing and Machine Learning in Python",
-		r: "Laptop with the <a href=\"https://www.anaconda.com/distribution/\">Anaconda</a> software installed. Basic knowledge of Python/coding will help, but anyone willing to learn is welcome!",
+		r: "-Laptop with the <a href=\"https://www.anaconda.com/distribution/\">Anaconda</a> software installed. <br>-Basic knowledge of Python/any programming language will help, but anyone willing to learn is welcome! <br>-Familiarity with basic terminal commands ",
 		d: "When you look at a piece of text, what patterns do you see? Maybe you'll notice something about the words that are used or the sentence structure. Natural language processing is a fast-growing, interdisciplinary field that makes use of patterns in textual data, and uses machine learning as a tool to make models and predictions about this data. We'll cover an example of how to use Python tools like Scikit-Learn to classify text and evaluate machine learning models."
 	},
 	servicenow: {
@@ -116,6 +116,11 @@ var descriptions ={
 		t: "What is Design Thinking?",
 		r: "None",
 		d: "Of all the Silicon Valley buzzwords, \"design thinking\" is one of the most obtuse. I'll introduce the design process, along with examples of its use, and run a 30-minute journey map activity with participants. Participants should come away with an understanding of what iterative design is and how it can help their work."
+	},
+	jupyter: {
+		t: "Introduction to Data Wrangling with Jupyter Notebooks",
+		r: "Bring your curiosity and laptops to follow along. All the material will be provided in the workshop and also available on github.",
+		d: "This is an introductory session on exploring and analyzing data using Python, Pandas and Jupyter Notebooks. We will go over:<br>- how to obtain/read a data file using python in Watson Studio<br>- how to clean noise in data<br>- selecting and querying data<br>- reshaping and filtering data<br>- grouping data into a hierarchy<br>- simple graphing of data<br><br>This is a good session for you if you are <br>- an aspiring data scientist<br>- frequently working with excel files and want another approach to dissect data<br>- a SQL developer looking to get into programming<br>- curious about data in general!"
 	}
 }
 
