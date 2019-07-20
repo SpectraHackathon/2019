@@ -127,6 +127,11 @@ var descriptions ={
 		t: "DOM manipulations using JavaScript",
 		r: "Beginners encouraged, but please come with basic HTML & CSS knowledge as well as rough understanding of JS functionality like functions and variables.",
 		d: "Learn how JavaScript ties together with HTML and CSS by manipulating the DOM. What is the DOM, you might ask? Well, visit this workshop and find out! ^-^ We’ll be going over different events fired by the browser when a user interacts with a web page, like what happens when a user scrolls down or clicks on a button. Together we’ll build a drum kit that is going to make certain sounds according to a key user presses on their keyboard. Moreover, we’ll take a close look on OnePlus’ website to identify the use of what was learned in the real world."
+	},
+	astrobiology: {
+		t: "Astrobiology and JavaScript",
+		r: "None",
+		d: "You can use JavaScript to solve real-world problems, even as an intern! We'll go through a brief introduction to the world of meteors and astrobiology and implement a JavaScript application that uses some simple computational astrophysics to model cometary debris and predict meteor showers. If you're worried about how to contribute to a team as a new developer, remember this program was built by an intern without a CS degree."
 	}
 }
 
