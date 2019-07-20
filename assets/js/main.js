@@ -79,7 +79,7 @@ var descriptions ={
 		d: "It's time for the bonus round!  Aka Prizes, prizes prizes!  Join us for 30 minutes of hands on learning, networking, and growing your developer skills (while also learning more about RingCentral) while earning your way to awesome prizes including RingCentral swag, collectibles, conference passes, software and e-learning subscriptions, iPads, game consoles, MacBooks, and even an all expenses paid trip to CoderCruise - the RingCentral Developer conference on a cruise ship in the Bahamas!!!  Plus, we'll have a special prize and an honorary badge to show off to the world for whoever earns the most points!"
 	},
 	pubnub: {
-		t: "PubNub - My experience as an intern in Silicon Valley",
+		t: "PubNub - My Experience as an Intern in Silicon Valley + An Atypical Start in Tech and a Learned Passion for QA/Automation",
 		r: "Oscar’s portion of the talk is for all levels! You can check out his React Native tic tac toe game by cloning the following repo and following the README instructions: <a href=\"https://github.com/ocastroa/react-native-tictactoe\">https://github.com/ocastroa/react-native-tictactoe</a>",
 		d: "<b>Oscar –</b> What’s it like to be an intern in Developer Relations? I will briefly talk about my personal experience working as a Developer Relations Intern at PubNub. I will go over some projects I have worked on, with an emphasis on my latest project: A realtime React Native tic tac toe game. In this workshop, you will learn about Developer Relations as a career path and how to make a realtime app!<br><b>Craig –</b> Trying to break into the Tech industry without a CS degree? If there’s a will, there’s a way! Many folks with atypical backgrounds make amazing software engineers, but how do you find who/what/where works best for you? A quick walk through how a Texas born nuclear engineer found a passion for QA/Automation and acceptance within the Bay Area tech scene."
 	},
@@ -120,7 +120,7 @@ var descriptions ={
 	},
 	jupyter: {
 		t: "Introduction to Data Wrangling with Jupyter Notebooks",
-		r: "Bring your curiosity and laptops to follow along. All the material will be provided in the workshop and also available on github.",
+		r: "Bring your curiosity and laptops to follow along. <br>1. Create IBM Cloud Account using THIS URL: <a href=\"http://bit.ly/spectra-ibm\">http://bit.ly/spectra-ibm</a><br>2. Check your email and activate your account. Once activated, log back into your IBM Cloud account using the link above.<br>3. If you already have an account, use the above URL to sign into your IBM Cloud account in the workshop.",
 		d: "This is an introductory session on exploring and analyzing data using Python, Pandas and Jupyter Notebooks. We will go over:<br>- how to obtain/read a data file using python in Watson Studio<br>- how to clean noise in data<br>- selecting and querying data<br>- reshaping and filtering data<br>- grouping data into a hierarchy<br>- simple graphing of data<br><br>This is a good session for you if you are <br>- an aspiring data scientist<br>- frequently working with excel files and want another approach to dissect data<br>- a SQL developer looking to get into programming<br>- curious about data in general!"
 	},
 	dom: {
